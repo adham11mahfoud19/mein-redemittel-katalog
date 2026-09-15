@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل جُملي الألمانية</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#141F33;
+    --ink-2:#1C2C48;
+    --ink-3:#24365A;
+    --paper:#F3EEDD;
+    --paper-2:#E9E0C4;
+    --gold:#C79A4B;
+    --gold-dim:#8E713A;
+    --red:#A24438;
+    --text-on-ink:#EFE9D8;
+    --muted:#8C96AC;
+    --text-dark:#20200f;
+    --radius:3px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    color:var(--text-on-ink);
+    font-family:'Cairo',sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  .de{
+    direction:ltr;
+    unicode-bidi:isolate;
+    font-family:'IBM Plex Mono',monospace;
+  }
+  a{color:inherit;}
+
+  /* ===== Header ===== */
+  header{
+    padding:38px 28px 26px;
+    border-bottom:1px solid rgba(199,154,75,0.25);
+    background:
+      radial-gradient(600px 200px at 85% -40%, rgba(199,154,75,0.14), transparent 60%),
+      var(--ink);
+  }
+  .header-inner{max-width:1180px;margin:0 auto;}
+  .brand{
+    display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:700;
+    font-size:clamp(28px,4vw,42px);
+    margin:0;
+    letter-spacing:0.2px;
+  }
+  .brand .de-sub{
+    color:var(--gold);
+    font-size:16px;
+    font-family:'IBM Plex Mono',monospace;
+    direction:ltr;
+    unicode-bidi:isolate;
+  }
+  .tagline{
+    margin:10px 0 0;
+    color:var(--muted);
+    max-width:60ch;
+    font-size:15px;
+    line-height:1.7;
+  }
+  .toolbar{
+    margin-top:24px;
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  }
+  #search{
+    flex:1;min-width:220px;
+    background:var(--ink-2);
+    border:1px solid rgba(199,154,75,0.35);
+    color:var(--text-on-ink);
+    padding:12px 16px;
+    border-radius:var(--radius);
+    font-family:'Cairo',sans-serif;
+    font-size:15px;
+  }
+  #search::placeholder{color:var(--muted);}
+  #search:focus{outline:2px solid var(--gold);outline-offset:1px;}
+  .stopbtn{
+    background:transparent;
+    border:1px solid var(--red);
+    color:#e7b3a9;
+    padding:12px 18px;
+    border-radius:var(--radius);
+    cursor:pointer;
+    font-family:'Cairo',sans-serif;
+    font-size:14px;
+    display:flex;align-items:center;gap:8px;
+    transition:background .15s ease;
+  }
+  .stopbtn:hover{background:rgba(162,68,56,0.18);}
+  .stopbtn:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+
+  /* ===== Layout ===== */
+  .layout{
+    max-width:1180px;margin:0 auto;
+    display:flex;gap:28px;
+    padding:28px;
+    align-items:flex-start;
+  }
+  nav.index{
+    width:260px;flex-shrink:0;
+    position:sticky;top:20px;
+    display:flex;flex-direction:column;gap:4px;
+    max-height:calc(100vh - 40px);
+    overflow-y:auto;
+    padding-inline-end:4px;
+  }
+  .tab{
+    background:transparent;
+    border:none;
+    border-inline-start:3px solid transparent;
+    color:var(--muted);
+    text-align:right;
+    padding:11px 14px;
+    cursor:pointer;
+    font-family:'Cairo',sans-serif;
+    font-size:14.5px;
+    border-radius:0 var(--radius) var(--radius) 0;
+    transition:background .15s ease,color .15s ease;
+  }
+  .tab .de{display:block;font-size:11.5px;color:inherit;opacity:.7;margin-top:2px;}
+  .tab:hover{background:var(--ink-2);color:var(--text-on-ink);}
+  .tab.active{
+    background:var(--ink-2);
+    color:var(--gold);
+    border-inline-start-color:var(--gold);
+  }
+  .tab:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;}
+
+  main{flex:1;min-width:0;display:flex;flex-direction:column;gap:34px;}
+
+  section.category{scroll-margin-top:20px;}
+  .cat-head{
+    display:flex;align-items:baseline;justify-content:space-between;
+    gap:16px;flex-wrap:wrap;
+    border-bottom:1px solid rgba(199,154,75,0.3);
+    padding-bottom:10px;margin-bottom:16px;
+  }
+  .cat-head h2{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:22px;
+    margin:0;
+    color:var(--text-on-ink);
+  }
+  .cat-head .de{
+    color:var(--gold);
+    font-size:13px;
+    margin-inline-start:10px;
+  }
+  .playall{
+    background:transparent;
+    border:1px solid var(--gold-dim);
+    color:var(--gold);
+    padding:7px 14px;
+    font-size:13px;
+    border-radius:var(--radius);
+    cursor:pointer;
+    font-family:'Cairo',sans-serif;
+    white-space:nowrap;
+  }
+  .playall:hover{background:rgba(199,154,75,0.12);}
+  .playall:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
+
+  .cards{display:flex;flex-direction:column;gap:10px;}
+
+  .card{
+    background:var(--paper);
+    color:var(--text-dark);
+    border-radius:var(--radius);
+    padding:14px 16px;
+    display:flex;align-items:center;gap:14px;
+    box-shadow:0 1px 0 rgba(0,0,0,0.25) inset;
+  }
+  .card.playing{background:var(--paper-2);box-shadow:0 0 0 1px var(--gold) inset;}
+  .card .txt{flex:1;font-size:15.5px;line-height:1.55;}
+
+  .speakbtn{
+    flex-shrink:0;
+    width:38px;height:38px;
+    border-radius:50%;
+    border:1px solid rgba(32,32,15,0.25);
+    background:var(--ink);
+    color:var(--gold);
+    cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    transition:background .15s ease,transform .1s ease;
+  }
+  .speakbtn:hover{background:var(--ink-3);}
+  .speakbtn:active{transform:scale(.94);}
+  .speakbtn:focus-visible{outline:2px solid var(--gold-dim);outline-offset:2px;}
+  .speakbtn svg{width:16px;height:16px;fill:currentColor;}
+
+  /* Q/A style */
+  .qa{
+    background:var(--paper);
+    border-radius:var(--radius);
+    padding:16px 18px;
+  }
+  .qa + .qa{margin-top:10px;}
+  .qrow{display:flex;align-items:center;gap:14px;}
+  .qrow .txt{font-weight:600;font-size:15.5px;color:var(--text-dark);}
+  .answers{margin-top:10px;padding-inline-start:16px;border-inline-start:2px solid var(--gold-dim);display:flex;flex-direction:column;gap:8px;}
+  .arow{display:flex;align-items:center;gap:12px;}
+  .arow .txt{font-size:15px;color:#3a3520;}
+  .arow .speakbtn{width:32px;height:32px;}
+  .arow .speakbtn svg{width:14px;height:14px;}
+
+  /* Location (Wo/Wohin) cards */
+  .loc-card{background:var(--paper);border-radius:var(--radius);padding:16px 18px;}
+  .loc-card + .loc-card{margin-top:10px;}
+  .loc-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:var(--gold-dim);margin-bottom:8px;}
+  .loc-row{display:flex;align-items:center;gap:12px;padding:4px 0;}
+  .loc-row .tag{
+    font-size:10.5px;font-family:'Cairo',sans-serif;font-weight:700;
+    color:#fff;background:var(--ink-3);padding:3px 8px;border-radius:20px;
+    flex-shrink:0;min-width:44px;text-align:center;
+  }
+  .loc-row.wohin .tag{background:var(--red);}
+  .loc-row .txt{font-size:15px;flex:1;}
+  .loc-row .speakbtn{width:32px;height:32px;}
+  .loc-row .speakbtn svg{width:14px;height:14px;}
+
+  /* Sequence (Tagesablauf) */
+  ol.seq{list-style:none;margin:0;padding:0;counter-reset:step;display:flex;flex-direction:column;gap:8px;}
+  ol.seq li{
+    counter-increment:step;
+    background:var(--paper);border-radius:var(--radius);
+    padding:12px 16px;display:flex;align-items:center;gap:14px;
+  }
+  ol.seq li::before{
+    content:counter(step);
+    font-family:'Fraunces',serif;font-weight:700;color:var(--gold-dim);
+    font-size:15px;flex-shrink:0;width:20px;text-align:center;
+  }
+  ol.seq li .txt{flex:1;font-size:15px;}
+
+  .empty-msg{
+    color:var(--muted);text-align:center;padding:60px 20px;font-size:15px;
+  }
+
+  footer{
+    max-width:1180px;margin:0 auto;padding:20px 28px 50px;
+    color:var(--muted);font-size:12.5px;text-align:center;
+  }
+
+  @media (max-width:860px){
+    .layout{flex-direction:column;padding:18px;gap:18px;}
+    nav.index{
+      width:100%;flex-direction:row;overflow-x:auto;overflow-y:visible;
+      position:sticky;top:0;background:var(--ink);
+      max-height:none;padding:8px 0;z-index:5;
+      border-bottom:1px solid rgba(199,154,75,0.2);
+    }
+    .tab{
+      flex-shrink:0;border-inline-start:none;border-bottom:3px solid transparent;
+      border-radius:var(--radius);
+    }
+    .tab.active{border-bottom-color:var(--gold);}
+    .tab .de{display:none;}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{transition:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <h1>دليل جُملي الألمانية</h1>
+      <span class="de-sub">Mein Redemittel-Katalog</span>
+    </div>
+    <p class="tagline">كل الجمل مبوّبة حسب الموقف، وجنب كل جملة زرّ استماع بيسمّعك ياها بصوت ألماني من متصفحك. دوّر بالأعلى أو تصفّح الفئات عالجنب.</p>
+    <div class="toolbar">
+      <input id="search" type="text" placeholder="دوّر على جملة أو كلمة… (بالعربي أو الألماني)">
+      <button class="stopbtn" id="stopBtn" type="button">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="5" width="14" height="14" rx="1"/></svg>
+        إيقاف الصوت
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="index" id="index"></nav>
+  <main id="main"></main>
+</div>
+
+<footer>الصوت مولّد من محرك النطق الموجود بمتصفحك — جودته بتختلف حسب الجهاز والمتصفح.</footer>
+
+<script>
+const ICON_PLAY = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+
+const DATA = [
+  {
+    id:'vorstellen', ar:'التعارف عن النفس', de:'Sich vorstellen', type:'qa',
+    items:[
+      {q:'Könnten Sie sich vorstellen? / Kannst du dich vorstellen?', a:['Ich stelle mich vor…']},
+      {q:'Wie ist Ihr Name? / Wie ist dein Name?', a:['Mein Name ist Adham Mahfoud']},
+      {q:'Wie heißen Sie? / Wie heißt du?', a:['Ich heiße Adham Mahfoud']},
+      {q:'Woher kommen Sie? / Woher kommst du?', a:['Ich komme aus Syrien']},
+      {q:'Welche Staatsangehörigkeit haben Sie? / Welche Staatsangehörigkeit hast du?', a:['Ich bin Syrer']},
+      {q:'Wie alt sind Sie? / Wie alt bist du?', a:['Ich bin 23 Jahre alt']},
+      {q:'In welchem Bereich arbeiten Sie? / In welchem Bereich arbeitest du?', a:['Ich arbeite im IT-Bereich']},
+      {q:'Als was arbeiten Sie? / Was sind Sie von Beruf?', a:['Ich arbeite als Frontend-Entwickler']},
+      {q:'Was entwickeln Sie genau? / Was entwickelst du genau?', a:['Ich entwickle Webseiten']},
+      {q:'Wie viele Jahre Berufserfahrung haben Sie?', a:['Ich habe zwei Jahre Berufserfahrung']},
+      {q:'Wo wohnen Sie? / Wo wohnst du?', a:['Ich wohne in Stuttgart']},
+      {q:'Wo wohnst du genau in Stuttgart?', a:['Ich wohne im Stadtteil Bad Cannstatt']},
+      {q:'In welchem Stadtteil von Stuttgart wohnen Sie?', a:['Ich wohne in Stuttgart und zwar im Bezirk Bad Cannstatt']},
+      {q:'Seit wann lebst du in Deutschland?', a:['Ich lebe seit zwei Jahren in Deutschland']},
+      {q:'Wie lange leben Sie schon in Deutschland?', a:['Ich lebe hier seit fast zwei Jahren']},
+      {q:'Sind Sie verheiratet? / Bist du verheiratet?', a:['Nein, ich bin ledig']},
+      {q:'Welche Sprachen sprechen Sie? / Welche Sprachen sprichst du?', a:['Ich spreche Arabisch, Englisch, und Deutsch']},
+      {q:'Wohnen Sie alleine? / Wohnst du alleine?', a:['Nein, ich wohne in einer WG','Ja, ich wohne alleine']},
+      {q:'Was machen Sie in Ihrer Freizeit?', a:['In meiner Freizeit koche ich gerne oder mache Sport']},
+      {q:'Warum sind Sie nach Deutschland gekommen?', a:['Ich bin hier, um eine Ausbildung im IT-Bereich zu machen','Ich mache eine Ausbildung als Fachinformatiker für Anwendungsentwicklung','Ich bin hier, um eine Ausbildung in der Pflege zu machen','Ich mache eine Ausbildung als Pflegefachmann']},
+      {q:'Was sind Ihre Lieblingshobbies?', a:['Ich spiele gerne Gitarre.','Ich lese gerne Bücher.','Ich spiele und schaue gerne Fußball.','Ich gehe morgens gerne joggen.','Ich höre gerne Musik.','Ich reise gerne.','Ich habe viele verschiedene Hobbies. In meiner Freizeit spiele ich gerne Gitarre und lese Bücher. Außerdem spiele und schaue ich gerne Fußball. Morgens gehe ich oft joggen, um fit zu bleiben. Ich höre auch gerne Musik zum Entspannen. Wenn ich Urlaub habe, reise ich sehr gerne.']}
+    ]
+  },
+  {
+    id:'tagesablauf-beispiel', ar:'مثال: يوم كامل بالتفصيل', de:'Wie sieht Ihr Tagesablauf aus?', type:'sequence',
+    items:[
+      'Ich wache morgens früh um 6 Uhr auf.',
+      'Ich wasche mein Gesicht und putze meine Zähne.',
+      'Danach höre ich ungefähr eine halbe Stunde Musik.',
+      'Dann lerne ich zwei oder drei Stunden Deutsch.',
+      'Um 10 Uhr beginne ich zu arbeiten.',
+      'In der Pause um 12 Uhr übe ich Gitarre.',
+      'Um 1 Uhr arbeite ich weiter bis 6 Uhr.',
+      'Nach der Arbeit mache ich ein halbstündiges Nickerchen.',
+      'Danach schaue ich Lehrvideos auf YouTube oder lese ein Buch.'
+    ]
+  },
+  {
+    id:'wowohin', ar:'وين؟ ولوين؟', de:'Wo vs. Wohin', type:'location',
+    items:[
+      {place:'In der Praxis', wo:'Bist du schon in der Praxis?', wohin:['Nein, aber ich gehe gerade in die Praxis.','Nein, aber ich gehe gerade zur Praxis.']},
+      {place:'In der Schule', wo:'Bist du schon in der Schule?', wohin:['Nein, aber ich gehe gerade in die Schule.','Nein, aber ich gehe gerade zur Schule.']},
+      {place:'Im Laden', wo:'Bist du schon im Laden?', wohin:['Nein, aber ich gehe gerade in den Laden.','Nein, aber ich gehe gerade zum Laden.']},
+      {place:'Im Supermarkt', wo:'Bist du schon im Supermarkt?', wohin:['Nein, aber ich gehe gerade in den Supermarkt.','Nein, aber ich gehe gerade zum Supermarkt.']},
+      {place:'Auf dem Markt', wo:'Bist du schon auf dem Markt?', wohin:['Nein, aber ich gehe gerade auf den Markt.','Nein, aber ich gehe gerade zum Markt.']},
+      {place:'An der Fleischtheke', wo:'Bist du schon an der Fleischtheke?', wohin:['Nein, aber ich gehe gerade an die Fleischtheke.','Nein, aber ich gehe gerade zur Fleischtheke.']},
+      {place:'In der Universität / Uni', wo:'Bist du schon in der Uni?', wohin:['Nein, aber ich gehe gerade in die Uni.','Nein, aber ich gehe gerade zur Uni.']},
+      {place:'Im Krankenhaus', wo:'Bist du schon im Krankenhaus?', wohin:['Nein, aber ich gehe gerade ins Krankenhaus.','Nein, aber ich gehe gerade zum Krankenhaus.']},
+      {place:'Beim Zahnarzt', wo:'Bist du schon beim Zahnarzt?', wohin:['Nein, aber ich gehe gerade in die Zahnarztpraxis.','Nein, aber ich gehe gerade zum Zahnarzt.']},
+      {place:'An der Bushaltestelle', wo:'Bist du schon an der Bushaltestelle?', wohin:['Nein, aber ich gehe gerade an die Bushaltestelle.','Nein, aber ich gehe gerade zur Bushaltestelle.']},
+      {place:'Am Flughafen', wo:'Bist du schon am Flughafen?', wohin:['Nein, aber ich gehe gerade in den Flughafen.','Nein, aber ich gehe gerade zum Flughafen.']},
+      {place:'Auf der Arbeit', wo:'Bist du schon auf der Arbeit?', wohin:['Nein, aber ich gehe gerade in die Arbeit.','Nein, aber ich gehe gerade zur Arbeit.']},
+      {place:'In der Pause', wo:'Bist du schon in der Pause?', wohin:['Nein, aber ich gehe gerade in die Pause.','Nein, aber ich gehe gerade zur Pause.']},
+      {place:'Zu Hause', wo:'Bist du schon zu Hause?', wohin:['Nein, aber ich gehe gerade nach Hause.']},
+      {place:'Bei Paul', wo:'Bist du schon bei Paul?', wohin:['Nein, aber ich gehe gerade zu Paul.']},
+      {place:'Auf der Party', wo:'Bist du schon auf der Party?', wohin:['Nein, aber ich gehe gerade auf die Party.','Nein, aber ich gehe gerade zur Party.']},
+      {place:'Im Park', wo:'Bist du schon im Park?', wohin:['Nein, aber ich gehe gerade in den Park.','Nein, aber ich gehe gerade zum Park.']},
+      {place:'Im Fitnessstudio / Gym', wo:'Bist du schon im Fitnessstudio?', wohin:['Nein, aber ich gehe gerade ins Fitnessstudio.','Nein, aber ich gehe gerade zum Fitnessstudio.']},
+      {place:'Auf dem Amt / Ausländerbehörde', wo:'Bist du schon auf dem Amt?', wohin:['Nein, aber ich gehe gerade auf das Amt.','Nein, aber ich gehe gerade zum Amt.']},
+      {place:'Am Hauptbahnhof', wo:'Bist du schon am Hauptbahnhof?', wohin:['Nein, aber ich gehe gerade in den Hauptbahnhof.','Nein, aber ich gehe gerade zum Hauptbahnhof.']},
+      {place:'In der Kneipe', wo:'Bist du schon in der Kneipe?', wohin:['Nein, aber ich gehe gerade in die Kneipe.','Nein, aber ich gehe gerade zur Kneipe.']},
+      {place:'An der Kreuzung', wo:'Bist du schon an der Kreuzung?', wohin:['Nein, aber ich gehe gerade an die Kreuzung.','Nein, aber ich gehe gerade zur Kreuzung.']},
+      {place:'Am Gleis', wo:'Bist du schon am Gleis?', wohin:['Nein, aber ich gehe gerade ans Gleis.','Nein, aber ich gehe gerade zum Gleis.']}
+    ]
+  },
+  {
+    id:'zuhause', ar:'بالبيت', de:'Zu Hause', type:'flat',
+    items:[
+      'Kannst du mir ein Glas Wasser geben?','Ich habe Hunger, lass uns was zu essen machen!',
+      'Wir haben kein Salz mehr, wir müssen im Laden welches kaufen.','Ich möchte fernsehen.',
+      'Wo ist Paul? Schläft er noch?','Paul ist aufgewacht.','Willst du nicht endlich aufstehen?',
+      'Ich will nicht zu spät kommen.','Heute bin ich früh aufgewacht.',
+      'Mach bitte das Licht aus, ich möchte schlafen.','Mach bitte das Licht an, es ist zu dunkel.',
+      'Wer hat den Kühlschrank offengelassen?','Ich gehe jetzt duschen.',
+      'Das Essen ist fertig! Kommt alle an den Tisch!','Wer ist heute mit Abwaschen dran?',
+      'Ich muss noch mein Zimmer aufräumen.','Hast du meinen Schlüssel gesehen? Ich finde ihn nicht.',
+      'Ich bringe kurz den Müll raus.','Kannst du bitte die Musik leiser machen? Ich lerne gerade.',
+      'Das Internet ist heute extrem langsam.','Ich lege mich kurz aufs Sofa.',
+      'Wir müssen am Wochenende die Wohnung putzen.','Der Postbote hat gerade geklingelt, kannst du die Tür aufmachen?',
+      'Ich mache uns Kaffee, möchtest du auch einen?','Heute Morgen bin ich früh aufgestanden.',
+      'Letzte Nacht habe ich spät geschlafen.','Welches Kissen findest du schöner?',
+      'Am besten das hier. Es ist super weich.'
+    ]
+  },
+  {
+    id:'kueche', ar:'بالمطبخ', de:'In der Küche', type:'flat',
+    items:[
+      'Wir müssen die Einkäufe in die Küche bringen.','Ich koche heute das Abendessen. Wer hilft mir?',
+      'Soll ich die Kartoffeln schälen und schneiden?','Wo ist die Pfanne? Ich möchte Fleisch anbraten.',
+      'Wir müssen das Hähnchen im Ofen backen.','Das Öl ist heiß, wir können jetzt die Pommes frittieren.',
+      'Kannst du bitte das Wasser im Wasserkocher heiß machen?','Ich bereite gerade den Salat vor.',
+      'Lass uns den Tisch decken, das Essen ist gleich fertig.','Vorsicht, der Topf ist sehr heiß!',
+      'Wir brauchen noch ein scharfes Messer und ein Schneidebrett.','Gib mir bitte das Salz und den Pfeffer.',
+      'Das Essen schmeckt lecker, aber es fehlt ein bisschen Salz.','Ich räume kurz die Spülmaschine ein.',
+      'Wer räumt die Spülmaschine aus?','Ich muss den Küchentisch abwischen.',
+      'Stell bitte die Getränke in den Kühlschrank.','Die Getränke sind im Kühlschrank.',
+      'Der Kühlschrank piept, weil die Tür offen ist.','Wir müssen das Gefrierfach abtauen.',
+      'Die Waschmaschine läuft gerade, du kannst deine Sachen noch nicht reinwerfen.',
+      'Ich muss die Wäsche aus der Waschmaschine holen und aufhängen.','Schalte bitte die Kaffeemaschine ein.',
+      'Die Mikrowelle ist dreckig, wir müssen sie sauber machen.','Stell den Teller für zwei Minuten in die Mikrowelle.',
+      'Der Toaster klemmt und das Brot ist verbrannt.','Mach bitte die Dunstabzugshaube an, es riecht nach Fett.'
+    ]
+  },
+  {
+    id:'unterwegs', ar:'بالطريق والتوجيه', de:'Unterwegs & Orientierung', type:'flat',
+    items:[
+      'Es ist zu Fuß erreichbar.','Der Park ist da drüben!','Wir haben uns verlaufen.',
+      'Du hast dich verlaufen.','Er hat sich verlaufen.','Ich will das Theater finden.',
+      'Geh rechts und dann links!','Weißt du, wo das Zentrum ist?',
+      'Biegen Sie an der nächsten Kreuzung nach rechts ab.','Du musst über die Straße gehen!',
+      'Gehen Sie immer geradeaus.','Überqueren Sie die Kreuzung und gehen Sie dann geradeaus weiter.',
+      'Links vorbei an der Kreuzung.','Ich gehe am Bahnhof vorbei.','Schau mal, Thomas steht dort drüben.',
+      'Gehen Sie geradeaus, das Café liegt dort drüben an der Kreuzung.','Wo müssen wir hin?',
+      'Ich frage nach dem Weg an der Auskunft.','Können Sie mir bitte eine Auskunft geben?',
+      'Die Auskunft befindet sich direkt am Haupteingang.','In welche Richtung müssen wir fahren?'
+    ]
+  },
+  {
+    id:'verkehr', ar:'المواصلات والسفر', de:'Verkehrsmittel & Reisen', type:'flat',
+    items:[
+      'Letzten Monat bin ich nach Berlin gefahren.','Wann kommst du zurück?',
+      'Ich möchte ein Ticket nach Berlin und zurück.','Bitte achten Sie auf die Ansagen.',
+      'Der Zug fährt pünktlich ab.','Um wie viel Uhr fährt unser Bus ab?','Wo fährt es ab?',
+      'Der Zug kommt pünktlich am Bahnhof an.','Bitte lassen Sie Ihr Gepäck nicht unbeaufsichtigt!',
+      'Fahrgäste bitte aussteigen, das ist die Endstation.','Fährt dieser Bus bis zur Endstation?'
+    ]
+  },
+  {
+    id:'freizeit', ar:'أوقات الفراغ والسياحة', de:'Freizeit, Treffen & Tourismus', type:'flat',
+    items:[
+      'Das Brandenburger Tor ist eine berühmte Sehenswürdigkeit in Berlin.','Es gibt viel zu sehen.',
+      'Was gibt es hier noch so?','Vor drei Wochen habe ich mit einer Freundin Fußball gespielt.',
+      'Lass mal ein Selfie machen!','Ich will es unbedingt sehen!','Von dort aus kann man alles sehen!',
+      'Die Aussicht ist super!','Letztes Wochenende bin ich mit meinen Freunden ins Kino gegangen.',
+      'Wir feiern heute Abend eine Party. Kommst du?','Kann ich dich bald sehen?','Sehen wir uns bald?',
+      'Können wir uns bald treffen?','Wie viel kostet der Eintritt?','Der Film ist vorbei.',
+      'Komm morgen bei mir vorbei.','Wir feiern am Samstag eine Party in meiner Bude.'
+    ]
+  },
+  {
+    id:'einkaufen', ar:'التسوق والسوبرماركت', de:'Einkaufen & Supermarkt', type:'flat',
+    items:[
+      'Mit dieser Karte bekommen Sie eine Ermäßigung auf alle Produkte.','Gibt es eine Ermäßigung?',
+      'Kinder unter 6 Jahren erhalten eine Ermäßigung von 50%.','Die Milch finden Sie dort drüben im Regal.'
+    ]
+  },
+  {
+    id:'restaurant', ar:'بالمطعم والكافيه', de:'Im Restaurant & Café', type:'flat',
+    items:[
+      'Noch eins bitte.','Das Restaurant öffnet später.','Leider öffnet das Restaurant später!',
+      'Später öffnet das Restaurant leider!','Das Café schließt bald.','Ist es sonntags geöffnet?',
+      'Das Restaurant hat heute geschlossen.','Dort drüben ist die beste Dönerbude der Stadt.',
+      'Ich habe Lust auf eine Currywurst.','Was möchtest du trinken?','Am besten das hier, das sieht lecker aus.'
+    ]
+  },
+  {
+    id:'zeit', ar:'الوقت وتفاصيل اليوم', de:'Zeit & Tagesablauf', type:'flat',
+    items:[
+      'Welcher Wochentag ist heute?','Heute ist Montag, also ist morgen Dienstag.',
+      'Unter der Woche stehe ich früh auf.','Ich habe unter der Woche keine Zeit.',
+      'Was machst du unter der Woche?','Morgen früh gehe ich zur Arbeit.','Der Sommer ist leider vorbei.'
+    ]
+  },
+  {
+    id:'kommunikation', ar:'التواصل وتعلم اللغة', de:'Kommunikation & Sprache lernen', type:'flat',
+    items:[
+      'Gestern war mein letzter Tag im Deutschkurs.','Kannst du das bitte wiederholen?',
+      'Was steht dort?','Ich habe nichts verstanden!'
+    ]
+  },
+  {
+    id:'arbeit', ar:'الشغل والمهنة', de:'Arbeit & Beruf', type:'flat',
+    items:[
+      'Heute ist mein letzter Arbeitstag.','Welches Design sollen wir für die Webseite nehmen?',
+      'Am besten das hier, es sieht sehr modern aus.'
+    ]
+  },
+  {
+    id:'gefuehle', ar:'المشاعر والصفات', de:'Gefühle & Eigenschaften', type:'flat',
+    items:[
+      'Ich bin ein bisschen durcheinander.','Du lächelst immer.','Warum lächelst du?',
+      'Sie hat mich angelächelt.','Ich mag dein Lächeln.','Ich lache nicht, sondern ich lächle nur.',
+      'Ich habe keine Lust mehr zu laufen.'
+    ]
+  },
+  {
+    id:'redewendungen', ar:'تعابير وعبارات عامة', de:'Redewendungen & Allgemeine Ausdrücke', type:'flat',
+    items:[
+      'Ich bin bald fertig.','Ich weiß es leider nicht!','Es ist vorbei.','Das war das Richtige zu tun.',
+      'Das ist jetzt genau das Richtige.','Achte auf dich selbst!','Kümmer dich um deine eigenen Sachen.',
+      'Das geht dich nichts an!','Misch dich nicht ein.'
+    ]
+  }
+];
+
+/* ---------- Speech ---------- */
+let germanVoice = null;
+function pickVoice(){
+  const voices = speechSynthesis.getVoices();
+  const de = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('de'));
+  germanVoice = de.find(v => /google/i.test(v.name)) || de.find(v => /de-DE/i.test(v.lang)) || de[0] || null;
+}
+pickVoice();
+if (typeof speechSynthesis !== 'undefined') speechSynthesis.onvoiceschanged = pickVoice;
+
+function cleanForSpeech(t){ return t.replace(/\s*\/\s*/g, '. '); }
+
+function speak(text, el, onEnd){
+  if (!('speechSynthesis' in window)) { alert('متصفحك لا يدعم النطق الصوتي.'); return; }
+  speechSynthesis.cancel();
+  document.querySelectorAll('.card.playing').forEach(c => c.classList.remove('playing'));
+  const utter = new SpeechSynthesisUtterance(cleanForSpeech(text));
+  utter.lang = 'de-DE';
+  if (germanVoice) utter.voice = germanVoice;
+  utter.rate = 0.93;
+  utter.pitch = 1;
+  if (el) el.classList.add('playing');
+  utter.onend = () => { if (el) el.classList.remove('playing'); if (onEnd) onEnd(); };
+  utter.onerror = () => { if (el) el.classList.remove('playing'); };
+  speechSynthesis.speak(utter);
+}
+
+function playSequence(texts, i=0){
+  if (i >= texts.length) return;
+  speak(texts[i], null, () => playSequence(texts, i+1));
+}
+
+document.getElementById('stopBtn').addEventListener('click', () => {
+  speechSynthesis.cancel();
+  document.querySelectorAll('.card.playing').forEach(c => c.classList.remove('playing'));
+});
+
+/* ---------- Rendering ---------- */
+const speakBtnHTML = `<button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
+
+function makeCard(text){
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.innerHTML = `<span class="txt de">${text}</span>${speakBtnHTML}`;
+  card.querySelector('.speakbtn').addEventListener('click', () => speak(text, card));
+  card.dataset.search = text.toLowerCase();
+  return card;
+}
+
+function makeQA(item){
+  const wrap = document.createElement('div');
+  wrap.className = 'qa';
+  const qRow = document.createElement('div');
+  qRow.className = 'qrow';
+  qRow.innerHTML = `<span class="txt de">${item.q}</span>${speakBtnHTML}`;
+  qRow.querySelector('.speakbtn').addEventListener('click', () => speak(item.q, wrap));
+  wrap.appendChild(qRow);
+
+  const answers = document.createElement('div');
+  answers.className = 'answers';
+  item.a.forEach(a => {
+    const row = document.createElement('div');
+    row.className = 'arow';
+    row.innerHTML = `<span class="txt de">${a}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
+    row.querySelector('.speakbtn').addEventListener('click', () => speak(a, wrap));
+    answers.appendChild(row);
+  });
+  wrap.appendChild(answers);
+  wrap.dataset.search = (item.q + ' ' + item.a.join(' ')).toLowerCase();
+  return wrap;
+}
+
+function makeLocation(item){
+  const wrap = document.createElement('div');
+  wrap.className = 'loc-card';
+  wrap.innerHTML = `<div class="loc-title">${item.place}</div>`;
+  const woRow = document.createElement('div');
+  woRow.className = 'loc-row';
+  woRow.innerHTML = `<span class="tag">Wo</span><span class="txt de">${item.wo}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
+  woRow.querySelector('.speakbtn').addEventListener('click', () => speak(item.wo, wrap));
+  wrap.appendChild(woRow);
+  item.wohin.forEach(w => {
+    const row = document.createElement('div');
+    row.className = 'loc-row wohin';
+    row.innerHTML = `<span class="tag">Wohin</span><span class="txt de">${w}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
+    row.querySelector('.speakbtn').addEventListener('click', () => speak(w, wrap));
+    wrap.appendChild(row);
+  });
+  wrap.dataset.search = (item.place + ' ' + item.wo + ' ' + item.wohin.join(' ')).toLowerCase();
+  return wrap;
+}
+
+function makeSequence(items){
+  const ol = document.createElement('ol');
+  ol.className = 'seq';
+  items.forEach(text => {
+    const li = document.createElement('li');
+    li.innerHTML = `<span class="txt de">${text}</span>${speakBtnHTML}`;
+    li.querySelector('.speakbtn').addEventListener('click', () => speak(text, li));
+    li.dataset.search = text.toLowerCase();
+    ol.appendChild(li);
+  });
+  return ol;
+}
+
+function allTextsOf(cat){
+  if (cat.type === 'flat') return cat.items;
+  if (cat.type === 'sequence') return cat.items;
+  if (cat.type === 'qa') return cat.items.flatMap(i => [i.q, ...i.a]);
+  if (cat.type === 'location') return cat.items.flatMap(i => [i.wo, ...i.wohin]);
+  return [];
+}
+
+const nav = document.getElementById('index');
+const main = document.getElementById('main');
+
+DATA.forEach(cat => {
+  const tab = document.createElement('button');
+  tab.className = 'tab';
+  tab.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
+  tab.addEventListener('click', () => {
+    document.getElementById('sec-' + cat.id).scrollIntoView({behavior:'smooth', block:'start'});
+  });
+  nav.appendChild(tab);
+
+  const section = document.createElement('section');
+  section.className = 'category';
+  section.id = 'sec-' + cat.id;
+
+  const head = document.createElement('div');
+  head.className = 'cat-head';
+  head.innerHTML = `<h2>${cat.ar}<span class="de">${cat.de}</span></h2>`;
+  const playAllBtn = document.createElement('button');
+  playAllBtn.className = 'playall';
+  playAllBtn.type = 'button';
+  playAllBtn.textContent = 'تشغيل الفئة كاملة';
+  playAllBtn.addEventListener('click', () => playSequence(allTextsOf(cat)));
+  head.appendChild(playAllBtn);
+  section.appendChild(head);
+
+  const body = document.createElement('div');
+  body.className = 'cards';
+
+  if (cat.type === 'flat') {
+    cat.items.forEach(t => body.appendChild(makeCard(t)));
+  } else if (cat.type === 'qa') {
+    cat.items.forEach(it => body.appendChild(makeQA(it)));
+  } else if (cat.type === 'location') {
+    cat.items.forEach(it => body.appendChild(makeLocation(it)));
+  } else if (cat.type === 'sequence') {
+    body.appendChild(makeSequence(cat.items));
+  }
+
+  section.appendChild(body);
+  main.appendChild(section);
+});
+
+nav.children[0].classList.add('active');
+
+/* highlight active tab on scroll */
+const sections = Array.from(document.querySelectorAll('section.category'));
+const tabs = Array.from(nav.children);
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting){
+      const idx = sections.indexOf(e.target);
+      tabs.forEach(t => t.classList.remove('active'));
+      if (idx > -1) tabs[idx].classList.add('active');
+    }
+  });
+}, {rootMargin:'-10% 0px -70% 0px'});
+sections.forEach(s => io.observe(s));
+
+/* ---------- Search ---------- */
+document.getElementById('search').addEventListener('input', (e) => {
+  const q = e.target.value.trim().toLowerCase();
+  sections.forEach((sec, idx) => {
+    let anyVisible = false;
+    sec.querySelectorAll('[data-search]').forEach(node => {
+      const match = !q || node.dataset.search.includes(q) || DATA[idx].ar.includes(q);
+      node.style.display = match ? '' : 'none';
+      if (match) anyVisible = true;
+    });
+    sec.style.display = anyVisible ? '' : 'none';
+  });
+});
+</script>
+</body>
+</html>

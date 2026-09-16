@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دليل جُملي الألمانية</title>
+<title>  بدنا نسافر المانيا اخواتيييييييييييه</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --ink:#141F33;
@@ -19,7 +19,7 @@
     --text-on-ink:#EFE9D8;
     --muted:#8C96AC;
     --text-dark:#20200f;
-    --radius:3px;
+    --radius:4px;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -33,13 +33,16 @@
   .de{
     direction:ltr;
     unicode-bidi:isolate;
-    font-family:'IBM Plex Mono',monospace;
+    font-family:'Work Sans',sans-serif;
+    font-weight:500;
+    overflow-wrap:anywhere;
+    word-break:break-word;
   }
   a{color:inherit;}
 
   /* ===== Header ===== */
   header{
-    padding:38px 28px 26px;
+    padding:30px 20px 22px;
     border-bottom:1px solid rgba(199,154,75,0.25);
     background:
       radial-gradient(600px 200px at 85% -40%, rgba(199,154,75,0.14), transparent 60%),
@@ -47,19 +50,19 @@
   }
   .header-inner{max-width:1180px;margin:0 auto;}
   .brand{
-    display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;
+    display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
   }
   h1{
     font-family:'Fraunces',serif;
     font-weight:700;
-    font-size:clamp(28px,4vw,42px);
+    font-size:clamp(24px,5vw,42px);
     margin:0;
     letter-spacing:0.2px;
   }
   .brand .de-sub{
     color:var(--gold);
-    font-size:16px;
-    font-family:'IBM Plex Mono',monospace;
+    font-size:15px;
+    font-family:'Work Sans',sans-serif;
     direction:ltr;
     unicode-bidi:isolate;
   }
@@ -67,19 +70,20 @@
     margin:10px 0 0;
     color:var(--muted);
     max-width:60ch;
-    font-size:15px;
+    font-size:14.5px;
     line-height:1.7;
   }
   .toolbar{
-    margin-top:24px;
+    margin-top:20px;
     display:flex;gap:10px;flex-wrap:wrap;align-items:center;
   }
   #search{
-    flex:1;min-width:220px;
+    flex:1 1 220px;
+    min-width:0;
     background:var(--ink-2);
     border:1px solid rgba(199,154,75,0.35);
     color:var(--text-on-ink);
-    padding:12px 16px;
+    padding:13px 16px;
     border-radius:var(--radius);
     font-family:'Cairo',sans-serif;
     font-size:15px;
@@ -90,13 +94,14 @@
     background:transparent;
     border:1px solid var(--red);
     color:#e7b3a9;
-    padding:12px 18px;
+    padding:13px 16px;
     border-radius:var(--radius);
     cursor:pointer;
     font-family:'Cairo',sans-serif;
     font-size:14px;
     display:flex;align-items:center;gap:8px;
     transition:background .15s ease;
+    white-space:nowrap;
   }
   .stopbtn:hover{background:rgba(162,68,56,0.18);}
   .stopbtn:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
@@ -104,15 +109,15 @@
   /* ===== Layout ===== */
   .layout{
     max-width:1180px;margin:0 auto;
-    display:flex;gap:28px;
-    padding:28px;
+    display:flex;gap:26px;
+    padding:22px 20px 40px;
     align-items:flex-start;
   }
   nav.index{
-    width:260px;flex-shrink:0;
-    position:sticky;top:20px;
-    display:flex;flex-direction:column;gap:4px;
-    max-height:calc(100vh - 40px);
+    width:250px;flex-shrink:0;
+    position:sticky;top:16px;
+    display:flex;flex-direction:column;gap:3px;
+    max-height:calc(100vh - 32px);
     overflow-y:auto;
     padding-inline-end:4px;
   }
@@ -122,14 +127,15 @@
     border-inline-start:3px solid transparent;
     color:var(--muted);
     text-align:right;
-    padding:11px 14px;
+    padding:11px 13px;
     cursor:pointer;
     font-family:'Cairo',sans-serif;
-    font-size:14.5px;
+    font-size:14px;
     border-radius:0 var(--radius) var(--radius) 0;
     transition:background .15s ease,color .15s ease;
+    width:100%;
   }
-  .tab .de{display:block;font-size:11.5px;color:inherit;opacity:.7;margin-top:2px;}
+  .tab .de{display:block;font-size:11px;color:inherit;opacity:.7;margin-top:2px;font-weight:400;}
   .tab:hover{background:var(--ink-2);color:var(--text-on-ink);}
   .tab.active{
     background:var(--ink-2);
@@ -138,57 +144,63 @@
   }
   .tab:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;}
 
-  main{flex:1;min-width:0;display:flex;flex-direction:column;gap:34px;}
+  main{flex:1;min-width:0;display:flex;flex-direction:column;gap:32px;}
 
-  section.category{scroll-margin-top:20px;}
+  section.category{scroll-margin-top:16px;}
   .cat-head{
-    display:flex;align-items:baseline;justify-content:space-between;
-    gap:16px;flex-wrap:wrap;
+    display:flex;align-items:center;justify-content:space-between;
+    gap:12px;flex-wrap:wrap;
     border-bottom:1px solid rgba(199,154,75,0.3);
-    padding-bottom:10px;margin-bottom:16px;
+    padding-bottom:10px;margin-bottom:14px;
   }
   .cat-head h2{
     font-family:'Fraunces',serif;
     font-weight:600;
-    font-size:22px;
+    font-size:19px;
     margin:0;
     color:var(--text-on-ink);
+    line-height:1.3;
   }
   .cat-head .de{
     color:var(--gold);
-    font-size:13px;
-    margin-inline-start:10px;
+    font-size:12.5px;
+    display:block;
+    margin-top:2px;
+    font-weight:400;
   }
   .playall{
     background:transparent;
     border:1px solid var(--gold-dim);
     color:var(--gold);
-    padding:7px 14px;
-    font-size:13px;
+    padding:8px 14px;
+    font-size:12.5px;
     border-radius:var(--radius);
     cursor:pointer;
     font-family:'Cairo',sans-serif;
     white-space:nowrap;
+    flex-shrink:0;
   }
   .playall:hover{background:rgba(199,154,75,0.12);}
   .playall:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
 
-  .cards{display:flex;flex-direction:column;gap:10px;}
+  .cards{display:flex;flex-direction:column;gap:9px;}
 
   .card{
     background:var(--paper);
     color:var(--text-dark);
     border-radius:var(--radius);
-    padding:14px 16px;
-    display:flex;align-items:center;gap:14px;
-    box-shadow:0 1px 0 rgba(0,0,0,0.25) inset;
+    padding:13px 14px;
+    display:grid;
+    grid-template-columns:1fr auto;
+    align-items:center;
+    gap:12px;
   }
   .card.playing{background:var(--paper-2);box-shadow:0 0 0 1px var(--gold) inset;}
-  .card .txt{flex:1;font-size:15.5px;line-height:1.55;}
+  .card .txt{font-size:15.5px;line-height:1.55;min-width:0;}
 
   .speakbtn{
     flex-shrink:0;
-    width:38px;height:38px;
+    width:40px;height:40px;
     border-radius:50%;
     border:1px solid rgba(32,32,15,0.25);
     background:var(--ink);
@@ -196,6 +208,7 @@
     cursor:pointer;
     display:flex;align-items:center;justify-content:center;
     transition:background .15s ease,transform .1s ease;
+    padding:0;
   }
   .speakbtn:hover{background:var(--ink-3);}
   .speakbtn:active{transform:scale(.94);}
@@ -206,30 +219,28 @@
   .qa{
     background:var(--paper);
     border-radius:var(--radius);
-    padding:16px 18px;
+    padding:15px 16px;
   }
-  .qa + .qa{margin-top:10px;}
-  .qrow{display:flex;align-items:center;gap:14px;}
-  .qrow .txt{font-weight:600;font-size:15.5px;color:var(--text-dark);}
-  .answers{margin-top:10px;padding-inline-start:16px;border-inline-start:2px solid var(--gold-dim);display:flex;flex-direction:column;gap:8px;}
-  .arow{display:flex;align-items:center;gap:12px;}
-  .arow .txt{font-size:15px;color:#3a3520;}
-  .arow .speakbtn{width:32px;height:32px;}
+  .qrow{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;}
+  .qrow .txt{font-weight:600;font-size:15.5px;color:var(--text-dark);min-width:0;}
+  .answers{margin-top:10px;padding-inline-start:14px;border-inline-start:2px solid var(--gold-dim);display:flex;flex-direction:column;gap:8px;}
+  .arow{display:grid;grid-template-columns:1fr auto;align-items:center;gap:10px;}
+  .arow .txt{font-size:15px;color:#3a3520;min-width:0;}
+  .arow .speakbtn{width:34px;height:34px;}
   .arow .speakbtn svg{width:14px;height:14px;}
 
   /* Location (Wo/Wohin) cards */
-  .loc-card{background:var(--paper);border-radius:var(--radius);padding:16px 18px;}
-  .loc-card + .loc-card{margin-top:10px;}
+  .loc-card{background:var(--paper);border-radius:var(--radius);padding:15px 16px;}
   .loc-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:var(--gold-dim);margin-bottom:8px;}
-  .loc-row{display:flex;align-items:center;gap:12px;padding:4px 0;}
+  .loc-row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;padding:5px 0;}
   .loc-row .tag{
-    font-size:10.5px;font-family:'Cairo',sans-serif;font-weight:700;
+    font-size:10px;font-family:'Cairo',sans-serif;font-weight:700;
     color:#fff;background:var(--ink-3);padding:3px 8px;border-radius:20px;
-    flex-shrink:0;min-width:44px;text-align:center;
+    text-align:center;white-space:nowrap;
   }
   .loc-row.wohin .tag{background:var(--red);}
-  .loc-row .txt{font-size:15px;flex:1;}
-  .loc-row .speakbtn{width:32px;height:32px;}
+  .loc-row .txt{font-size:15px;min-width:0;}
+  .loc-row .speakbtn{width:34px;height:34px;}
   .loc-row .speakbtn svg{width:14px;height:14px;}
 
   /* Sequence (Tagesablauf) */
@@ -237,38 +248,50 @@
   ol.seq li{
     counter-increment:step;
     background:var(--paper);border-radius:var(--radius);
-    padding:12px 16px;display:flex;align-items:center;gap:14px;
+    padding:12px 14px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;
   }
   ol.seq li::before{
     content:counter(step);
     font-family:'Fraunces',serif;font-weight:700;color:var(--gold-dim);
-    font-size:15px;flex-shrink:0;width:20px;text-align:center;
+    font-size:15px;text-align:center;
   }
-  ol.seq li .txt{flex:1;font-size:15px;}
-
-  .empty-msg{
-    color:var(--muted);text-align:center;padding:60px 20px;font-size:15px;
-  }
+  ol.seq li .txt{font-size:15px;min-width:0;}
 
   footer{
-    max-width:1180px;margin:0 auto;padding:20px 28px 50px;
-    color:var(--muted);font-size:12.5px;text-align:center;
+    max-width:1180px;margin:0 auto;padding:0 20px 46px;
+    color:var(--muted);font-size:12px;text-align:center;
   }
 
   @media (max-width:860px){
-    .layout{flex-direction:column;padding:18px;gap:18px;}
+    .layout{flex-direction:column;padding:16px 14px 34px;gap:16px;}
     nav.index{
       width:100%;flex-direction:row;overflow-x:auto;overflow-y:visible;
       position:sticky;top:0;background:var(--ink);
-      max-height:none;padding:8px 0;z-index:5;
+      max-height:none;padding:10px 2px;z-index:5;
       border-bottom:1px solid rgba(199,154,75,0.2);
+      gap:6px;
     }
     .tab{
-      flex-shrink:0;border-inline-start:none;border-bottom:3px solid transparent;
-      border-radius:var(--radius);
+      flex-shrink:0;border-inline-start:none;
+      border:1px solid rgba(199,154,75,0.25);
+      border-radius:20px;
+      padding:8px 14px;
+      font-size:13px;
     }
-    .tab.active{border-bottom-color:var(--gold);}
+    .tab.active{background:var(--gold);color:var(--ink);border-color:var(--gold);}
     .tab .de{display:none;}
+    header{padding:22px 16px 18px;}
+    .cat-head{align-items:flex-start;}
+    .card,.qa,.loc-card{padding:12px;}
+    .card .txt,.qrow .txt,.arow .txt,.loc-row .txt,ol.seq li .txt{font-size:15px;}
+    .speakbtn{width:38px;height:38px;}
+  }
+
+  @media (max-width:420px){
+    .loc-row{grid-template-columns:auto 1fr;grid-template-areas:"tag btn" "text text";}
+    .loc-row .tag{grid-area:tag;justify-self:start;}
+    .loc-row .speakbtn{grid-area:btn;justify-self:end;}
+    .loc-row .txt{grid-area:text;}
   }
 
   @media (prefers-reduced-motion:reduce){
@@ -284,7 +307,7 @@
       <h1>دليل جُملي الألمانية</h1>
       <span class="de-sub">Mein Redemittel-Katalog</span>
     </div>
-    <p class="tagline">كل الجمل مبوّبة حسب الموقف، وجنب كل جملة زرّ استماع بيسمّعك ياها بصوت ألماني من متصفحك. دوّر بالأعلى أو تصفّح الفئات عالجنب.</p>
+    <p class="tagline">كل الجمل مبوّبة حسب الموقف، مكتوبة بالكامل، وجنب كل وحدة زرّ استماع بيسمّعك ياها بصوت ألماني من متصفحك. دوّر بالأعلى أو تصفّح الفئات عالجنب.</p>
     <div class="toolbar">
       <input id="search" type="text" placeholder="دوّر على جملة أو كلمة… (بالعربي أو الألماني)">
       <button class="stopbtn" id="stopBtn" type="button">
@@ -300,7 +323,7 @@
   <main id="main"></main>
 </div>
 
-<footer>الصوت مولّد من محرك النطق الموجود بمتصفحك — جودته بتختلف حسب الجهاز والمتصفح.</footer>
+<footer>الصوت مولّد من محرك النطق الموجود بمتصفحك — جودته بتختلف حسب الجهاز والمتصفح. كل الجمل الألمانية مكتوبة بالكامل تحت كل زر استماع.</footer>
 
 <script>
 const ICON_PLAY = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
@@ -329,7 +352,8 @@ const DATA = [
       {q:'Wohnen Sie alleine? / Wohnst du alleine?', a:['Nein, ich wohne in einer WG','Ja, ich wohne alleine']},
       {q:'Was machen Sie in Ihrer Freizeit?', a:['In meiner Freizeit koche ich gerne oder mache Sport']},
       {q:'Warum sind Sie nach Deutschland gekommen?', a:['Ich bin hier, um eine Ausbildung im IT-Bereich zu machen','Ich mache eine Ausbildung als Fachinformatiker für Anwendungsentwicklung','Ich bin hier, um eine Ausbildung in der Pflege zu machen','Ich mache eine Ausbildung als Pflegefachmann']},
-      {q:'Was sind Ihre Lieblingshobbies?', a:['Ich spiele gerne Gitarre.','Ich lese gerne Bücher.','Ich spiele und schaue gerne Fußball.','Ich gehe morgens gerne joggen.','Ich höre gerne Musik.','Ich reise gerne.','Ich habe viele verschiedene Hobbies. In meiner Freizeit spiele ich gerne Gitarre und lese Bücher. Außerdem spiele und schaue ich gerne Fußball. Morgens gehe ich oft joggen, um fit zu bleiben. Ich höre auch gerne Musik zum Entspannen. Wenn ich Urlaub habe, reise ich sehr gerne.']}
+      {q:'Was sind Ihre Lieblingshobbies?', a:['Ich spiele gerne Gitarre.','Ich lese gerne Bücher.','Ich spiele und schaue gerne Fußball.','Ich gehe morgens gerne joggen.','Ich höre gerne Musik.','Ich reise gerne.','Ich habe viele verschiedene Hobbies. In meiner Freizeit spiele ich gerne Gitarre und lese Bücher. Außerdem spiele und schaue ich gerne Fußball. Morgens gehe ich oft joggen, um fit zu bleiben. Ich höre auch gerne Musik zum Entspannen. Wenn ich Urlaub habe, reise ich sehr gerne.']},
+      {q:'Wann ist dein Geburtstag?', a:[]}
     ]
   },
   {
@@ -433,7 +457,10 @@ const DATA = [
       'Ich möchte ein Ticket nach Berlin und zurück.','Bitte achten Sie auf die Ansagen.',
       'Der Zug fährt pünktlich ab.','Um wie viel Uhr fährt unser Bus ab?','Wo fährt es ab?',
       'Der Zug kommt pünktlich am Bahnhof an.','Bitte lassen Sie Ihr Gepäck nicht unbeaufsichtigt!',
-      'Fahrgäste bitte aussteigen, das ist die Endstation.','Fährt dieser Bus bis zur Endstation?'
+      'Fahrgäste bitte aussteigen, das ist die Endstation.','Fährt dieser Bus bis zur Endstation?',
+      'Fährt der Zug direkt nach Berlin?','Nein, man muss dreimal umsteigen.',
+      'Ich habe meinen Anschluss verpasst.','Haben wir in Frankfurt Anschluss nach München?',
+      'Der Zug hat zehn Minuten Verspätung.','Der Weg dauert etwa 20 Minuten.'
     ]
   },
   {
@@ -445,7 +472,8 @@ const DATA = [
       'Die Aussicht ist super!','Letztes Wochenende bin ich mit meinen Freunden ins Kino gegangen.',
       'Wir feiern heute Abend eine Party. Kommst du?','Kann ich dich bald sehen?','Sehen wir uns bald?',
       'Können wir uns bald treffen?','Wie viel kostet der Eintritt?','Der Film ist vorbei.',
-      'Komm morgen bei mir vorbei.','Wir feiern am Samstag eine Party in meiner Bude.'
+      'Komm morgen bei mir vorbei.','Wir feiern am Samstag eine Party in meiner Bude.',
+      'Das Tor fiel in der letzten Minute.'
     ]
   },
   {
@@ -469,7 +497,8 @@ const DATA = [
     items:[
       'Welcher Wochentag ist heute?','Heute ist Montag, also ist morgen Dienstag.',
       'Unter der Woche stehe ich früh auf.','Ich habe unter der Woche keine Zeit.',
-      'Was machst du unter der Woche?','Morgen früh gehe ich zur Arbeit.','Der Sommer ist leider vorbei.'
+      'Was machst du unter der Woche?','Morgen früh gehe ich zur Arbeit.','Der Sommer ist leider vorbei.',
+      'Ich bin in einer Minute fertig.','Warten Sie bitte eine Minute.','Wir haben noch fünf Minuten Zeit.'
     ]
   },
   {
@@ -500,6 +529,32 @@ const DATA = [
       'Ich bin bald fertig.','Ich weiß es leider nicht!','Es ist vorbei.','Das war das Richtige zu tun.',
       'Das ist jetzt genau das Richtige.','Achte auf dich selbst!','Kümmer dich um deine eigenen Sachen.',
       'Das geht dich nichts an!','Misch dich nicht ein.'
+    ]
+  },
+  {
+    id:'wetter', ar:'الطقس', de:'Das Wetter', type:'qa',
+    items:[
+      {q:'Wie ist das Wetter heute?', a:['Es ist sonnig und warm.','Es ist bewölkt.','Es ist sehr heiß heute.','Es regnet.','Wir haben heute 25 Grad.']},
+      {q:'Wie war das Wetter gestern?', a:['Es war sehr kalt.','Es war extrem windig.','Gestern hat es geregnet.','Es hat den ganzen Tag geschneit.','Gestern waren es minus 2 Grad.']},
+      {q:'Wie wird das Wetter morgen?', a:['Es wird schön und warm.','Es wird wahrscheinlich bewölkt sein.','Morgen wird es regnen.','Morgen gibt es ein Gewitter.','Die Temperatur wird auf 30 Grad steigen.']}
+    ]
+  },
+  {
+    id:'umgangsformen', ar:'المعاملة الاجتماعية (Du/Sie)', de:'Umgangsformen & Soziales', type:'flat',
+    items:[
+      'Sie können mich duzen.','In Deutschland ist es üblich, dass man seinen Chef siezt.',
+      'Wenn man eine fremde Person trifft, sollte man sie zuerst siezen.',
+      'Es fällt mir schwer, ältere Leute nicht zu siezen.','Unter Kollegen duzen wir uns meistens.',
+      'Wir können uns gerne duzen, wenn das für dich in Ordnung ist.','Ab wann darf man jemanden duzen?',
+      'Wollen wir uns siezen oder duzen?','Wir haben uns am Anfang gesiezt, aber jetzt duzen wir uns.',
+      'Er hat im neuen Kurs schnell Anschluss gefunden.'
+    ]
+  },
+  {
+    id:'technik', ar:'التقنية والإنترنت', de:'Technik & Internet', type:'flat',
+    items:[
+      'Mein Internetanschluss ist zu langsam, um die Dateien auf den Server hochzuladen.',
+      'Wo ist der Anschluss für das Kabel?'
     ]
   }
 ];
@@ -542,13 +597,25 @@ document.getElementById('stopBtn').addEventListener('click', () => {
 });
 
 /* ---------- Rendering ---------- */
-const speakBtnHTML = `<button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
+function speakBtn(){
+  const b = document.createElement('button');
+  b.className = 'speakbtn';
+  b.type = 'button';
+  b.setAttribute('aria-label','استمع');
+  b.innerHTML = ICON_PLAY;
+  return b;
+}
 
 function makeCard(text){
   const card = document.createElement('div');
   card.className = 'card';
-  card.innerHTML = `<span class="txt de">${text}</span>${speakBtnHTML}`;
-  card.querySelector('.speakbtn').addEventListener('click', () => speak(text, card));
+  const txt = document.createElement('span');
+  txt.className = 'txt de';
+  txt.textContent = text;
+  const btn = speakBtn();
+  btn.addEventListener('click', () => speak(text, card));
+  card.appendChild(txt);
+  card.appendChild(btn);
   card.dataset.search = text.toLowerCase();
   return card;
 }
@@ -558,40 +625,64 @@ function makeQA(item){
   wrap.className = 'qa';
   const qRow = document.createElement('div');
   qRow.className = 'qrow';
-  qRow.innerHTML = `<span class="txt de">${item.q}</span>${speakBtnHTML}`;
-  qRow.querySelector('.speakbtn').addEventListener('click', () => speak(item.q, wrap));
+  const qTxt = document.createElement('span');
+  qTxt.className = 'txt de';
+  qTxt.textContent = item.q;
+  const qBtn = speakBtn();
+  qBtn.addEventListener('click', () => speak(item.q, wrap));
+  qRow.appendChild(qTxt);
+  qRow.appendChild(qBtn);
   wrap.appendChild(qRow);
 
-  const answers = document.createElement('div');
-  answers.className = 'answers';
-  item.a.forEach(a => {
-    const row = document.createElement('div');
-    row.className = 'arow';
-    row.innerHTML = `<span class="txt de">${a}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
-    row.querySelector('.speakbtn').addEventListener('click', () => speak(a, wrap));
-    answers.appendChild(row);
-  });
-  wrap.appendChild(answers);
-  wrap.dataset.search = (item.q + ' ' + item.a.join(' ')).toLowerCase();
+  if (item.a && item.a.length){
+    const answers = document.createElement('div');
+    answers.className = 'answers';
+    item.a.forEach(a => {
+      const row = document.createElement('div');
+      row.className = 'arow';
+      const aTxt = document.createElement('span');
+      aTxt.className = 'txt de';
+      aTxt.textContent = a;
+      const aBtn = speakBtn();
+      aBtn.classList.add('small');
+      aBtn.addEventListener('click', () => speak(a, wrap));
+      row.appendChild(aTxt);
+      row.appendChild(aBtn);
+      answers.appendChild(row);
+    });
+    wrap.appendChild(answers);
+  }
+  wrap.dataset.search = (item.q + ' ' + (item.a||[]).join(' ')).toLowerCase();
   return wrap;
 }
 
 function makeLocation(item){
   const wrap = document.createElement('div');
   wrap.className = 'loc-card';
-  wrap.innerHTML = `<div class="loc-title">${item.place}</div>`;
-  const woRow = document.createElement('div');
-  woRow.className = 'loc-row';
-  woRow.innerHTML = `<span class="tag">Wo</span><span class="txt de">${item.wo}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
-  woRow.querySelector('.speakbtn').addEventListener('click', () => speak(item.wo, wrap));
-  wrap.appendChild(woRow);
-  item.wohin.forEach(w => {
-    const row = document.createElement('div');
-    row.className = 'loc-row wohin';
-    row.innerHTML = `<span class="tag">Wohin</span><span class="txt de">${w}</span><button class="speakbtn" type="button" aria-label="استمع">${ICON_PLAY}</button>`;
-    row.querySelector('.speakbtn').addEventListener('click', () => speak(w, wrap));
-    wrap.appendChild(row);
-  });
+  const title = document.createElement('div');
+  title.className = 'loc-title';
+  title.textContent = item.place;
+  wrap.appendChild(title);
+
+  function row(tagLabel, text, isWohin){
+    const r = document.createElement('div');
+    r.className = 'loc-row' + (isWohin ? ' wohin' : '');
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.textContent = tagLabel;
+    const txt = document.createElement('span');
+    txt.className = 'txt de';
+    txt.textContent = text;
+    const btn = speakBtn();
+    btn.addEventListener('click', () => speak(text, wrap));
+    r.appendChild(tag);
+    r.appendChild(txt);
+    r.appendChild(btn);
+    return r;
+  }
+
+  wrap.appendChild(row('Wo', item.wo, false));
+  item.wohin.forEach(w => wrap.appendChild(row('Wohin', w, true)));
   wrap.dataset.search = (item.place + ' ' + item.wo + ' ' + item.wohin.join(' ')).toLowerCase();
   return wrap;
 }
@@ -601,8 +692,13 @@ function makeSequence(items){
   ol.className = 'seq';
   items.forEach(text => {
     const li = document.createElement('li');
-    li.innerHTML = `<span class="txt de">${text}</span>${speakBtnHTML}`;
-    li.querySelector('.speakbtn').addEventListener('click', () => speak(text, li));
+    const txt = document.createElement('span');
+    txt.className = 'txt de';
+    txt.textContent = text;
+    const btn = speakBtn();
+    btn.addEventListener('click', () => speak(text, li));
+    li.appendChild(txt);
+    li.appendChild(btn);
     li.dataset.search = text.toLowerCase();
     ol.appendChild(li);
   });
@@ -612,7 +708,7 @@ function makeSequence(items){
 function allTextsOf(cat){
   if (cat.type === 'flat') return cat.items;
   if (cat.type === 'sequence') return cat.items;
-  if (cat.type === 'qa') return cat.items.flatMap(i => [i.q, ...i.a]);
+  if (cat.type === 'qa') return cat.items.flatMap(i => [i.q, ...(i.a||[])]);
   if (cat.type === 'location') return cat.items.flatMap(i => [i.wo, ...i.wohin]);
   return [];
 }
@@ -623,6 +719,7 @@ const main = document.getElementById('main');
 DATA.forEach(cat => {
   const tab = document.createElement('button');
   tab.className = 'tab';
+  tab.type = 'button';
   tab.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
   tab.addEventListener('click', () => {
     document.getElementById('sec-' + cat.id).scrollIntoView({behavior:'smooth', block:'start'});
@@ -635,7 +732,9 @@ DATA.forEach(cat => {
 
   const head = document.createElement('div');
   head.className = 'cat-head';
-  head.innerHTML = `<h2>${cat.ar}<span class="de">${cat.de}</span></h2>`;
+  const h2 = document.createElement('h2');
+  h2.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
+  head.appendChild(h2);
   const playAllBtn = document.createElement('button');
   playAllBtn.className = 'playall';
   playAllBtn.type = 'button';

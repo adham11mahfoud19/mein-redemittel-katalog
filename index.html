@@ -3,224 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>  بدنا نسافر المانيا اخواتيييييييييييه</title>
+<title>دليل جُملي الألمانية</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --ink:#141F33;
-    --ink-2:#1C2C48;
-    --ink-3:#24365A;
-    --paper:#F3EEDD;
-    --paper-2:#E9E0C4;
-    --gold:#C79A4B;
-    --gold-dim:#8E713A;
-    --red:#A24438;
-    --text-on-ink:#EFE9D8;
-    --muted:#8C96AC;
-    --text-dark:#20200f;
+    --ink:#141F33; --ink-2:#1C2C48; --ink-3:#24365A;
+    --paper:#F3EEDD; --paper-2:#E9E0C4;
+    --gold:#C79A4B; --gold-dim:#8E713A; --red:#A24438; --green:#3F7A4F;
+    --text-on-ink:#EFE9D8; --muted:#8C96AC; --text-dark:#20200f;
     --radius:4px;
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
-  body{
-    background:var(--ink);
-    color:var(--text-on-ink);
-    font-family:'Cairo',sans-serif;
-    min-height:100vh;
-    -webkit-font-smoothing:antialiased;
-  }
-  .de{
-    direction:ltr;
-    unicode-bidi:isolate;
-    font-family:'Work Sans',sans-serif;
-    font-weight:500;
-    overflow-wrap:anywhere;
-    word-break:break-word;
-  }
+  body{background:var(--ink);color:var(--text-on-ink);font-family:'Cairo',sans-serif;min-height:100vh;-webkit-font-smoothing:antialiased;}
+  .de{direction:ltr;unicode-bidi:isolate;font-family:'Work Sans',sans-serif;font-weight:500;overflow-wrap:anywhere;word-break:break-word;}
   a{color:inherit;}
 
-  /* ===== Header ===== */
-  header{
-    padding:30px 20px 22px;
-    border-bottom:1px solid rgba(199,154,75,0.25);
-    background:
-      radial-gradient(600px 200px at 85% -40%, rgba(199,154,75,0.14), transparent 60%),
-      var(--ink);
-  }
+  header{padding:30px 20px 22px;border-bottom:1px solid rgba(199,154,75,0.25);
+    background:radial-gradient(600px 200px at 85% -40%, rgba(199,154,75,0.14), transparent 60%),var(--ink);}
   .header-inner{max-width:1180px;margin:0 auto;}
-  .brand{
-    display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
-  }
-  h1{
-    font-family:'Fraunces',serif;
-    font-weight:700;
-    font-size:clamp(24px,5vw,42px);
-    margin:0;
-    letter-spacing:0.2px;
-  }
-  .brand .de-sub{
-    color:var(--gold);
-    font-size:15px;
-    font-family:'Work Sans',sans-serif;
-    direction:ltr;
-    unicode-bidi:isolate;
-  }
-  .tagline{
-    margin:10px 0 0;
-    color:var(--muted);
-    max-width:60ch;
-    font-size:14.5px;
-    line-height:1.7;
-  }
-  .toolbar{
-    margin-top:20px;
-    display:flex;gap:10px;flex-wrap:wrap;align-items:center;
-  }
-  #search{
-    flex:1 1 220px;
-    min-width:0;
-    background:var(--ink-2);
-    border:1px solid rgba(199,154,75,0.35);
-    color:var(--text-on-ink);
-    padding:13px 16px;
-    border-radius:var(--radius);
-    font-family:'Cairo',sans-serif;
-    font-size:15px;
-  }
+  .brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;}
+  h1{font-family:'Fraunces',serif;font-weight:700;font-size:clamp(24px,5vw,42px);margin:0;letter-spacing:0.2px;}
+  .brand .de-sub{color:var(--gold);font-size:15px;font-family:'Work Sans',sans-serif;direction:ltr;unicode-bidi:isolate;}
+  .tagline{margin:10px 0 0;color:var(--muted);max-width:60ch;font-size:14.5px;line-height:1.7;}
+  .toolbar{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  #search{flex:1 1 220px;min-width:0;background:var(--ink-2);border:1px solid rgba(199,154,75,0.35);color:var(--text-on-ink);
+    padding:13px 16px;border-radius:var(--radius);font-family:'Cairo',sans-serif;font-size:15px;}
   #search::placeholder{color:var(--muted);}
   #search:focus{outline:2px solid var(--gold);outline-offset:1px;}
-  .stopbtn{
-    background:transparent;
-    border:1px solid var(--red);
-    color:#e7b3a9;
-    padding:13px 16px;
-    border-radius:var(--radius);
-    cursor:pointer;
-    font-family:'Cairo',sans-serif;
-    font-size:14px;
-    display:flex;align-items:center;gap:8px;
-    transition:background .15s ease;
-    white-space:nowrap;
-  }
+  .stopbtn{background:transparent;border:1px solid var(--red);color:#e7b3a9;padding:13px 16px;border-radius:var(--radius);
+    cursor:pointer;font-family:'Cairo',sans-serif;font-size:14px;display:flex;align-items:center;gap:8px;
+    transition:background .15s ease;white-space:nowrap;}
   .stopbtn:hover{background:rgba(162,68,56,0.18);}
   .stopbtn:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
 
-  /* ===== Layout ===== */
-  .layout{
-    max-width:1180px;margin:0 auto;
-    display:flex;gap:26px;
-    padding:22px 20px 40px;
-    align-items:flex-start;
-  }
-  nav.index{
-    width:250px;flex-shrink:0;
-    position:sticky;top:16px;
-    display:flex;flex-direction:column;gap:3px;
-    max-height:calc(100vh - 32px);
-    overflow-y:auto;
-    padding-inline-end:4px;
-  }
-  .tab{
-    background:transparent;
-    border:none;
-    border-inline-start:3px solid transparent;
-    color:var(--muted);
-    text-align:right;
-    padding:11px 13px;
-    cursor:pointer;
-    font-family:'Cairo',sans-serif;
-    font-size:14px;
-    border-radius:0 var(--radius) var(--radius) 0;
-    transition:background .15s ease,color .15s ease;
-    width:100%;
-  }
+  .layout{max-width:1180px;margin:0 auto;display:flex;gap:26px;padding:22px 20px 40px;align-items:flex-start;}
+  nav.index{width:250px;flex-shrink:0;position:sticky;top:16px;display:flex;flex-direction:column;gap:3px;
+    max-height:calc(100vh - 32px);overflow-y:auto;padding-inline-end:4px;}
+  .tab{background:transparent;border:none;border-inline-start:3px solid transparent;color:var(--muted);text-align:right;
+    padding:11px 13px;cursor:pointer;font-family:'Cairo',sans-serif;font-size:14px;border-radius:0 var(--radius) var(--radius) 0;
+    transition:background .15s ease,color .15s ease;width:100%;}
   .tab .de{display:block;font-size:11px;color:inherit;opacity:.7;margin-top:2px;font-weight:400;}
   .tab:hover{background:var(--ink-2);color:var(--text-on-ink);}
-  .tab.active{
-    background:var(--ink-2);
-    color:var(--gold);
-    border-inline-start-color:var(--gold);
-  }
+  .tab.active{background:var(--ink-2);color:var(--gold);border-inline-start-color:var(--gold);}
   .tab:focus-visible{outline:2px solid var(--gold);outline-offset:-2px;}
+  .tab.special{margin-top:8px;border-top:1px dashed rgba(199,154,75,0.3);padding-top:14px;}
 
   main{flex:1;min-width:0;display:flex;flex-direction:column;gap:32px;}
 
   section.category{scroll-margin-top:16px;}
-  .cat-head{
-    display:flex;align-items:center;justify-content:space-between;
-    gap:12px;flex-wrap:wrap;
-    border-bottom:1px solid rgba(199,154,75,0.3);
-    padding-bottom:10px;margin-bottom:14px;
-  }
-  .cat-head h2{
-    font-family:'Fraunces',serif;
-    font-weight:600;
-    font-size:19px;
-    margin:0;
-    color:var(--text-on-ink);
-    line-height:1.3;
-  }
-  .cat-head .de{
-    color:var(--gold);
-    font-size:12.5px;
-    display:block;
-    margin-top:2px;
-    font-weight:400;
-  }
-  .playall{
-    background:transparent;
-    border:1px solid var(--gold-dim);
-    color:var(--gold);
-    padding:8px 14px;
-    font-size:12.5px;
-    border-radius:var(--radius);
-    cursor:pointer;
-    font-family:'Cairo',sans-serif;
-    white-space:nowrap;
-    flex-shrink:0;
-  }
+  .cat-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    border-bottom:1px solid rgba(199,154,75,0.3);padding-bottom:10px;margin-bottom:14px;}
+  .cat-head h2{font-family:'Fraunces',serif;font-weight:600;font-size:19px;margin:0;color:var(--text-on-ink);line-height:1.3;}
+  .cat-head .de{color:var(--gold);font-size:12.5px;display:block;margin-top:2px;font-weight:400;}
+  .playall{background:transparent;border:1px solid var(--gold-dim);color:var(--gold);padding:8px 14px;font-size:12.5px;
+    border-radius:var(--radius);cursor:pointer;font-family:'Cairo',sans-serif;white-space:nowrap;flex-shrink:0;}
   .playall:hover{background:rgba(199,154,75,0.12);}
   .playall:focus-visible{outline:2px solid var(--gold);outline-offset:2px;}
 
   .cards{display:flex;flex-direction:column;gap:9px;}
-
-  .card{
-    background:var(--paper);
-    color:var(--text-dark);
-    border-radius:var(--radius);
-    padding:13px 14px;
-    display:grid;
-    grid-template-columns:1fr auto;
-    align-items:center;
-    gap:12px;
-  }
+  .card{background:var(--paper);color:var(--text-dark);border-radius:var(--radius);padding:13px 14px;
+    display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;}
   .card.playing{background:var(--paper-2);box-shadow:0 0 0 1px var(--gold) inset;}
   .card .txt{font-size:15.5px;line-height:1.55;min-width:0;}
 
-  .speakbtn{
-    flex-shrink:0;
-    width:40px;height:40px;
-    border-radius:50%;
-    border:1px solid rgba(32,32,15,0.25);
-    background:var(--ink);
-    color:var(--gold);
-    cursor:pointer;
-    display:flex;align-items:center;justify-content:center;
-    transition:background .15s ease,transform .1s ease;
-    padding:0;
-  }
+  .speakbtn{flex-shrink:0;width:40px;height:40px;border-radius:50%;border:1px solid rgba(32,32,15,0.25);
+    background:var(--ink);color:var(--gold);cursor:pointer;display:flex;align-items:center;justify-content:center;
+    transition:background .15s ease,transform .1s ease;padding:0;}
   .speakbtn:hover{background:var(--ink-3);}
   .speakbtn:active{transform:scale(.94);}
   .speakbtn:focus-visible{outline:2px solid var(--gold-dim);outline-offset:2px;}
   .speakbtn svg{width:16px;height:16px;fill:currentColor;}
 
-  /* Q/A style */
-  .qa{
-    background:var(--paper);
-    border-radius:var(--radius);
-    padding:15px 16px;
-  }
+  .qa{background:var(--paper);border-radius:var(--radius);padding:15px 16px;}
   .qrow{display:grid;grid-template-columns:1fr auto;align-items:center;gap:12px;}
   .qrow .txt{font-weight:600;font-size:15.5px;color:var(--text-dark);min-width:0;}
   .answers{margin-top:10px;padding-inline-start:14px;border-inline-start:2px solid var(--gold-dim);display:flex;flex-direction:column;gap:8px;}
@@ -229,74 +85,86 @@
   .arow .speakbtn{width:34px;height:34px;}
   .arow .speakbtn svg{width:14px;height:14px;}
 
-  /* Location (Wo/Wohin) cards */
   .loc-card{background:var(--paper);border-radius:var(--radius);padding:15px 16px;}
   .loc-title{font-family:'Fraunces',serif;font-weight:600;font-size:15px;color:var(--gold-dim);margin-bottom:8px;}
   .loc-row{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:10px;padding:5px 0;}
-  .loc-row .tag{
-    font-size:10px;font-family:'Cairo',sans-serif;font-weight:700;
-    color:#fff;background:var(--ink-3);padding:3px 8px;border-radius:20px;
-    text-align:center;white-space:nowrap;
-  }
+  .loc-row .tag{font-size:10px;font-family:'Cairo',sans-serif;font-weight:700;color:#fff;background:var(--ink-3);
+    padding:3px 8px;border-radius:20px;text-align:center;white-space:nowrap;}
   .loc-row.wohin .tag{background:var(--red);}
-  .loc-row .txt{font-size:15px;min-width:0;color:black;}
+  .loc-row .txt{font-size:15px;min-width:0;}
   .loc-row .speakbtn{width:34px;height:34px;}
   .loc-row .speakbtn svg{width:14px;height:14px;}
 
-  /* Sequence (Tagesablauf) */
   ol.seq{list-style:none;margin:0;padding:0;counter-reset:step;display:flex;flex-direction:column;gap:8px;}
-  ol.seq li{
-    counter-increment:step;
-    background:var(--paper);border-radius:var(--radius);
-    padding:12px 14px;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;
-  }
-  ol.seq li::before{
-    content:counter(step);
-    font-family:'Fraunces',serif;font-weight:700;color:var(--gold-dim);
-    font-size:15px;text-align:center;
-  }
-  ol.seq li .txt{font-size:15px;min-width:0;color: black;}
+  ol.seq li{counter-increment:step;background:var(--paper);border-radius:var(--radius);padding:12px 14px;
+    display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;}
+  ol.seq li::before{content:counter(step);font-family:'Fraunces',serif;font-weight:700;color:var(--gold-dim);
+    font-size:15px;text-align:center;}
+  ol.seq li .txt{font-size:15px;min-width:0;}
 
-  footer{
-    max-width:1180px;margin:0 auto;padding:0 20px 46px;
-    color:var(--muted);font-size:12px;text-align:center;
-  }
+  /* ---- Stories ---- */
+  .story-card{background:var(--paper);border-radius:var(--radius);padding:22px 22px 18px;margin-bottom:6px;}
+  .story-ar{color:var(--gold-dim);font-size:13.5px;margin:2px 0 14px;line-height:1.6;}
+  .story-title-row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:2px;}
+  .story-title{font-family:'Fraunces',serif;font-weight:700;font-size:20px;color:var(--text-dark);}
+  .story-body{display:flex;flex-direction:column;gap:14px;}
+  .story-para{display:grid;grid-template-columns:1fr auto;align-items:start;gap:12px;
+    border-bottom:1px dashed rgba(32,32,15,0.12);padding-bottom:14px;}
+  .story-para:last-child{border-bottom:none;padding-bottom:0;}
+  .story-para .txt{font-family:'Fraunces',serif;font-size:17px;line-height:1.85;color:#2b2712;min-width:0;}
+  .story-para .speakbtn{margin-top:2px;}
+  .story + .story{margin-top:22px;}
+
+  /* ---- Quiz ---- */
+  .quiz-card{background:var(--paper);color:var(--text-dark);border-radius:var(--radius);padding:26px 22px;text-align:center;}
+  .quiz-score{color:var(--gold-dim);font-size:13px;margin-bottom:16px;font-family:'Cairo',sans-serif;}
+  .quiz-playbtn{background:var(--ink);color:var(--gold);border:none;border-radius:50px;padding:16px 30px;
+    font-size:15px;cursor:pointer;display:inline-flex;align-items:center;gap:10px;font-family:'Cairo',sans-serif;margin-bottom:8px;}
+  .quiz-playbtn:hover{background:var(--ink-3);}
+  .quiz-playbtn svg{width:18px;height:18px;fill:currentColor;}
+  .quiz-hint{color:var(--muted-dark,#7a7452);font-size:12.5px;margin-bottom:20px;}
+  .quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:10px;text-align:right;}
+  .quiz-opt{background:#fff;border:1px solid rgba(32,32,15,0.18);border-radius:var(--radius);padding:14px 16px;
+    font-family:'Work Sans',sans-serif;font-size:15px;direction:ltr;unicode-bidi:isolate;cursor:pointer;text-align:left;
+    transition:background .15s ease,border-color .15s ease;}
+  .quiz-opt:hover:not(:disabled){border-color:var(--gold);}
+  .quiz-opt:disabled{cursor:default;}
+  .quiz-opt.correct{background:#e2f1e4;border-color:var(--green);}
+  .quiz-opt.wrong{background:#f6e2df;border-color:var(--red);}
+  .quiz-reveal{margin-top:18px;font-size:15.5px;color:var(--text-dark);min-height:24px;}
+  .quiz-reveal .de{font-weight:600;}
+  .quiz-next{margin-top:16px;background:transparent;border:1px solid var(--gold-dim);color:var(--gold-dim);
+    padding:10px 22px;border-radius:var(--radius);cursor:pointer;font-family:'Cairo',sans-serif;font-size:14px;display:none;}
+  .quiz-next.show{display:inline-block;}
+  @media (max-width:600px){ .quiz-options{grid-template-columns:1fr;} }
+
+  footer{max-width:1180px;margin:0 auto;padding:0 20px 46px;color:var(--muted);font-size:12px;text-align:center;}
 
   @media (max-width:860px){
     .layout{flex-direction:column;padding:16px 14px 34px;gap:16px;}
-    nav.index{
-      width:100%;flex-direction:row;overflow-x:auto;overflow-y:visible;
-      position:sticky;top:0;background:var(--ink);
-      max-height:none;padding:10px 2px;z-index:5;
-      border-bottom:1px solid rgba(199,154,75,0.2);
-      gap:6px;
-    }
-    .tab{
-      flex-shrink:0;border-inline-start:none;
-      border:1px solid rgba(199,154,75,0.25);
-      border-radius:20px;
-      padding:8px 14px;
-      font-size:13px;
-    }
+    nav.index{width:100%;flex-direction:row;overflow-x:auto;overflow-y:visible;position:sticky;top:0;background:var(--ink);
+      max-height:none;padding:10px 2px;z-index:5;border-bottom:1px solid rgba(199,154,75,0.2);gap:6px;}
+    .tab{flex-shrink:0;border-inline-start:none;border:1px solid rgba(199,154,75,0.25);border-radius:20px;padding:8px 14px;font-size:13px;}
     .tab.active{background:var(--gold);color:var(--ink);border-color:var(--gold);}
+    .tab.special{margin-top:0;border-top:none;padding-top:8px;border-inline-start:1px solid rgba(199,154,75,0.25);}
     .tab .de{display:none;}
     header{padding:22px 16px 18px;}
     .cat-head{align-items:flex-start;}
     .card,.qa,.loc-card{padding:12px;}
     .card .txt,.qrow .txt,.arow .txt,.loc-row .txt,ol.seq li .txt{font-size:15px;}
     .speakbtn{width:38px;height:38px;}
+    .story-card{padding:16px;}
+    .story-para{grid-template-columns:1fr;}
+    .story-para .speakbtn{justify-self:start;order:-1;}
+    .story-para .txt{font-size:16px;}
   }
-
   @media (max-width:420px){
     .loc-row{grid-template-columns:auto 1fr;grid-template-areas:"tag btn" "text text";}
     .loc-row .tag{grid-area:tag;justify-self:start;}
     .loc-row .speakbtn{grid-area:btn;justify-self:end;}
     .loc-row .txt{grid-area:text;}
   }
-
-  @media (prefers-reduced-motion:reduce){
-    *{transition:none !important;}
-  }
+  @media (prefers-reduced-motion:reduce){ *{transition:none !important;} }
 </style>
 </head>
 <body>
@@ -307,7 +175,7 @@
       <h1>دليل جُملي الألمانية</h1>
       <span class="de-sub">Mein Redemittel-Katalog</span>
     </div>
-    <p class="tagline">كل الجمل مبوّبة حسب الموقف، مكتوبة بالكامل، وجنب كل وحدة زرّ استماع بيسمّعك ياها بصوت ألماني من متصفحك. دوّر بالأعلى أو تصفّح الفئات عالجنب.</p>
+    <p class="tagline">كل الجمل مبوّبة حسب الموقف، مكتوبة بالكامل، وجنب كل وحدة زرّ استماع بيسمّعك ياها بصوت ألماني من متصفحك. تحت لقيت كمان قصص قصيرة ولعبة استماع.</p>
     <div class="toolbar">
       <input id="search" type="text" placeholder="دوّر على جملة أو كلمة… (بالعربي أو الألماني)">
       <button class="stopbtn" id="stopBtn" type="button">
@@ -353,20 +221,18 @@ const DATA = [
       {q:'Was machen Sie in Ihrer Freizeit?', a:['In meiner Freizeit koche ich gerne oder mache Sport']},
       {q:'Warum sind Sie nach Deutschland gekommen?', a:['Ich bin hier, um eine Ausbildung im IT-Bereich zu machen','Ich mache eine Ausbildung als Fachinformatiker für Anwendungsentwicklung','Ich bin hier, um eine Ausbildung in der Pflege zu machen','Ich mache eine Ausbildung als Pflegefachmann']},
       {q:'Was sind Ihre Lieblingshobbies?', a:['Ich spiele gerne Gitarre.','Ich lese gerne Bücher.','Ich spiele und schaue gerne Fußball.','Ich gehe morgens gerne joggen.','Ich höre gerne Musik.','Ich reise gerne.','Ich habe viele verschiedene Hobbies. In meiner Freizeit spiele ich gerne Gitarre und lese Bücher. Außerdem spiele und schaue ich gerne Fußball. Morgens gehe ich oft joggen, um fit zu bleiben. Ich höre auch gerne Musik zum Entspannen. Wenn ich Urlaub habe, reise ich sehr gerne.']},
-      {q:'Wann ist dein Geburtstag?', a:[]}
+      {q:'Wann ist dein Geburtstag?', a:[]},
+      {q:'Wie lautet Ihr Geburtsdatum?', a:['Mein Geburtsdatum ist der 15. (fünfzehnte) Mai 1995 (neunzehnhundertfünfundneunzig).']},
+      {q:'Können Sie mir bitte Ihr Geburtsdatum sagen?', a:['Mein Geburtsdatum ist der 15. (fünfzehnte) Mai 1995 (neunzehnhundertfünfundneunzig).']}
     ]
   },
   {
     id:'tagesablauf-beispiel', ar:'مثال: يوم كامل بالتفصيل', de:'Wie sieht Ihr Tagesablauf aus?', type:'sequence',
     items:[
-      'Ich wache morgens früh um 6 Uhr auf.',
-      'Ich wasche mein Gesicht und putze meine Zähne.',
-      'Danach höre ich ungefähr eine halbe Stunde Musik.',
-      'Dann lerne ich zwei oder drei Stunden Deutsch.',
-      'Um 10 Uhr beginne ich zu arbeiten.',
-      'In der Pause um 12 Uhr übe ich Gitarre.',
-      'Um 1 Uhr arbeite ich weiter bis 6 Uhr.',
-      'Nach der Arbeit mache ich ein halbstündiges Nickerchen.',
+      'Ich wache morgens früh um 6 Uhr auf.','Ich wasche mein Gesicht und putze meine Zähne.',
+      'Danach höre ich ungefähr eine halbe Stunde Musik.','Dann lerne ich zwei oder drei Stunden Deutsch.',
+      'Um 10 Uhr beginne ich zu arbeiten.','In der Pause um 12 Uhr übe ich Gitarre.',
+      'Um 1 Uhr arbeite ich weiter bis 6 Uhr.','Nach der Arbeit mache ich ein halbstündiges Nickerchen.',
       'Danach schaue ich Lehrvideos auf YouTube oder lese ein Buch.'
     ]
   },
@@ -402,9 +268,12 @@ const DATA = [
     id:'zuhause', ar:'بالبيت', de:'Zu Hause', type:'flat',
     items:[
       'Kannst du mir ein Glas Wasser geben?','Ich habe Hunger, lass uns was zu essen machen!',
-      'Wir haben kein Salz mehr, wir müssen im Laden welches kaufen.','Ich möchte fernsehen.',
-      'Wo ist Paul? Schläft er noch?','Paul ist aufgewacht.','Willst du nicht endlich aufstehen?',
-      'Ich will nicht zu spät kommen.','Heute bin ich früh aufgewacht.',
+      'Wir haben kein Salz mehr, wir müssen im Laden welches kaufen.',
+      'Wir haben keine Birnen mehr, wir müssen im Laden welche kaufen.',
+      'Wir haben keinen Käse mehr, wir müssen im Laden welchen kaufen.',
+      'Wir brauchen Apfelsaft. Ah, auf dem Tisch steht noch welcher.',
+      'Ich möchte fernsehen.','Wo ist Paul? Schläft er noch?','Paul ist aufgewacht.',
+      'Willst du nicht endlich aufstehen?','Ich will nicht zu spät kommen.','Heute bin ich früh aufgewacht.',
       'Mach bitte das Licht aus, ich möchte schlafen.','Mach bitte das Licht an, es ist zu dunkel.',
       'Wer hat den Kühlschrank offengelassen?','Ich gehe jetzt duschen.',
       'Das Essen ist fertig! Kommt alle an den Tisch!','Wer ist heute mit Abwaschen dran?',
@@ -413,8 +282,14 @@ const DATA = [
       'Das Internet ist heute extrem langsam.','Ich lege mich kurz aufs Sofa.',
       'Wir müssen am Wochenende die Wohnung putzen.','Der Postbote hat gerade geklingelt, kannst du die Tür aufmachen?',
       'Ich mache uns Kaffee, möchtest du auch einen?','Heute Morgen bin ich früh aufgestanden.',
-      'Letzte Nacht habe ich spät geschlafen.','Welches Kissen findest du schöner?',
-      'Am besten das hier. Es ist super weich.'
+      'Letzte Nacht habe ich spät geschlafen.','Welches Kissen findest du schöner?','Am besten das hier. Es ist super weich.',
+      'Wir essen ab und zu im Restaurant, aber meistens kochen wir zu Hause.','Meistens koche ich mein Essen selbst.',
+      'Ich wohne in einer ruhigen Nachbarschaft.','Wir haben eine gute Nachbarschaft.',
+      'Ich habe meinen Schlüssel zu Hause vergessen.','Wir haben leider unseren Hund zu Hause gelassen.',
+      'Er hat mich um ein Glas Wasser gebeten.','Ich habe dich gebeten, das Fenster zuzumachen.',
+      'Die Kiste enthält alte Bücher und Dokumente.','Was hat dieses Paket enthalten?',
+      'Gibt es hier noch Käse?','Ja, im Kühlschrank ist noch welcher.',
+      'Man sollte für dieses Rezept nur frische Zutaten verwenden.','Die Kinder weigern sich, früh ins Bett zu gehen.'
     ]
   },
   {
@@ -447,7 +322,10 @@ const DATA = [
       'Links vorbei an der Kreuzung.','Ich gehe am Bahnhof vorbei.','Schau mal, Thomas steht dort drüben.',
       'Gehen Sie geradeaus, das Café liegt dort drüben an der Kreuzung.','Wo müssen wir hin?',
       'Ich frage nach dem Weg an der Auskunft.','Können Sie mir bitte eine Auskunft geben?',
-      'Die Auskunft befindet sich direkt am Haupteingang.','In welche Richtung müssen wir fahren?'
+      'Die Auskunft befindet sich direkt am Haupteingang.','In welche Richtung müssen wir fahren?',
+      'Komm, ich zeig dir die Stadt!','Der Weg dauert etwa 20 Minuten.','Ich gehe die Straße entlang.',
+      'Wir fahren den Fluss entlang.','Gehen Sie einfach diesen Weg entlang.','Wir spazieren entlang des Flusses.',
+      'Der Weg zur Arbeit dauert etwa eine halbe Stunde.','Bitte benutzen Sie den anderen Aufzug.'
     ]
   },
   {
@@ -460,7 +338,23 @@ const DATA = [
       'Fahrgäste bitte aussteigen, das ist die Endstation.','Fährt dieser Bus bis zur Endstation?',
       'Fährt der Zug direkt nach Berlin?','Nein, man muss dreimal umsteigen.',
       'Ich habe meinen Anschluss verpasst.','Haben wir in Frankfurt Anschluss nach München?',
-      'Der Zug hat zehn Minuten Verspätung.','Der Weg dauert etwa 20 Minuten.'
+      'Der Zug hat zehn Minuten Verspätung.','Der Weg dauert etwa 20 Minuten.',
+      'Der Zug nach München fährt stündlich ab.','Wann kommt der nächste Bus?','Wie oft fährt der Zug?',
+      'Alle zehn Minuten.','Der Bus fährt im 15-Minuten-Takt.','Die U-Bahn kommt morgens im 15-Minuten-Takt.',
+      'Die Züge fahren am Wochenende im 15-Minuten-Takt.','Die Fahrt nach Berlin dauert drei Stunden.',
+      'Wie war die Fahrt?','Die Fahrt mit dem Zug war sehr angenehm.','Während der Fahrt höre ich gerne Musik.',
+      'Die Fahrt zum Bahnhof dauert etwa 20 Minuten.','Gute Fahrt!','Wie lange dauert die Fahrt?',
+      'Wo hast du den Wagen geparkt?','Ich muss meinen Wagen in die Werkstatt bringen.',
+      'Er fährt einen sehr teuren Wagen.','In welchem Wagen sitzen wir?','Unser Platz ist im Wagen Nummer 5.',
+      'Wie lange hat die Fahrt gedauert?','Wo ist der Schlüssel meines Autos?','Wo ist mein Autoschlüssel?',
+      'Wo ist der Schlüssel von meinem Auto?','Wir haben etwa eine halbe Stunde auf den Bus gewartet.',
+      'Er fährt am liebsten erste Klasse, weil es bequemer ist.','Das Ticket für die erste Klasse ist mir zu teuer.',
+      'Haben Sie Tickets für die erste oder zweite Klasse?','Entschuldigung, ist dieser Sitzplatz noch frei?',
+      'Im Zug gab es leider keinen Sitzplatz mehr, also musste ich stehen.','Ich habe einen Sitzplatz am Fenster reserviert.',
+      'Ihr Sitzplatz ist in Wagen C.','Ich habe diesen Platz reserviert.','Der Kontrolleur im Zug hat meine Fahrkarte kontrolliert.',
+      'Die Kontrolleurin hat den Fahrgast gebeten, sein Ticket zu zeigen.','Die Fahrkarten bitte!',
+      'Ausstieg in Fahrtrichtung links.','Ausstieg in Fahrtrichtung rechts.',
+      'Er benutzt jeden Tag die Straßenbahn, um zur Arbeit zu fahren.','Wie fährst du normalerweise zur Arbeit?'
     ]
   },
   {
@@ -472,15 +366,27 @@ const DATA = [
       'Die Aussicht ist super!','Letztes Wochenende bin ich mit meinen Freunden ins Kino gegangen.',
       'Wir feiern heute Abend eine Party. Kommst du?','Kann ich dich bald sehen?','Sehen wir uns bald?',
       'Können wir uns bald treffen?','Wie viel kostet der Eintritt?','Der Film ist vorbei.',
-      'Komm morgen bei mir vorbei.','Wir feiern am Samstag eine Party in meiner Bude.',
-      'Das Tor fiel in der letzten Minute.'
+      'Komm morgen bei mir vorbei.','Wir feiern am Samstag eine Party in meiner Bude.','Das Tor fiel in der letzten Minute.',
+      'Er geht täglich im Park joggen.','Ich gehe ab und zu mit meinen Freunden einen Kaffee trinken.',
+      'Ab und zu spiele ich am Wochenende Fußball.','Ab und zu nehme ich meine Gitarre und spiele ein paar Lieder.',
+      'Ich benutze beim Gitarrespielen immer ein Metronom.','Am Wochenende gehe ich meistens ins Fitnessstudio.',
+      'Wir sehen uns leider nur selten.','Unsere Mannschaft hat das Spiel gewonnen.',
+      'Die deutsche Nationalmannschaft spielt heute.','Entlang der Küste gibt es viele Hotels.',
+      'Ich bin in etwa einer halben Stunde bei dir.','Wie viel kostet eine Übernachtung in diesem Hotel?',
+      'Der Preis für die Tour beinhaltet Essen und Übernachtung.','Wir suchen eine günstige Übernachtung in Berlin.',
+      'Vielen Dank für die Übernachtung!','Ich habe gestern bei meinem Freund übernachtet.',
+      'Das Angebot beinhaltet drei Übernachtungen.','Der Junge spielt gerne Fußball im Park.',
+      'Bitte übergeben Sie den Schlüssel an der Rezeption.'
     ]
   },
   {
     id:'einkaufen', ar:'التسوق والسوبرماركت', de:'Einkaufen & Supermarkt', type:'flat',
     items:[
       'Mit dieser Karte bekommen Sie eine Ermäßigung auf alle Produkte.','Gibt es eine Ermäßigung?',
-      'Kinder unter 6 Jahren erhalten eine Ermäßigung von 50%.','Die Milch finden Sie dort drüben im Regal.'
+      'Kinder unter 6 Jahren erhalten eine Ermäßigung von 50%.','Die Milch finden Sie dort drüben im Regal.',
+      'Das Geschäft war zwei Monate lang geschlossen.','Der Supermarkt ist täglich von 8 bis 20 Uhr geöffnet.',
+      'Holst du bitte einen Einkaufswagen?','Der Wagen ist voll.','Sie weigern sich, mehr Geld zu bezahlen.',
+      'Diese Schokolade enthält sehr viel Zucker.','Das Getränk enthält keinen Alkohol.','Der Preis enthält bereits die Mehrwertsteuer.'
     ]
   },
   {
@@ -498,21 +404,37 @@ const DATA = [
       'Welcher Wochentag ist heute?','Heute ist Montag, also ist morgen Dienstag.',
       'Unter der Woche stehe ich früh auf.','Ich habe unter der Woche keine Zeit.',
       'Was machst du unter der Woche?','Morgen früh gehe ich zur Arbeit.','Der Sommer ist leider vorbei.',
-      'Ich bin in einer Minute fertig.','Warten Sie bitte eine Minute.','Wir haben noch fünf Minuten Zeit.'
+      'Ich bin in einer Minute fertig.','Warten Sie bitte eine Minute.','Wir haben noch fünf Minuten Zeit.',
+      'Ich arbeite seit Montag an diesem neuen Projekt.','Die Nachrichten im Radio kommen stündlich.',
+      'Ich habe zwei Monate lang in Berlin gewohnt.','Ich trinke täglich drei Tassen Kaffee.',
+      'Normalerweise trinke ich morgens einen Kaffee.','Normalerweise arbeite ich von 10 bis 19 Uhr.',
+      'Ich habe unter der Woche selten Zeit, Serien zu schauen.','Tagsüber arbeite ich, und am Abend lerne ich Deutsch.',
+      'Ich bin tagsüber meistens nicht zu Hause.','Er schläft tagsüber und arbeitet in der Nacht.',
+      'Wie lange dauert das?','Warum dauert das so lange?','Es dauert nicht mehr lange.','Etwa eine halbe Stunde.'
     ]
   },
   {
     id:'kommunikation', ar:'التواصل وتعلم اللغة', de:'Kommunikation & Sprache lernen', type:'flat',
     items:[
       'Gestern war mein letzter Tag im Deutschkurs.','Kannst du das bitte wiederholen?',
-      'Was steht dort?','Ich habe nichts verstanden!'
+      'Was steht dort?','Ich habe nichts verstanden!','Wir haben zwei Monate lang für diese Prüfung gelernt.',
+      'Ich lerne fast immer am Abend Deutsch.','Der Deutschkurs dauert zwei Monate.',
+      'Er hat völlig vergessen, mich anzurufen.','Wir haben leider unsere Hausaufgaben vergessen.',
+      'Seine E-Mail beinhaltet wichtige Informationen.','Das Mädchen lernt fleißig Deutsch.',
+      'Ich versuche, jeden Tag Deutsch zu lernen.','Er hat versucht, mich gestern anzurufen.',
+      'Die deutsche Grammatik ist manchmal sehr kompliziert.','Es ist nicht einfach, eine neue Sprache zu lernen.',
+      'Ich stimme dir teilweise zu.','Er hat meine Frage nur teilweise beantwortet.',
+      'Darf ich kurz dein Telefon benutzen?','Das darfst du nicht benutzen!'
     ]
   },
   {
     id:'arbeit', ar:'الشغل والمهنة', de:'Arbeit & Beruf', type:'flat',
     items:[
       'Heute ist mein letzter Arbeitstag.','Welches Design sollen wir für die Webseite nehmen?',
-      'Am besten das hier, es sieht sehr modern aus.'
+      'Am besten das hier, es sieht sehr modern aus.','Meistens entwickle ich Webseiten mit Laravel oder React.',
+      'Das Meeting hat fast vier Stunden gedauert.','Der Chef hat mich gebeten, die E-Mail zu schreiben.',
+      'Das Studium beinhaltet ein Praktikum.','Bitte versuchen Sie, das Problem zu lösen.',
+      'Darf ich diese Bilder für meine Präsentation verwenden?'
     ]
   },
   {
@@ -520,7 +442,9 @@ const DATA = [
     items:[
       'Ich bin ein bisschen durcheinander.','Du lächelst immer.','Warum lächelst du?',
       'Sie hat mich angelächelt.','Ich mag dein Lächeln.','Ich lache nicht, sondern ich lächle nur.',
-      'Ich habe keine Lust mehr zu laufen.'
+      'Ich habe keine Lust mehr zu laufen.','Er ist immer pünktlich.','Unsere Freundschaft ist mir sehr wichtig.',
+      'Vertrauen ist wichtig in einer Partnerschaft.','Ihr weigert euch, die Wahrheit zu sagen.',
+      'Ich hasse Lügen.','Ich hasse Lügner.','Du bist ein Lügner.','Und du bist eine Lügnerin.'
     ]
   },
   {
@@ -528,13 +452,19 @@ const DATA = [
     items:[
       'Ich bin bald fertig.','Ich weiß es leider nicht!','Es ist vorbei.','Das war das Richtige zu tun.',
       'Das ist jetzt genau das Richtige.','Achte auf dich selbst!','Kümmer dich um deine eigenen Sachen.',
-      'Das geht dich nichts an!','Misch dich nicht ein.'
+      'Das geht dich nichts an!','Misch dich nicht ein.','Die Gesellschaft verändert sich schnell.',
+      'Es gibt heute ein Problem.','Es gab gestern ein Problem.','Ich weigere mich, das zu tun.',
+      'Wir versuchen unser Bestes.','Versuch es noch einmal!','Ich versuche mein Bestes.',
+      'Die Lösung für dieses Problem ist ganz einfach.','Es klappt!','Das hat sehr gut geklappt.',
+      'Hoffentlich klappt es mit dem Ausbildungsplatz.','Leider klappt es heute nicht.','Hat alles geklappt?',
+      'Er hat so viel Quatsch gemacht.','Das ist doch Quatsch!','Red keinen Quatsch!','Mach keinen Quatsch!',
+      'So ein Quatsch!','Wir haben als Kinder viel Quatsch gemacht.','Glaub nicht alles, was er sagt, das ist totaler Quatsch.'
     ]
   },
   {
     id:'wetter', ar:'الطقس', de:'Das Wetter', type:'qa',
     items:[
-      {q:'Wie ist das Wetter heute?', a:['Es ist sonnig und warm.','Es ist bewölkt.','Es ist sehr heiß heute.','Es regnet.','Wir haben heute 25 Grad.']},
+      {q:'Wie ist das Wetter heute?', a:['Es ist sonnig und warm.','Es ist bewölkt.','Es ist sehr heiß heute.','Es regnet.','Wir haben heute 25 Grad.','Seit Montag regnet es fast ununterbrochen.','Es schneit hier sehr selten.','Tagsüber ist es warm, aber nachts wird es kalt.','Das Wetter ist heute teilweise sonnig, teilweise bewölkt.']},
       {q:'Wie war das Wetter gestern?', a:['Es war sehr kalt.','Es war extrem windig.','Gestern hat es geregnet.','Es hat den ganzen Tag geschneit.','Gestern waren es minus 2 Grad.']},
       {q:'Wie wird das Wetter morgen?', a:['Es wird schön und warm.','Es wird wahrscheinlich bewölkt sein.','Morgen wird es regnen.','Morgen gibt es ein Gewitter.','Die Temperatur wird auf 30 Grad steigen.']}
     ]
@@ -547,7 +477,9 @@ const DATA = [
       'Es fällt mir schwer, ältere Leute nicht zu siezen.','Unter Kollegen duzen wir uns meistens.',
       'Wir können uns gerne duzen, wenn das für dich in Ordnung ist.','Ab wann darf man jemanden duzen?',
       'Wollen wir uns siezen oder duzen?','Wir haben uns am Anfang gesiezt, aber jetzt duzen wir uns.',
-      'Er hat im neuen Kurs schnell Anschluss gefunden.'
+      'Er hat im neuen Kurs schnell Anschluss gefunden.','Warum weigerst du dich, mir zu helfen?',
+      'Ich habe meinen Freund um Hilfe gebeten.','Darf ich dich um einen Gefallen bitten?',
+      'Ich habe keine Hilfe bekommen.','Hallo Tim, wie war die Schule heute? Hat alles geklappt?'
     ]
   },
   {
@@ -556,7 +488,165 @@ const DATA = [
       'Mein Internetanschluss ist zu langsam, um die Dateien auf den Server hochzuladen.',
       'Wo ist der Anschluss für das Kabel?'
     ]
+  },
+  {
+    id:'gesundheit', ar:'الصحة والتمريض', de:'Gesundheit & Pflege', type:'flat',
+    items:[
+      'Er ist schon seit Montag krank.','Man muss den Patienten stündlich kontrollieren.',
+      'Der Arzt vergibt Termine im 15-Minuten-Takt.','Ich versuche, einen Ausbildungsplatz in der Pflege zu finden.',
+      'Manche medizinische Begriffe sind am Anfang kompliziert.','Die Arbeit im Krankenhaus ist teilweise sehr anstrengend.',
+      'Bitte verwenden Sie Desinfektionsmittel für die Hände.','Welche Medikamente verwendet man für diese Krankheit?',
+      'Der Patient benutzt einen Rollstuhl.','Der Patient hat sich heute Nacht mehrmals übergeben.',
+      'Mir ist übel, ich glaube, ich muss mich übergeben.','Hat das Kind sich nach dem Essen übergeben?',
+      'Ich übergebe dir jetzt die Schicht.','Der Arzt hat mir die Patientenakte übergeben.',
+      'Wir müssen den Patienten an die nächste Station übergeben.','Der Arzt untersucht den Patienten.'
+    ]
+  },
+  {
+    id:'familie', ar:'العائلة والأقارب', de:'Familie & Verwandtschaft', type:'flat',
+    items:[
+      'Meine ganze Verwandtschaft lebt in Syrien.','Hast du viel Verwandtschaft in Deutschland?',
+      'Ich habe eine sehr große Verwandtschaft.','Zu meiner Party lade ich Freunde und die ganze Verwandtschaft ein.',
+      'Ein Teil meiner Verwandtschaft kommt heute zu Besuch.','Wir sind miteinander verwandt.',
+      'Bist du mit ihm verwandt?','Er ist ein Verwandter von mir.','Sie ist eine Verwandte von mir.',
+      'Meine Verwandten besuchen mich am Wochenende.','Mein Cousin arbeitet als Arzt im Krankenhaus.',
+      'Ich treffe am Wochenende meine Cousine.','Ihr Schwiegersohn kommt heute zu Besuch.',
+      'Meine Eltern lieben ihre neue Schwiegertochter sehr.','Der Opa backt mit den Enkelkindern.'
+    ]
+  },
+  {
+    id:'buerokratie', ar:'البيروقراطية والاستمارات والمواعيد', de:'Bürokratie, Formulare & Termine', type:'flat',
+    items:[
+      'Bitte tragen Sie Ihr Geburtsdatum in das Formular ein.','Sie haben vergessen, Ihr Geburtsdatum anzugeben.',
+      'Du musst deine genaue Adresse angeben.','Er gibt bei der Anmeldung immer seine Handynummer an.',
+      'Ich gebe bei der Anmeldung immer meine Handynummer an.','Es ist wichtig, die richtige E-Mail-Adresse anzugeben.',
+      'Ich habe vergessen, meine Postleitzahl anzugeben.','Der Kunde weigerte sich, seine Bankdaten anzugeben.',
+      'Wir weigern uns, diesen Vertrag zu unterschreiben.'
+    ]
   }
+];
+
+const STORIES = [
+  {
+    id:'story-sami', title:'Der erste Tag in Dresden', ar:'قصة سامي القادم من سوريا في أول يوم إلو بمهنة التمريض بمستشفى بدرسدن.',
+    paragraphs:[
+      'Das ist die Geschichte von Sami. Sami kommt aus Syrien und hat seinen Traum verwirklicht: Er macht eine Ausbildung als Pflegefachmann in Deutschland. Sein neuer Wohnort ist Dresden.',
+      'Es ist Montag, 6:00 Uhr morgens. Sami steht früh auf. Heute ist sein erster Tag im Krankenhaus. Er ist sehr aufgeregt, aber auch glücklich. Er trinkt schnell einen Kaffee und nimmt die Straßenbahn zur Arbeit.',
+      'Im Krankenhaus trifft er seine Praxisanleiterin, Frau Weber. Sie ist sehr nett und sagt: „Guten Morgen, Sami! Willkommen in unserem Team.“ Sie zeigt ihm die Station. Alles ist sehr groß und neu für ihn. Sami sieht viele Patienten, Pflegekräfte und Ärzte.',
+      'Zuerst ist die Kommunikation ein bisschen kompliziert. Die Leute in Dresden sprechen manchmal einen Dialekt, der „Sächsisch“ heißt. Sami versteht die Patienten am Anfang nur teilweise. Aber das ist kein Problem. Er sagt: „Können Sie das bitte wiederholen?“ und alle sind sehr geduldig mit ihm.',
+      'Frau Weber erklärt ihm die ersten Aufgaben. Er hilft den Patienten beim Frühstück und lernt, wie man alles richtig dokumentiert. Sami versucht sein Bestes. Er erinnert sich an seine Kurse und konzentriert sich auf die neuen medizinischen Begriffe.',
+      'Am Nachmittag ist der erste Tag zu Ende. Frau Weber lächelt und fragt: „Sami, hat heute alles gut geklappt?“ Sami antwortet: „Ja, danke! Es war nicht einfach, aber sehr interessant.“',
+      'Am Abend liegt Sami im Bett. Er ist sehr müde, aber er weiß: Diese Ausbildung in der Pflege ist genau der richtige Weg für ihn.'
+    ]
+  },
+  {
+    id:'story-karim', title:'Der Termin beim Amt', ar:'قصة كريم ويومو بموعد مهم بدائرة الأجانب لتثبيت أوراقه.',
+    paragraphs:[
+      'Das ist die Geschichte von Karim. Karim wohnt seit einem Jahr in Leipzig und hat heute einen wichtigen Termin bei der Ausländerbehörde.',
+      'Er wacht früh auf und nimmt alle wichtigen Papiere mit: seinen Pass, ein Foto und ein Formular. Auf dem Formular muss er sein Geburtsdatum, seine Adresse und seine Handynummer angeben.',
+      'Auf dem Amt ist es sehr voll. Karim wartet fast eine Stunde, bis eine Mitarbeiterin seinen Namen ruft. Er ist ein bisschen nervös, aber er bleibt ruhig.',
+      'Die Mitarbeiterin prüft seine Papiere. „Sie haben vergessen, Ihre Postleitzahl anzugeben“, sagt sie. Karim entschuldigt sich und füllt das Feld schnell aus.',
+      'Dann fragt sie: „Können Sie mir bitte Ihr Geburtsdatum sagen?“ Karim antwortet ruhig und gibt ihr auch seine neue Telefonnummer.',
+      'Nach zwanzig Minuten ist alles fertig. Die Mitarbeiterin lächelt und sagt: „Das hat sehr gut geklappt. Herzlichen Glückwunsch!“',
+      'Karim verlässt das Amt sehr erleichtert. Er ruft seinen Freund an und sagt: „Es ist endlich geschafft! Lass uns heute Abend feiern!“'
+    ]
+  },
+  {
+    id:'story-lina', title:'Sonntag mit der Verwandtschaft', ar:'قصة لينا ويوم الأحد يلي بتجتمع فيه كل عيلتها الكبيرة.',
+    paragraphs:[
+      'Das ist die Geschichte von Lina. Lina lebt in Köln, aber ihre ganze Verwandtschaft kommt heute zu Besuch.',
+      'Am Morgen räumt Lina die Wohnung auf und deckt den Tisch für zehn Personen. Ihre Mutter, ihr Cousin und ihre Großeltern kommen zum Mittagessen.',
+      'Um zwölf Uhr klingelt es an der Tür. Linas Cousine kommt zuerst, mit einem Kuchen in der Hand. „Der sieht lecker aus!“, sagt Lina und lacht.',
+      'Später kommen auch die Großeltern. Der Opa erzählt gerne Geschichten aus seiner Jugend, und die Enkelkinder hören immer gespannt zu.',
+      'Beim Essen spricht die ganze Familie durcheinander: Jeder erzählt etwas Neues aus seinem Leben. Lina fühlt sich sehr glücklich, weil ihre Verwandtschaft ihr so wichtig ist.',
+      'Am Nachmittag spielen die Kinder im Garten, und die Erwachsenen trinken gemütlich Kaffee. Niemand hat Lust, früh nach Hause zu gehen.',
+      'Am Abend sagt Lina: „Es war ein wunderschöner Tag. Wir sollten uns öfter treffen.“ Alle sind sich einig: Familie ist das Wichtigste im Leben.'
+    ]
+  }
+];
+
+const QUIZ_POOL = [
+  {de:'Ich heiße Adham Mahfoud.', en:'My name is Adham Mahfoud.'},
+  {de:'Ich komme aus Syrien.', en:'I come from Syria.'},
+  {de:'Ich bin 23 Jahre alt.', en:'I am 23 years old.'},
+  {de:'Ich arbeite als Frontend-Entwickler.', en:'I work as a front-end developer.'},
+  {de:'Ich wohne in Stuttgart.', en:'I live in Stuttgart.'},
+  {de:'Ich bin ledig.', en:'I am single.'},
+  {de:'Ich spreche Arabisch, Englisch und Deutsch.', en:'I speak Arabic, English, and German.'},
+  {de:'In meiner Freizeit spiele ich gerne Gitarre.', en:'In my free time I like to play guitar.'},
+  {de:'Ich gehe morgens gerne joggen.', en:'I like to go jogging in the morning.'},
+  {de:'Ich wache morgens früh um 6 Uhr auf.', en:'I wake up early at 6 a.m. in the morning.'},
+  {de:'Um 10 Uhr beginne ich zu arbeiten.', en:'I start working at 10 o\'clock.'},
+  {de:'Bist du schon im Supermarkt?', en:'Are you already at the supermarket?'},
+  {de:'Ich gehe gerade zum Arzt.', en:'I am on my way to the doctor.'},
+  {de:'Kannst du mir ein Glas Wasser geben?', en:'Can you give me a glass of water?'},
+  {de:'Ich habe Hunger.', en:'I am hungry.'},
+  {de:'Wo ist Paul? Schläft er noch?', en:'Where is Paul? Is he still sleeping?'},
+  {de:'Ich gehe jetzt duschen.', en:'I am going to take a shower now.'},
+  {de:'Ich muss noch mein Zimmer aufräumen.', en:'I still need to tidy up my room.'},
+  {de:'Das Internet ist heute extrem langsam.', en:'The internet is extremely slow today.'},
+  {de:'Wir müssen am Wochenende die Wohnung putzen.', en:'We need to clean the apartment on the weekend.'},
+  {de:'Ich koche heute das Abendessen.', en:'I am cooking dinner today.'},
+  {de:'Wo ist die Pfanne?', en:'Where is the frying pan?'},
+  {de:'Der Topf ist sehr heiß!', en:'The pot is very hot!'},
+  {de:'Gib mir bitte das Salz und den Pfeffer.', en:'Please give me the salt and the pepper.'},
+  {de:'Die Getränke sind im Kühlschrank.', en:'The drinks are in the fridge.'},
+  {de:'Der Toaster klemmt und das Brot ist verbrannt.', en:'The toaster is stuck and the bread is burnt.'},
+  {de:'Wir haben uns verlaufen.', en:'We got lost.'},
+  {de:'Geh rechts und dann links!', en:'Go right and then left!'},
+  {de:'Gehen Sie immer geradeaus.', en:'Keep going straight ahead.'},
+  {de:'Weißt du, wo das Zentrum ist?', en:'Do you know where the city center is?'},
+  {de:'Wann kommst du zurück?', en:'When are you coming back?'},
+  {de:'Der Zug fährt pünktlich ab.', en:'The train departs on time.'},
+  {de:'Der Zug hat zehn Minuten Verspätung.', en:'The train is ten minutes late.'},
+  {de:'Ich habe meinen Anschluss verpasst.', en:'I missed my connection.'},
+  {de:'Wie oft fährt der Zug?', en:'How often does the train run?'},
+  {de:'Entschuldigung, ist dieser Sitzplatz noch frei?', en:'Excuse me, is this seat still free?'},
+  {de:'Die Fahrkarten bitte!', en:'Tickets please!'},
+  {de:'Es gibt viel zu sehen.', en:'There is a lot to see.'},
+  {de:'Wie viel kostet der Eintritt?', en:'How much does the entrance fee cost?'},
+  {de:'Wir feiern am Samstag eine Party.', en:'We are having a party on Saturday.'},
+  {de:'Unsere Mannschaft hat das Spiel gewonnen.', en:'Our team won the game.'},
+  {de:'Wie viel kostet eine Übernachtung in diesem Hotel?', en:'How much does one night cost at this hotel?'},
+  {de:'Gibt es eine Ermäßigung?', en:'Is there a discount?'},
+  {de:'Die Milch finden Sie dort drüben im Regal.', en:'You will find the milk over there on the shelf.'},
+  {de:'Der Supermarkt ist täglich von 8 bis 20 Uhr geöffnet.', en:'The supermarket is open daily from 8 a.m. to 8 p.m.'},
+  {de:'Was möchtest du trinken?', en:'What would you like to drink?'},
+  {de:'Ich habe Lust auf eine Currywurst.', en:'I feel like having a currywurst.'},
+  {de:'Das Restaurant hat heute geschlossen.', en:'The restaurant is closed today.'},
+  {de:'Welcher Wochentag ist heute?', en:'What day of the week is it today?'},
+  {de:'Ich bin in einer Minute fertig.', en:'I will be ready in a minute.'},
+  {de:'Wie lange dauert das?', en:'How long does that take?'},
+  {de:'Ich trinke täglich drei Tassen Kaffee.', en:'I drink three cups of coffee every day.'},
+  {de:'Kannst du das bitte wiederholen?', en:'Can you please repeat that?'},
+  {de:'Ich habe nichts verstanden!', en:'I didn\'t understand anything!'},
+  {de:'Die deutsche Grammatik ist manchmal sehr kompliziert.', en:'German grammar is sometimes very complicated.'},
+  {de:'Es ist nicht einfach, eine neue Sprache zu lernen.', en:'It is not easy to learn a new language.'},
+  {de:'Heute ist mein letzter Arbeitstag.', en:'Today is my last day at work.'},
+  {de:'Das Meeting hat fast vier Stunden gedauert.', en:'The meeting lasted almost four hours.'},
+  {de:'Er ist immer pünktlich.', en:'He is always on time.'},
+  {de:'Unsere Freundschaft ist mir sehr wichtig.', en:'Our friendship is very important to me.'},
+  {de:'Du bist ein Lügner.', en:'You are a liar.'},
+  {de:'Ich bin bald fertig.', en:'I will be done soon.'},
+  {de:'Es klappt!', en:'It\'s working!'},
+  {de:'Hat alles geklappt?', en:'Did everything work out?'},
+  {de:'So ein Quatsch!', en:'What nonsense!'},
+  {de:'Es ist sonnig und warm.', en:'It is sunny and warm.'},
+  {de:'Es regnet.', en:'It is raining.'},
+  {de:'Es hat den ganzen Tag geschneit.', en:'It snowed all day.'},
+  {de:'Morgen gibt es ein Gewitter.', en:'There will be a thunderstorm tomorrow.'},
+  {de:'Sie können mich duzen.', en:'You can use "du" with me.'},
+  {de:'Ab wann darf man jemanden duzen?', en:'From what point is it okay to use "du" with someone?'},
+  {de:'Darf ich dich um einen Gefallen bitten?', en:'May I ask you for a favor?'},
+  {de:'Wo ist der Anschluss für das Kabel?', en:'Where is the connection for the cable?'},
+  {de:'Man muss den Patienten stündlich kontrollieren.', en:'The patient must be checked every hour.'},
+  {de:'Bitte verwenden Sie Desinfektionsmittel für die Hände.', en:'Please use hand disinfectant.'},
+  {de:'Der Arzt untersucht den Patienten.', en:'The doctor examines the patient.'},
+  {de:'Meine ganze Verwandtschaft lebt in Syrien.', en:'All my relatives live in Syria.'},
+  {de:'Meine Verwandten besuchen mich am Wochenende.', en:'My relatives visit me on the weekend.'},
+  {de:'Mein Cousin arbeitet als Arzt im Krankenhaus.', en:'My cousin works as a doctor at the hospital.'},
+  {de:'Du musst deine genaue Adresse angeben.', en:'You need to provide your exact address.'},
+  {de:'Ich habe vergessen, meine Postleitzahl anzugeben.', en:'I forgot to provide my postal code.'}
 ];
 
 /* ---------- Speech ---------- */
@@ -585,126 +675,75 @@ function speak(text, el, onEnd){
   utter.onerror = () => { if (el) el.classList.remove('playing'); };
   speechSynthesis.speak(utter);
 }
-
-function playSequence(texts, i=0){
-  if (i >= texts.length) return;
-  speak(texts[i], null, () => playSequence(texts, i+1));
-}
+function playSequence(texts, i=0){ if (i >= texts.length) return; speak(texts[i], null, () => playSequence(texts, i+1)); }
 
 document.getElementById('stopBtn').addEventListener('click', () => {
   speechSynthesis.cancel();
   document.querySelectorAll('.card.playing').forEach(c => c.classList.remove('playing'));
 });
 
-/* ---------- Rendering ---------- */
+/* ---------- Rendering helpers ---------- */
 function speakBtn(){
   const b = document.createElement('button');
-  b.className = 'speakbtn';
-  b.type = 'button';
-  b.setAttribute('aria-label','استمع');
-  b.innerHTML = ICON_PLAY;
+  b.className = 'speakbtn'; b.type = 'button'; b.setAttribute('aria-label','استمع'); b.innerHTML = ICON_PLAY;
   return b;
 }
-
 function makeCard(text){
-  const card = document.createElement('div');
-  card.className = 'card';
-  const txt = document.createElement('span');
-  txt.className = 'txt de';
-  txt.textContent = text;
-  const btn = speakBtn();
-  btn.addEventListener('click', () => speak(text, card));
-  card.appendChild(txt);
-  card.appendChild(btn);
+  const card = document.createElement('div'); card.className = 'card';
+  const txt = document.createElement('span'); txt.className = 'txt de'; txt.textContent = text;
+  const btn = speakBtn(); btn.addEventListener('click', () => speak(text, card));
+  card.appendChild(txt); card.appendChild(btn);
   card.dataset.search = text.toLowerCase();
   return card;
 }
-
 function makeQA(item){
-  const wrap = document.createElement('div');
-  wrap.className = 'qa';
-  const qRow = document.createElement('div');
-  qRow.className = 'qrow';
-  const qTxt = document.createElement('span');
-  qTxt.className = 'txt de';
-  qTxt.textContent = item.q;
-  const qBtn = speakBtn();
-  qBtn.addEventListener('click', () => speak(item.q, wrap));
-  qRow.appendChild(qTxt);
-  qRow.appendChild(qBtn);
-  wrap.appendChild(qRow);
-
+  const wrap = document.createElement('div'); wrap.className = 'qa';
+  const qRow = document.createElement('div'); qRow.className = 'qrow';
+  const qTxt = document.createElement('span'); qTxt.className = 'txt de'; qTxt.textContent = item.q;
+  const qBtn = speakBtn(); qBtn.addEventListener('click', () => speak(item.q, wrap));
+  qRow.appendChild(qTxt); qRow.appendChild(qBtn); wrap.appendChild(qRow);
   if (item.a && item.a.length){
-    const answers = document.createElement('div');
-    answers.className = 'answers';
+    const answers = document.createElement('div'); answers.className = 'answers';
     item.a.forEach(a => {
-      const row = document.createElement('div');
-      row.className = 'arow';
-      const aTxt = document.createElement('span');
-      aTxt.className = 'txt de';
-      aTxt.textContent = a;
-      const aBtn = speakBtn();
-      aBtn.classList.add('small');
-      aBtn.addEventListener('click', () => speak(a, wrap));
-      row.appendChild(aTxt);
-      row.appendChild(aBtn);
-      answers.appendChild(row);
+      const row = document.createElement('div'); row.className = 'arow';
+      const aTxt = document.createElement('span'); aTxt.className = 'txt de'; aTxt.textContent = a;
+      const aBtn = speakBtn(); aBtn.addEventListener('click', () => speak(a, wrap));
+      row.appendChild(aTxt); row.appendChild(aBtn); answers.appendChild(row);
     });
     wrap.appendChild(answers);
   }
   wrap.dataset.search = (item.q + ' ' + (item.a||[]).join(' ')).toLowerCase();
   return wrap;
 }
-
 function makeLocation(item){
-  const wrap = document.createElement('div');
-  wrap.className = 'loc-card';
-  const title = document.createElement('div');
-  title.className = 'loc-title';
-  title.textContent = item.place;
+  const wrap = document.createElement('div'); wrap.className = 'loc-card';
+  const title = document.createElement('div'); title.className = 'loc-title'; title.textContent = item.place;
   wrap.appendChild(title);
-
   function row(tagLabel, text, isWohin){
-    const r = document.createElement('div');
-    r.className = 'loc-row' + (isWohin ? ' wohin' : '');
-    const tag = document.createElement('span');
-    tag.className = 'tag';
-    tag.textContent = tagLabel;
-    const txt = document.createElement('span');
-    txt.className = 'txt de';
-    txt.textContent = text;
-    const btn = speakBtn();
-    btn.addEventListener('click', () => speak(text, wrap));
-    r.appendChild(tag);
-    r.appendChild(txt);
-    r.appendChild(btn);
+    const r = document.createElement('div'); r.className = 'loc-row' + (isWohin ? ' wohin' : '');
+    const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = tagLabel;
+    const txt = document.createElement('span'); txt.className = 'txt de'; txt.textContent = text;
+    const btn = speakBtn(); btn.addEventListener('click', () => speak(text, wrap));
+    r.appendChild(tag); r.appendChild(txt); r.appendChild(btn);
     return r;
   }
-
   wrap.appendChild(row('Wo', item.wo, false));
   item.wohin.forEach(w => wrap.appendChild(row('Wohin', w, true)));
   wrap.dataset.search = (item.place + ' ' + item.wo + ' ' + item.wohin.join(' ')).toLowerCase();
   return wrap;
 }
-
 function makeSequence(items){
-  const ol = document.createElement('ol');
-  ol.className = 'seq';
+  const ol = document.createElement('ol'); ol.className = 'seq';
   items.forEach(text => {
     const li = document.createElement('li');
-    const txt = document.createElement('span');
-    txt.className = 'txt de';
-    txt.textContent = text;
-    const btn = speakBtn();
-    btn.addEventListener('click', () => speak(text, li));
-    li.appendChild(txt);
-    li.appendChild(btn);
+    const txt = document.createElement('span'); txt.className = 'txt de'; txt.textContent = text;
+    const btn = speakBtn(); btn.addEventListener('click', () => speak(text, li));
+    li.appendChild(txt); li.appendChild(btn);
     li.dataset.search = text.toLowerCase();
     ol.appendChild(li);
   });
   return ol;
 }
-
 function allTextsOf(cat){
   if (cat.type === 'flat') return cat.items;
   if (cat.type === 'sequence') return cat.items;
@@ -718,53 +757,142 @@ const main = document.getElementById('main');
 
 DATA.forEach(cat => {
   const tab = document.createElement('button');
-  tab.className = 'tab';
-  tab.type = 'button';
+  tab.className = 'tab'; tab.type = 'button';
   tab.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
-  tab.addEventListener('click', () => {
-    document.getElementById('sec-' + cat.id).scrollIntoView({behavior:'smooth', block:'start'});
-  });
+  tab.addEventListener('click', () => { document.getElementById('sec-' + cat.id).scrollIntoView({behavior:'smooth', block:'start'}); });
   nav.appendChild(tab);
 
   const section = document.createElement('section');
-  section.className = 'category';
-  section.id = 'sec-' + cat.id;
-
-  const head = document.createElement('div');
-  head.className = 'cat-head';
-  const h2 = document.createElement('h2');
-  h2.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
+  section.className = 'category'; section.id = 'sec-' + cat.id;
+  const head = document.createElement('div'); head.className = 'cat-head';
+  const h2 = document.createElement('h2'); h2.innerHTML = `${cat.ar}<span class="de">${cat.de}</span>`;
   head.appendChild(h2);
   const playAllBtn = document.createElement('button');
-  playAllBtn.className = 'playall';
-  playAllBtn.type = 'button';
-  playAllBtn.textContent = 'تشغيل الفئة كاملة';
+  playAllBtn.className = 'playall'; playAllBtn.type = 'button'; playAllBtn.textContent = 'تشغيل الفئة كاملة';
   playAllBtn.addEventListener('click', () => playSequence(allTextsOf(cat)));
-  head.appendChild(playAllBtn);
-  section.appendChild(head);
+  head.appendChild(playAllBtn); section.appendChild(head);
 
-  const body = document.createElement('div');
-  body.className = 'cards';
-
-  if (cat.type === 'flat') {
-    cat.items.forEach(t => body.appendChild(makeCard(t)));
-  } else if (cat.type === 'qa') {
-    cat.items.forEach(it => body.appendChild(makeQA(it)));
-  } else if (cat.type === 'location') {
-    cat.items.forEach(it => body.appendChild(makeLocation(it)));
-  } else if (cat.type === 'sequence') {
-    body.appendChild(makeSequence(cat.items));
-  }
-
-  section.appendChild(body);
-  main.appendChild(section);
+  const body = document.createElement('div'); body.className = 'cards';
+  if (cat.type === 'flat') cat.items.forEach(t => body.appendChild(makeCard(t)));
+  else if (cat.type === 'qa') cat.items.forEach(it => body.appendChild(makeQA(it)));
+  else if (cat.type === 'location') cat.items.forEach(it => body.appendChild(makeLocation(it)));
+  else if (cat.type === 'sequence') body.appendChild(makeSequence(cat.items));
+  section.appendChild(body); main.appendChild(section);
 });
 
-nav.children[0].classList.add('active');
+/* ---- Stories section ---- */
+(function(){
+  const tab = document.createElement('button');
+  tab.className = 'tab special'; tab.type = 'button';
+  tab.innerHTML = `القصص<span class="de">Geschichten</span>`;
+  tab.addEventListener('click', () => document.getElementById('sec-stories').scrollIntoView({behavior:'smooth', block:'start'}));
+  nav.appendChild(tab);
 
-/* highlight active tab on scroll */
+  const section = document.createElement('section');
+  section.className = 'category'; section.id = 'sec-stories';
+  const head = document.createElement('div'); head.className = 'cat-head';
+  head.innerHTML = `<h2>القصص<span class="de">Geschichten</span></h2>`;
+  section.appendChild(head);
+
+  STORIES.forEach(story => {
+    const card = document.createElement('div'); card.className = 'story-card story';
+    const titleRow = document.createElement('div'); titleRow.className = 'story-title-row';
+    const title = document.createElement('div'); title.className = 'story-title de'; title.textContent = story.title;
+    const playAllBtn = document.createElement('button');
+    playAllBtn.className = 'playall'; playAllBtn.type = 'button'; playAllBtn.textContent = 'قراءة القصة كاملة';
+    playAllBtn.addEventListener('click', () => playSequence(story.paragraphs));
+    titleRow.appendChild(title); titleRow.appendChild(playAllBtn);
+    card.appendChild(titleRow);
+    const arLine = document.createElement('div'); arLine.className = 'story-ar'; arLine.textContent = story.ar;
+    card.appendChild(arLine);
+    const body = document.createElement('div'); body.className = 'story-body';
+    story.paragraphs.forEach(p => {
+      const para = document.createElement('div'); para.className = 'story-para';
+      const txt = document.createElement('span'); txt.className = 'txt de'; txt.textContent = p;
+      const btn = speakBtn(); btn.addEventListener('click', () => speak(p, para));
+      para.appendChild(txt); para.appendChild(btn);
+      para.dataset.search = p.toLowerCase();
+      body.appendChild(para);
+    });
+    card.appendChild(body);
+    card.dataset.search = story.paragraphs.join(' ').toLowerCase() + ' ' + story.title.toLowerCase();
+    section.appendChild(card);
+  });
+  main.appendChild(section);
+})();
+
+/* ---- Quiz section ---- */
+(function(){
+  const tab = document.createElement('button');
+  tab.className = 'tab'; tab.type = 'button';
+  tab.innerHTML = `🎧 لعبة الاستماع<span class="de">Listening Quiz</span>`;
+  tab.addEventListener('click', () => document.getElementById('sec-quiz').scrollIntoView({behavior:'smooth', block:'start'}));
+  nav.appendChild(tab);
+
+  const section = document.createElement('section');
+  section.className = 'category'; section.id = 'sec-quiz';
+  const head = document.createElement('div'); head.className = 'cat-head';
+  head.innerHTML = `<h2>لعبة الاستماع<span class="de">Listen & choose the translation</span></h2>`;
+  section.appendChild(head);
+
+  const quizCard = document.createElement('div'); quizCard.className = 'quiz-card';
+  quizCard.innerHTML = `
+    <div class="quiz-score" id="quizScore">النتيجة: 0 / 0</div>
+    <button class="quiz-playbtn" id="quizPlay" type="button">${ICON_PLAY.replace('<svg','<svg')}<span>استمع للجملة</span></button>
+    <div class="quiz-hint">اسمع الجملة الألمانية منيح، بعدين اختار ترجمتها الصحيحة بالإنجليزي</div>
+    <div class="quiz-options" id="quizOptions"></div>
+    <div class="quiz-reveal" id="quizReveal"></div>
+    <button class="quiz-next" id="quizNext" type="button">السؤال التالي ←</button>
+  `;
+  section.appendChild(quizCard);
+  main.appendChild(section);
+
+  let score = 0, total = 0, current = null, answered = false;
+
+  function shuffle(arr){ return arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(v=>v[1]); }
+
+  function newQuestion(){
+    answered = false;
+    document.getElementById('quizReveal').textContent = '';
+    document.getElementById('quizNext').classList.remove('show');
+    current = QUIZ_POOL[Math.floor(Math.random()*QUIZ_POOL.length)];
+    let distractors = shuffle(QUIZ_POOL.filter(x => x.en !== current.en)).slice(0,3).map(x=>x.en);
+    const options = shuffle([current.en, ...distractors]);
+    const optWrap = document.getElementById('quizOptions');
+    optWrap.innerHTML = '';
+    options.forEach(optText => {
+      const b = document.createElement('button');
+      b.className = 'quiz-opt'; b.type = 'button'; b.textContent = optText;
+      b.addEventListener('click', () => selectAnswer(b, optText));
+      optWrap.appendChild(b);
+    });
+    speak(current.de, null);
+  }
+
+  function selectAnswer(btn, optText){
+    if (answered) return;
+    answered = true; total++;
+    const correct = optText === current.en;
+    if (correct) score++;
+    document.querySelectorAll('.quiz-opt').forEach(b => {
+      b.disabled = true;
+      if (b.textContent === current.en) b.classList.add('correct');
+      else if (b === btn) b.classList.add('wrong');
+    });
+    document.getElementById('quizScore').textContent = `النتيجة: ${score} / ${total}`;
+    document.getElementById('quizReveal').innerHTML = `الجملة: <span class="de">${current.de}</span>`;
+    document.getElementById('quizNext').classList.add('show');
+  }
+
+  document.getElementById('quizPlay').addEventListener('click', () => { if (current) speak(current.de, null); });
+  document.getElementById('quizNext').addEventListener('click', newQuestion);
+  newQuestion();
+})();
+
+/* ---- active tab highlight on scroll ---- */
 const sections = Array.from(document.querySelectorAll('section.category'));
 const tabs = Array.from(nav.children);
+tabs[0].classList.add('active');
 const io = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting){
@@ -779,10 +907,12 @@ sections.forEach(s => io.observe(s));
 /* ---------- Search ---------- */
 document.getElementById('search').addEventListener('input', (e) => {
   const q = e.target.value.trim().toLowerCase();
-  sections.forEach((sec, idx) => {
+  sections.forEach((sec) => {
     let anyVisible = false;
-    sec.querySelectorAll('[data-search]').forEach(node => {
-      const match = !q || node.dataset.search.includes(q) || DATA[idx].ar.includes(q);
+    const nodes = sec.querySelectorAll('[data-search]');
+    if (!nodes.length){ return; }
+    nodes.forEach(node => {
+      const match = !q || node.dataset.search.includes(q);
       node.style.display = match ? '' : 'none';
       if (match) anyVisible = true;
     });

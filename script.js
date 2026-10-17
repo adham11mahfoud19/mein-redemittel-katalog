@@ -256,7 +256,25 @@ const DATA = [
       'Ich habe Lust auf eine Currywurst.','Was möchtest du trinken?','Am besten das hier, das sieht lecker aus.',
       'Ich trinke lieber Tee als Kaffee.','Pass bitte auf! Der Kaffee ist sehr heiß.',
       'Mein Glas ist leer, kann ich noch etwas Wasser haben?','Dieses Café ist der ideale Ort zum Lesen.',
-      'Darf ich dir eine Tasse Kaffee anbieten?','Wir können heute Abend Pizza bestellen oder so.'
+      'Darf ich dir eine Tasse Kaffee anbieten?','Wir können heute Abend Pizza bestellen oder so.',
+      'Nach der Schicht gehen wir mit den Kollegen in ein gemütliches Lokal.',
+      'Kennst du ein gutes Lokal hier in der Nähe?',
+      'Ich möchte diesen Wein reklamieren, er schmeckt nicht gut.',
+      'Verzeihen Sie, aber ich glaube, es gibt einen Fehler in der Rechnung.',
+      'Verzeihen Sie, aber die Suppe ist leider total versalzen.',
+      'Entschuldigung, aber das Fleisch ist nicht durch.',
+      'Verzeihen Sie, aber das Messer hier ist nicht richtig sauber.',
+      'Mein Glas ist schmutzig. Könnte ich ein anderes bekommen?',
+      'Das Essen schmeckt wirklich fantastisch!',
+      'Hat es Ihnen geschmeckt?',
+      'Ich hätte mein Steak gern medium, bitte.',
+      'Es tut mir leid, dass das Fleisch zu kalt ist. Ich gebe es sofort an die Küche weiter.',
+      'Herr Ober, wir würden gern zahlen, bitte.',
+      'Zusammen oder getrennt?',
+      'Die Rechnung macht 45 Euro. – Hier sind 50 Euro, stimmt so!',
+      'Eine kleine Menge Schokolade ist nicht schädlich für die Gesundheit.',
+      'In der Cafeteria kann man sich jeden Tag ein frisches Gericht aussuchen.',
+      'Am Wochenende brate ich mir gern ein Stück Fleisch mit Kartoffeln.'
     ]
   },
   {
@@ -328,7 +346,34 @@ const DATA = [
       'Wir haben uns nur geschäftlich getroffen.',
       'Wir treffen uns vor dem Unterricht.',
       'Nach der Arbeit gehe ich einkaufen.',
-      'Ich habe in Syrien weniger als in Deutschland verdient.'
+      'Ich habe in Syrien weniger als in Deutschland verdient.',
+      'Die Arbeit in einem großen Unternehmen erfordert viel Disziplin.',
+      'Man muss eine gute Balance zwischen dem Leben und dem Beruf finden.',
+      'Nach dem Studium beginnt für viele junge Menschen das Arbeitsleben.',
+      'Die Firma hat über tausend Angestellte auf der ganzen Welt.',
+      'Er arbeitet als Verkäufer in einem großen Autohaus.',
+      'Wir bauen Autos von höchster Qualität. Das neue Modell wurde komplett in Deutschland gebaut.',
+      'Das ist das erfolgreichste Jahr für unsere Firma.',
+      'Dieses Modell ist der erfolgreichste Wagen in unserer Firmengeschichte.',
+      'Das Design war so gut, wir bauen ihn bis heute.',
+      'Im Jahr 2005 hat unsere Erfolgsgeschichte begonnen.',
+      'Die Firma ist heute riesig, und ich bin stolz, denn ich war von Anfang an dabei.',
+      'Der Erfolg kommt nicht von allein, man muss hart arbeiten.',
+      'Wir arbeiten an einem neuen Projekt für das nächste Jahr.',
+      'Der Betrieb läuft heute sehr gut, es gibt keine Probleme.',
+      'Das BMW-Werk in München ist sehr modern.',
+      'Die neue Fabrik produziert tausende Teile pro Tag.',
+      'Die Produktion der neuen Serie beginnt nächsten Monat.',
+      'Die großen Maschinen stehen in der neuen Halle.',
+      'Alle fertigen Produkte werden sofort ins Lager gebracht.',
+      'Der Export nach Asien ist sehr wichtig für uns, und wir kümmern uns um den Import von Rohstoffen.',
+      'Der LKW transportiert die Autos vom Werk ins Autohaus.',
+      'Die Pharmafirma produziert jeden Tag tausende Medikamente.',
+      'Ein gutes Arbeitsklima steigert die Produktivität der Mitarbeiter.',
+      'Der Absatz von Schmerzmitteln ist im Winter gestiegen.',
+      'Mein Bruder möchte nach der Ausbildung einen eigenen Pflegedienst gründen.',
+      'Auf der Medizin-Messe haben wir ein neues Rollstuhldesign gesehen. Wenn einer kaputtgeht, bringen wir ihn in die Werkstatt.',
+      'Der Durchschnitt der Arbeitsstunden pro Woche liegt bei 40 Stunden.'
     ]
   },
   {
@@ -392,14 +437,32 @@ const DATA = [
       'Ich möchte mich nicht mit dir streiten.','Ich habe mich gestern mit meinem Bruder gestritten.',
       'Worüber habt ihr euch gestritten?','Worüber streiten Sie sich?','Wir haben uns wegen einer Kleinigkeit gestritten.',
       'Sie hat mir einen Witz erzählt.','Möchtest du, dass ich dir einen Witz erzähle?','Soll ich dir einen Witz erzählen?',
-      'Ich wünsche dir einen schönen Tag und hoffe, dass wir uns bald wiedersehen.'
+      'Ich wünsche dir einen schönen Tag und hoffe, dass wir uns bald wiedersehen.',
+      'Ich bin stolz auf dich.',
+      'Ich habe gestern im Krankenhaus einige alte Bekannte getroffen.',
+      'Ein Bekannter von mir arbeitet auch als Krankenpfleger in Berlin.',
+      'Viele Unbekannte haben nach dem Unfall ihre Hilfe angeboten.',
+      'Ein Unbekannter hat diese Blumen für die Patientin abgegeben.',
+      'Am Wochenende besuchen mich meine Verwandten.',
+      'Darf ich den Patienten sehen? Ich bin ein naher Verwandter.',
+      'Im Frühling sieht man im Park viele glückliche Verliebte.',
+      'Ruf mich bitte vorher an, wenn du zu Besuch kommst.',
+      'In Deutschland hat eine Familie im Durchschnitt 4 Personen.',
+      'Ich möchte dir zur bestandenen B1-Prüfung gratulieren.',
+      'Alles Gute zum Geburtstag, Frau Müller! Bleiben Sie gesund.',
+      'Erinnern Sie sich an mich?',
+      'Erinnerst du dich an mich?',
+      'Fühlst du dich gestört?'
     ]
   },
   {
     id:'technik', ar:'التقنية والإنترنت', de:'Technik & Internet', type:'flat',
     items:[
       'Mein Internetanschluss ist zu langsam, um die Dateien auf den Server hochzuladen.',
-      'Wo ist der Anschluss für das Kabel?'
+      'Wo ist der Anschluss für das Kabel?',
+      'Das Gerät macht ein komisches Geräusch, wir müssen den Techniker rufen.',
+      'Repariere dein Mikrofon, man kann dich nicht hören.',
+      'Deine Stimme ist nicht klar.'
     ]
   },
   {
@@ -475,7 +538,67 @@ const DATA = [
       'Die Notaufnahme ist unten im Erdgeschoss, die Kardiologie ist oben.',
       'Ich hoffe, es ist alles in Ordnung.',
       'Ist alles in Ordnung?',
-      'Das finde ich aber traurig.'
+      'Das finde ich aber traurig.',
+      'Dieses medizinische Produkt ist sehr gut für die Haut.',
+      'Die Produktion des neuen Impfstoffs beginnt morgen.',
+      'Ein fairer Lohn ist eine große Motivation für die Pflegekräfte.',
+      'Unsere Klinik bietet den Mitarbeitern viele Weiterbildungen.',
+      'Die Arbeitszeit im Krankenhaus kann manchmal sehr anstrengend sein.',
+      'Freie Zeit ist für Pflegekräfte sehr kostbar.',
+      'Nach dem Schlaganfall fällt es dem Patienten schwer, einen ganzen Satz zu bilden.',
+      'Bevor Sie dem Patienten die Spritze geben, müssen Sie vorher Ihre Hände desinfizieren.',
+      'Der Patient hat keinen Appetit, aber er sollte wenigstens ein bisschen Suppe essen.',
+      'Sie müssen diese Tabletten dreimal täglich vor dem Essen nehmen.',
+      'Ich habe heute Morgen in der Zeitung einen interessanten Artikel über die Pflege in Deutschland gelesen.',
+      'Der Zeitungsartikel berichtet über den neuen Tarifvertrag für Pflegekräfte.',
+      'Schwester Maria wurde zur Mitarbeiterin des Jahres gewählt, weil sie immer so geduldig ist.',
+      'Die Apotheke nebenan ist eine wichtige Geschäftspartnerin für unsere Klinik.',
+      'Zur Pensionierung des Chefarztes und zum 50-jährigen Jubiläum des Krankenhauses gibt es eine große Feier.',
+      'Die neue Station für Kardiologie wird nächste Woche feierlich eröffnet.',
+      'Die Konkurrenz zwischen den privaten Krankenhäusern ist sehr groß.',
+      'Die Patientin sucht ihre Versichertenkarte in der Geldbörse, die in ihrer Handtasche liegt.',
+      'Der Chefarzt trägt immer eine braune Aktentasche, aber der junge Pfleger bringt sein Essen im Rucksack mit.',
+      'Ich habe immer einen Notizblock in der Tasche, um die Blutdruckwerte aufzuschreiben.',
+      'Ich lege das ärztliche Rezept in den Briefumschlag.',
+      'Rollstühle und Betten sind wichtige Gebrauchsgegenstände im Krankenhaus.',
+      'Nach der erfolgreichen Operation ist der Patient wunschlos glücklich.',
+      'Das Gesicht des Patienten ist sehr farblos, er braucht dringend frische Luft.',
+      'Die Zahl der Pflegekräfte in Deutschland ist in den letzten Jahren gewachsen.',
+      'Die Dosierung dieses Medikaments ist nur für Erwachsene, nicht für Kinder.',
+      'Der Gedanke, kranken Menschen zu helfen, ist eine schöne Idee. Aber 12 Stunden Nachtschicht? Das ist echter Wahnsinn.',
+      'Der Arzt hat mich heute für meine genaue und schnelle Arbeit gelobt.',
+      'Der Bürgermeister hat dem Krankenhaus für sein großes soziales Engagement gedankt.',
+      'Ich möchte gerne Ihre Meinung zu diesem neuen Pflegeplan hören.',
+      'Meiner Meinung nach ist die Nachtschicht sehr anstrengend, aber extrem wichtig.',
+      'Ich finde es toll, dass wir im Krankenhaus ein neues Team haben.',
+      'Besonders gut gefällt mir der freundliche Umgang mit den Patienten auf dieser Station.',
+      'Der Ratschlag vom Chefarzt war wirklich sehr hilfreich.',
+      'Der Patient ist mit der Operation und der Pflege sehr zufrieden.',
+      'Herzlichen Glückwunsch zum Jubiläum! Sie arbeiten schon 20 Jahre in dieser Klinik.',
+      'Wir wünschen Ihnen eine schnelle und gute Besserung.',
+      'Wir gratulieren Ihnen herzlich zu Ihrem neuen Job als Krankenpfleger.',
+      'Wir danken Ihnen für Ihr Vertrauen in unser Krankenhaus.',
+      'Wir bedanken uns für Ihre großartige Hilfe während der Operation.',
+      'Wir hoffen, dass Sie das Krankenhaus bald gesund verlassen können.',
+      'Obwohl der Patient sehr alt ist, ist er nach der OP noch sehr fit.',
+      'Ich muss mich auf meine Abschlussprüfung in der Pflege vorbereiten.',
+      'Regelmäßiges Händewaschen ist eine lebenswichtige Gewohnheit im Krankenhaus.',
+      'Im Durchschnitt bleiben die Patienten drei Tage auf dieser Station.',
+      'Im Winter verbrauchen wir in der Klinik viel mehr Taschentücher und Medikamente.',
+      'Laut einer aktuellen Umfrage schlafen viele Pflegekräfte zu wenig.',
+      'Das Ergebnis der Blutuntersuchung ist heute Morgen gekommen.',
+      'Die Ergebnisse der Studie sind für die Ärzte sehr interessant.',
+      'Fast die Hälfte der Patienten auf dieser Station ist über 70 Jahre alt.',
+      'Heute haben wir doppelt so viele Notfälle wie gestern.',
+      'Ein Chefarzt verdient oft zweimal so viel Geld wie ein Assistenzarzt.',
+      'In dieser Klinik gibt es zweimal so viele Pflegekräfte wie Ärzte.',
+      'Der Jugendliche wurde nach dem Sportunfall ins Krankenhaus gebracht.',
+      'Das Gesundheitsministerium plant neue Regeln für Krankenhäuser.',
+      'Die schnelle Besserung des Patienten hat den Arzt positiv überrascht.',
+      'Welches Medikament gegen Halsschmerzen können Sie mir empfehlen?',
+      'Kopfschmerzen treten häufig bei Stress und Schlafmangel auf.',
+      'Der Patient hat so starke Halsschmerzen, dass er kaum sprechen kann.',
+      'Der Patient hat leichtes Fieber, ansonsten geht es ihm gut.'
     ]
   },
   {
@@ -743,7 +866,18 @@ const DATA = [
       'Vergiss nicht, den Fernseher auszumachen, wenn du gehst!',
       'Wir müssen noch einen Termin für nächste Woche ausmachen.',
       'Ich hole dich heute Abend um 8 Uhr vom Bahnhof ab.',
-      'Können Sie bitte mein Paket von der Post abholen?'
+      'Können Sie bitte mein Paket von der Post abholen?',
+      'Ich liebe kaltes Wasser.',
+      'Kaltes Wasser erfrischt den Körper.',
+      'Nach dem Sport trinke ich gern kaltes Wasser.',
+      'Ich wasche mein Gesicht mit kaltem Wasser.',
+      'Wir haben leider nur wenig freie Zeit.',
+      'In meiner freien Zeit lese ich gerne.',
+      'Mit freier Zeit kann man viel anfangen.',
+      'Wir haben das Geschenk für den kranken Jungen in buntes Geschenkpapier eingepackt.',
+      'Ich nehme heute den Bus zur Klinik, weil es regnet.',
+      'Nächsten Monat nehme ich mir eine Woche Urlaub.',
+      'Du musst dich beeilen, ansonsten verpassen wir den Bus.'
     ]
   },
   {
@@ -808,6 +942,9 @@ const DATA = [
   {
     id:'vorschlaege', ar:'الاقتراحات والموافقة والرفض + Was für ein', de:'Prüfung, Vorschläge & Zustimmung', type:'flat',
     items:[
+      'Ich bereite mich auf die Prüfung vor.',
+      'Ich muss mich auf meine Abschlussprüfung in der Pflege vorbereiten.',
+      'Die B2-Prüfung ist nicht leicht, aber du schaffst das bestimmt!',
       'Die Prüfung besteht aus einem schriftlichen und einem mündlichen Teil.',
       'Ich brauche diese Bestätigung bitte schriftlich.',
       'Wir haben den Vertrag nur mündlich vereinbart.',
@@ -1028,6 +1165,124 @@ const DATA = [
       'Weil der Patient stark blutet, muss er sofort operiert werden.',
       'Der Patient blutet stark, deshalb muss er sofort operiert werden.',
       'Du siehst heute sehr blass aus, hoffentlich hast du nichts Schlimmes.'
+    ]
+  },
+  {
+    id:'konsum', ar:'المقارنات والنسب والاستهلاك', de:'Vergleiche, Prozent & Konsum', type:'flat',
+    items:[
+      'Im Sommer solltest du doppelt so viel Wasser trinken wie im Winter.',
+      'Mieten machen oft 40 Prozent des Einkommens aus.',
+      'Der Konsum von Zucker ist in den letzten Jahren stark gestiegen.',
+      'Viele Menschen konsumieren jeden Tag zu viel Koffein.'
+    ]
+  },
+  {
+    id:'refl-passiv', ar:'الأفعال الانعكاسية والمبني للمجهول (wurde)', de:'Reflexive Verben & Passiv (wurde)', type:'flat',
+    items:[
+      'Wie fühlen Sie sich heute nach der Operation?',
+      'Ich fühle mich nach der Nachtschicht total erschöpft.',
+      'Können Sie sich noch an den Unfall erinnern?',
+      'Ich erinnere mich leider nicht mehr an seinen Namen.',
+      'Ich ärgere mich oft über die unpünktlichen Busse.',
+      'Bitte ärgern Sie sich nicht, das ist nicht gut für Ihren Blutdruck.',
+      'Der Patient muss sich nach der Operation langsam bewegen.',
+      'Sie sollten sich jeden Tag mindestens eine halbe Stunde bewegen.',
+      'Der Patient hat sich über das kalte Essen im Krankenhaus beschwert.',
+      'Warum beschwerst du dich immer über deine Arbeitszeiten?',
+      'Ich freue mich schon sehr auf meinen nächsten Urlaub.',
+      'Wir freuen uns über die schnelle Besserung Ihres Gesundheitszustands.',
+      'Seit wann interessieren Sie sich für den Pflegeberuf?',
+      'Ich interessiere mich sehr für medizinische Themen.',
+      'Wir haben uns am ersten Tag der Ausbildung in der Klinik kennengelernt.',
+      'Die neuen Kollegen müssen sich erst noch besser kennenlernen.',
+      'Wir treffen uns jeden Morgen um sechs Uhr zur Übergabe im Stationszimmer.',
+      'Wann wollen wir uns heute Abend in der Stadt treffen?',
+      'Ziehen Sie sich bitte warm an, es ist heute sehr kalt draußen.',
+      'Der ältere Patient kann sich leider nicht mehr alleine anziehen.',
+      'Ich möchte mich nicht mit dir über solche Kleinigkeiten streiten.',
+      'Die beiden Kollegen streiten sich fast jeden Tag um den Dienstplan.',
+      'Die Krankenschwester unterhält sich freundlich mit der älteren Dame.',
+      'Wir haben uns gestern lange über unsere Zukunft in Deutschland unterhalten.',
+      'Ich verstehe mich zum Glück super mit allen Kollegen auf meiner Station.',
+      'Durch den lauten Lärm auf der Straße verstehen wir uns kaum.',
+      'Haben Sie heute überhaupt schon etwas gegessen oder getrunken?',
+      'Ich habe heute Nacht überhaupt nicht gut geschlafen.',
+      'Der Fehler ist passiert, aber wir müssen jetzt etwas daraus lernen.',
+      'Hier ist Ihr Behandlungsplan, daraus können Sie alle wichtigen Termine ablesen.',
+      'Bitte setzen Sie sich kurz ins Wartezimmer, der Arzt kommt gleich.',
+      'Ich muss mich nach dieser langen Schicht erst mal eine Stunde ausruhen.',
+      'Du musst dich unbedingt auf die nächste Deutschprüfung konzentrieren.',
+      'Ich habe mich gestern bei dem kalten Wetter leicht erkältet.',
+      'Können Sie sich bitte den Oberkörper für die Untersuchung frei machen?',
+      'Ich muss mich jeden Tag vor dem Dienst gründlich waschen und desinfizieren.',
+      'Beeil dich bitte, sonst kommen wir noch zu spät zur Frühschicht!',
+      'Sie müssen sich an die neuen Arbeitszeiten im Krankenhaus erst gewöhnen.',
+      'Ich kümmere mich heute um die Patienten in Zimmer vier und fünf.',
+      'Wir müssen uns vor der Operation noch kurz mit dem Chefarzt besprechen.',
+      'Der Patient wurde gestern erfolgreich operiert.',
+      'Die Medikamente wurden schon am Morgen verteilt.',
+      'Der Blutdruck wurde vor einer Stunde gemessen.',
+      'Die Wunde wurde gründlich gereinigt und verbunden.',
+      'Der Notarzt wurde sofort nach dem Unfall gerufen.',
+      'Das Krankenzimmer wurde heute Morgen geputzt und desinfiziert.',
+      'Die Laborergebnisse wurden an den Chefarzt geschickt.',
+      'Der neue Dienstplan wurde gestern endlich veröffentlicht.',
+      'Die Patientenakte wurde leider noch nicht aktualisiert.',
+      'Das Essen wurde heute leider kalt serviert.',
+      'Der alte Mann wurde mit dem Krankenwagen in die Klinik gebracht.',
+      'Die Operation wurde wegen eines Notfalls auf morgen verschoben.',
+      'Alle wichtigen Informationen wurden bei der Übergabe besprochen.',
+      'Der Verband wurde von der Krankenschwester gewechselt.',
+      'Dem Patienten wurde Blut für die Untersuchung abgenommen.',
+      'Die Tür zur Notaufnahme wurde aus Sicherheitsgründen geschlossen.',
+      'Das medizinische Gerät wurde letzte Woche von einem Techniker repariert.',
+      'Der Vertrag wurde von beiden Seiten unterschrieben.',
+      'Die Rechnung wurde bereits vor zwei Tagen bezahlt.',
+      'Mein Antrag wurde vom Wohnungsamt schnell bearbeitet.',
+      'Die E-Mail wurde versehentlich an die falsche Adresse gesendet.',
+      'Das Problem wurde im Team schnell gelöst.',
+      'Die neue Station wurde im letzten Jahr feierlich eröffnet.',
+      'Viele neue Pflegekräfte wurden in diesem Monat eingestellt.',
+      'Der Termin beim Facharzt wurde telefonisch vereinbart.',
+      'Ich wurde gestern gegen Grippe geimpft.',
+      'Wir wurden sehr freundlich von den neuen Kollegen empfangen.',
+      'Wurdest du schon über die neuen Regeln informiert?',
+      'Wurden Sie schon von einem Arzt untersucht?',
+      'Das Fenster wurde geöffnet, um das Zimmer zu lüften.'
+    ]
+  },
+  {
+    id:'arbeit-wichtig', ar:'شو المهم بالنسبة إلك بالشغل؟', de:'Was ist dir bei der Arbeit wichtig?', type:'flat',
+    items:[
+      'Was ist dir bei deiner Arbeit wichtig?',
+      'Was ist für dich wichtig?',
+      'Wie wichtig sind dir flexible Arbeitszeiten?',
+      'Das ist mir nicht so wichtig, ich finde guten Lohn wichtiger.',
+      'Ich kann sagen, was mir bei der Arbeit wichtig ist: Ein gutes Team.',
+      'Es ist mir besonders wichtig, dass die Schichten gerecht verteilt sind.',
+      'Was mich an diesem Job stört, ist der lange Weg zum Krankenhaus.',
+      'Es stört mich, wenn die Kommunikation im Team schlecht ist.',
+      'Wie wichtig ist Ihnen ein hohes Gehalt?',
+      'Wie viel Wert legst du auf ein gutes Arbeitsklima?',
+      'Ich bevorzuge feste Arbeitszeiten, weil ich meinen Tag besser planen kann.',
+      'Ich möchte jetzt kurz meine Meinung zur Umfrage sagen.'
+    ]
+  },
+  {
+    id:'geduld', ar:'جمل متفرقة: الصبر، الذهب، التفكير', de:'Geduld, Gold & weitere Ausdrücke', type:'flat',
+    items:[
+      'Ich war von Anfang an dabei.',
+      'Große Geduld ist in diesem Beruf sehr wichtig.',
+      'Mit großer Geduld kann man jedes Problem lösen.',
+      'Reines Gold ist sehr teuer.',
+      'Die Bank verkauft reines Gold.',
+      'Dieser Ehering besteht aus reinem Gold.',
+      'Zwölf Stunden arbeiten ohne richtige Pause? Es ist ja Wahnsinn.',
+      'Können Sie bitte das Licht ausmachen? Der Patient möchte schlafen.',
+      'Ich wundere mich oft über die Bürokratie in Deutschland.',
+      'Ich dachte, du hast heute Frühschicht!',
+      'Das habe ich mir schon gedacht!',
+      'Die neue Patientin spricht sehr gut Arabisch, sie könnte aus Syrien sein.'
     ]
   }
 ];
@@ -1668,7 +1923,243 @@ const QUIZ_POOL = [
   {cat:'gefuehle-pflege', de:'Die ständige Müdigkeit ist eine Folge von zu wenig Schlaf.', en:'The constant tiredness is a result of too little sleep.'},
   {cat:'gefuehle-pflege', de:'Weil der Patient stark blutet, muss er sofort operiert werden.', en:'Because the patient is bleeding heavily, he must be operated on immediately.'},
   {cat:'gefuehle-pflege', de:'Der Patient blutet stark, deshalb muss er sofort operiert werden.', en:'The patient is bleeding heavily, therefore he must be operated on immediately.'},
-  {cat:'gefuehle-pflege', de:'Du siehst heute sehr blass aus, hoffentlich hast du nichts Schlimmes.', en:'You look very pale today, I hope you don’t have anything serious.'}
+  {cat:'gefuehle-pflege', de:'Du siehst heute sehr blass aus, hoffentlich hast du nichts Schlimmes.', en:'You look very pale today, I hope you don’t have anything serious.'},
+
+  {cat:'restaurant', de:'Nach der Schicht gehen wir mit den Kollegen in ein gemütliches Lokal.', en:'After the shift we go to a cozy pub with our colleagues.'},
+  {cat:'restaurant', de:'Kennst du ein gutes Lokal hier in der Nähe?', en:'Do you know a good place to eat or drink around here?'},
+  {cat:'restaurant', de:'Ich möchte diesen Wein reklamieren, er schmeckt nicht gut.', en:'I would like to complain about this wine, it doesn’t taste good.'},
+  {cat:'restaurant', de:'Verzeihen Sie, aber ich glaube, es gibt einen Fehler in der Rechnung.', en:'Excuse me, but I think there is a mistake in the bill.'},
+  {cat:'restaurant', de:'Verzeihen Sie, aber die Suppe ist leider total versalzen.', en:'Excuse me, but the soup is unfortunately way too salty.'},
+  {cat:'restaurant', de:'Entschuldigung, aber das Fleisch ist nicht durch.', en:'Excuse me, but the meat is not cooked through.'},
+  {cat:'restaurant', de:'Verzeihen Sie, aber das Messer hier ist nicht richtig sauber.', en:'Excuse me, but the knife here is not properly clean.'},
+  {cat:'restaurant', de:'Mein Glas ist schmutzig. Könnte ich ein anderes bekommen?', en:'My glass is dirty. Could I get another one?'},
+  {cat:'restaurant', de:'Das Essen schmeckt wirklich fantastisch!', en:'The food tastes really fantastic!'},
+  {cat:'restaurant', de:'Hat es Ihnen geschmeckt?', en:'Did you enjoy the meal?'},
+  {cat:'restaurant', de:'Ich hätte mein Steak gern medium, bitte.', en:'I would like my steak medium, please.'},
+  {cat:'restaurant', de:'Es tut mir leid, dass das Fleisch zu kalt ist. Ich gebe es sofort an die Küche weiter.', en:'I’m sorry that the meat is too cold. I’ll pass it on to the kitchen right away.'},
+  {cat:'restaurant', de:'Herr Ober, wir würden gern zahlen, bitte.', en:'Waiter, we would like to pay, please.'},
+  {cat:'restaurant', de:'Zusammen oder getrennt?', en:'Together or separate?'},
+  {cat:'restaurant', de:'Die Rechnung macht 45 Euro. – Hier sind 50 Euro, stimmt so!', en:'The bill comes to 45 euros. – Here are 50 euros, keep the change!'},
+  {cat:'restaurant', de:'Eine kleine Menge Schokolade ist nicht schädlich für die Gesundheit.', en:'A small amount of chocolate is not harmful to your health.'},
+  {cat:'restaurant', de:'In der Cafeteria kann man sich jeden Tag ein frisches Gericht aussuchen.', en:'In the cafeteria you can choose a fresh dish every day.'},
+  {cat:'restaurant', de:'Am Wochenende brate ich mir gern ein Stück Fleisch mit Kartoffeln.', en:'On weekends I like to fry myself a piece of meat with potatoes.'},
+  {cat:'arbeit', de:'Die Arbeit in einem großen Unternehmen erfordert viel Disziplin.', en:'Working at a large company requires a lot of discipline.'},
+  {cat:'arbeit', de:'Man muss eine gute Balance zwischen dem Leben und dem Beruf finden.', en:'You have to find a good balance between life and work.'},
+  {cat:'arbeit', de:'Nach dem Studium beginnt für viele junge Menschen das Arbeitsleben.', en:'After university, working life begins for many young people.'},
+  {cat:'arbeit', de:'Die Firma hat über tausend Angestellte auf der ganzen Welt.', en:'The company has over a thousand employees all over the world.'},
+  {cat:'arbeit', de:'Er arbeitet als Verkäufer in einem großen Autohaus.', en:'He works as a salesman at a large car dealership.'},
+  {cat:'arbeit', de:'Wir bauen Autos von höchster Qualität. Das neue Modell wurde komplett in Deutschland gebaut.', en:'We build cars of the highest quality. The new model was built entirely in Germany.'},
+  {cat:'arbeit', de:'Das ist das erfolgreichste Jahr für unsere Firma.', en:'This is the most successful year for our company.'},
+  {cat:'arbeit', de:'Dieses Modell ist der erfolgreichste Wagen in unserer Firmengeschichte.', en:'This model is the most successful car in our company’s history.'},
+  {cat:'arbeit', de:'Das Design war so gut, wir bauen ihn bis heute.', en:'The design was so good that we are still building it today.'},
+  {cat:'arbeit', de:'Im Jahr 2005 hat unsere Erfolgsgeschichte begonnen.', en:'Our success story began in 2005.'},
+  {cat:'arbeit', de:'Die Firma ist heute riesig, und ich bin stolz, denn ich war von Anfang an dabei.', en:'The company is huge today, and I am proud because I was there from the beginning.'},
+  {cat:'arbeit', de:'Der Erfolg kommt nicht von allein, man muss hart arbeiten.', en:'Success doesn’t come by itself, you have to work hard.'},
+  {cat:'arbeit', de:'Wir arbeiten an einem neuen Projekt für das nächste Jahr.', en:'We are working on a new project for next year.'},
+  {cat:'arbeit', de:'Der Betrieb läuft heute sehr gut, es gibt keine Probleme.', en:'The business is running very well today, there are no problems.'},
+  {cat:'arbeit', de:'Das BMW-Werk in München ist sehr modern.', en:'The BMW plant in Munich is very modern.'},
+  {cat:'arbeit', de:'Die neue Fabrik produziert tausende Teile pro Tag.', en:'The new factory produces thousands of parts per day.'},
+  {cat:'arbeit', de:'Die Produktion der neuen Serie beginnt nächsten Monat.', en:'Production of the new series starts next month.'},
+  {cat:'arbeit', de:'Die großen Maschinen stehen in der neuen Halle.', en:'The big machines are in the new hall.'},
+  {cat:'arbeit', de:'Alle fertigen Produkte werden sofort ins Lager gebracht.', en:'All finished products are immediately taken to the warehouse.'},
+  {cat:'arbeit', de:'Der Export nach Asien ist sehr wichtig für uns, und wir kümmern uns um den Import von Rohstoffen.', en:'Exports to Asia are very important to us, and we take care of importing raw materials.'},
+  {cat:'arbeit', de:'Der LKW transportiert die Autos vom Werk ins Autohaus.', en:'The truck transports the cars from the plant to the dealership.'},
+  {cat:'arbeit', de:'Die Pharmafirma produziert jeden Tag tausende Medikamente.', en:'The pharmaceutical company produces thousands of medications every day.'},
+  {cat:'arbeit', de:'Ein gutes Arbeitsklima steigert die Produktivität der Mitarbeiter.', en:'A good working atmosphere increases the employees’ productivity.'},
+  {cat:'arbeit', de:'Der Absatz von Schmerzmitteln ist im Winter gestiegen.', en:'Sales of painkillers increased in winter.'},
+  {cat:'arbeit', de:'Mein Bruder möchte nach der Ausbildung einen eigenen Pflegedienst gründen.', en:'My brother wants to found his own nursing service after his training.'},
+  {cat:'arbeit', de:'Auf der Medizin-Messe haben wir ein neues Rollstuhldesign gesehen. Wenn einer kaputtgeht, bringen wir ihn in die Werkstatt.', en:'At the medical trade fair we saw a new wheelchair design. If one breaks, we take it to the workshop.'},
+  {cat:'arbeit', de:'Der Durchschnitt der Arbeitsstunden pro Woche liegt bei 40 Stunden.', en:'The average working hours per week are 40 hours.'},
+  {cat:'umgangsformen', de:'Ich bin stolz auf dich.', en:'I’m proud of you.'},
+  {cat:'umgangsformen', de:'Ich habe gestern im Krankenhaus einige alte Bekannte getroffen.', en:'Yesterday at the hospital I met some old acquaintances.'},
+  {cat:'umgangsformen', de:'Ein Bekannter von mir arbeitet auch als Krankenpfleger in Berlin.', en:'An acquaintance of mine also works as a nurse in Berlin.'},
+  {cat:'umgangsformen', de:'Viele Unbekannte haben nach dem Unfall ihre Hilfe angeboten.', en:'Many strangers offered their help after the accident.'},
+  {cat:'umgangsformen', de:'Ein Unbekannter hat diese Blumen für die Patientin abgegeben.', en:'A stranger dropped off these flowers for the patient.'},
+  {cat:'umgangsformen', de:'Am Wochenende besuchen mich meine Verwandten.', en:'My relatives are visiting me on the weekend.'},
+  {cat:'umgangsformen', de:'Darf ich den Patienten sehen? Ich bin ein naher Verwandter.', en:'May I see the patient? I am a close relative.'},
+  {cat:'umgangsformen', de:'Im Frühling sieht man im Park viele glückliche Verliebte.', en:'In spring you can see many happy people in love in the park.'},
+  {cat:'umgangsformen', de:'Ruf mich bitte vorher an, wenn du zu Besuch kommst.', en:'Please call me beforehand when you come to visit.'},
+  {cat:'umgangsformen', de:'In Deutschland hat eine Familie im Durchschnitt 4 Personen.', en:'In Germany a family has an average of 4 people.'},
+  {cat:'umgangsformen', de:'Ich möchte dir zur bestandenen B1-Prüfung gratulieren.', en:'I would like to congratulate you on passing your B1 exam.'},
+  {cat:'umgangsformen', de:'Alles Gute zum Geburtstag, Frau Müller! Bleiben Sie gesund.', en:'Happy birthday, Mrs. Müller! Stay healthy.'},
+  {cat:'umgangsformen', de:'Erinnern Sie sich an mich?', en:'Do you remember me? (formal)'},
+  {cat:'umgangsformen', de:'Erinnerst du dich an mich?', en:'Do you remember me? (informal)'},
+  {cat:'umgangsformen', de:'Fühlst du dich gestört?', en:'Do you feel disturbed?'},
+  {cat:'gesundheit', de:'Dieses medizinische Produkt ist sehr gut für die Haut.', en:'This medical product is very good for the skin.'},
+  {cat:'gesundheit', de:'Die Produktion des neuen Impfstoffs beginnt morgen.', en:'Production of the new vaccine starts tomorrow.'},
+  {cat:'gesundheit', de:'Ein fairer Lohn ist eine große Motivation für die Pflegekräfte.', en:'Fair pay is a big motivation for nursing staff.'},
+  {cat:'gesundheit', de:'Unsere Klinik bietet den Mitarbeitern viele Weiterbildungen.', en:'Our clinic offers its employees many further training opportunities.'},
+  {cat:'gesundheit', de:'Die Arbeitszeit im Krankenhaus kann manchmal sehr anstrengend sein.', en:'Working hours in the hospital can sometimes be very exhausting.'},
+  {cat:'gesundheit', de:'Freie Zeit ist für Pflegekräfte sehr kostbar.', en:'Free time is very precious for nursing staff.'},
+  {cat:'gesundheit', de:'Nach dem Schlaganfall fällt es dem Patienten schwer, einen ganzen Satz zu bilden.', en:'After the stroke it is difficult for the patient to form a whole sentence.'},
+  {cat:'gesundheit', de:'Bevor Sie dem Patienten die Spritze geben, müssen Sie vorher Ihre Hände desinfizieren.', en:'Before you give the patient the injection, you must disinfect your hands first.'},
+  {cat:'gesundheit', de:'Der Patient hat keinen Appetit, aber er sollte wenigstens ein bisschen Suppe essen.', en:'The patient has no appetite, but he should at least eat a little soup.'},
+  {cat:'gesundheit', de:'Sie müssen diese Tabletten dreimal täglich vor dem Essen nehmen.', en:'You must take these tablets three times a day before meals.'},
+  {cat:'gesundheit', de:'Ich habe heute Morgen in der Zeitung einen interessanten Artikel über die Pflege in Deutschland gelesen.', en:'This morning I read an interesting article in the newspaper about nursing in Germany.'},
+  {cat:'gesundheit', de:'Der Zeitungsartikel berichtet über den neuen Tarifvertrag für Pflegekräfte.', en:'The newspaper article reports on the new collective agreement for nursing staff.'},
+  {cat:'gesundheit', de:'Schwester Maria wurde zur Mitarbeiterin des Jahres gewählt, weil sie immer so geduldig ist.', en:'Sister Maria was chosen as employee of the year because she is always so patient.'},
+  {cat:'gesundheit', de:'Die Apotheke nebenan ist eine wichtige Geschäftspartnerin für unsere Klinik.', en:'The pharmacy next door is an important business partner for our clinic.'},
+  {cat:'gesundheit', de:'Zur Pensionierung des Chefarztes und zum 50-jährigen Jubiläum des Krankenhauses gibt es eine große Feier.', en:'There is a big celebration for the chief physician’s retirement and the hospital’s 50th anniversary.'},
+  {cat:'gesundheit', de:'Die neue Station für Kardiologie wird nächste Woche feierlich eröffnet.', en:'The new cardiology ward will be officially opened next week.'},
+  {cat:'gesundheit', de:'Die Konkurrenz zwischen den privaten Krankenhäusern ist sehr groß.', en:'The competition between the private hospitals is very big.'},
+  {cat:'gesundheit', de:'Die Patientin sucht ihre Versichertenkarte in der Geldbörse, die in ihrer Handtasche liegt.', en:'The patient is looking for her insurance card in the wallet that is in her handbag.'},
+  {cat:'gesundheit', de:'Der Chefarzt trägt immer eine braune Aktentasche, aber der junge Pfleger bringt sein Essen im Rucksack mit.', en:'The chief physician always carries a brown briefcase, but the young nurse brings his food in a backpack.'},
+  {cat:'gesundheit', de:'Ich habe immer einen Notizblock in der Tasche, um die Blutdruckwerte aufzuschreiben.', en:'I always have a notepad in my pocket to write down the blood pressure values.'},
+  {cat:'gesundheit', de:'Ich lege das ärztliche Rezept in den Briefumschlag.', en:'I put the medical prescription in the envelope.'},
+  {cat:'gesundheit', de:'Rollstühle und Betten sind wichtige Gebrauchsgegenstände im Krankenhaus.', en:'Wheelchairs and beds are important everyday items in the hospital.'},
+  {cat:'gesundheit', de:'Nach der erfolgreichen Operation ist der Patient wunschlos glücklich.', en:'After the successful operation the patient is perfectly happy.'},
+  {cat:'gesundheit', de:'Das Gesicht des Patienten ist sehr farblos, er braucht dringend frische Luft.', en:'The patient’s face is very pale, he urgently needs fresh air.'},
+  {cat:'gesundheit', de:'Die Zahl der Pflegekräfte in Deutschland ist in den letzten Jahren gewachsen.', en:'The number of nursing staff in Germany has grown in recent years.'},
+  {cat:'gesundheit', de:'Die Dosierung dieses Medikaments ist nur für Erwachsene, nicht für Kinder.', en:'The dosage of this medication is only for adults, not for children.'},
+  {cat:'gesundheit', de:'Der Gedanke, kranken Menschen zu helfen, ist eine schöne Idee. Aber 12 Stunden Nachtschicht? Das ist echter Wahnsinn.', en:'The idea of helping sick people is a nice one. But a 12-hour night shift? That is real madness.'},
+  {cat:'gesundheit', de:'Der Arzt hat mich heute für meine genaue und schnelle Arbeit gelobt.', en:'The doctor praised me today for my precise and fast work.'},
+  {cat:'gesundheit', de:'Der Bürgermeister hat dem Krankenhaus für sein großes soziales Engagement gedankt.', en:'The mayor thanked the hospital for its great social commitment.'},
+  {cat:'gesundheit', de:'Ich möchte gerne Ihre Meinung zu diesem neuen Pflegeplan hören.', en:'I would like to hear your opinion on this new care plan.'},
+  {cat:'gesundheit', de:'Meiner Meinung nach ist die Nachtschicht sehr anstrengend, aber extrem wichtig.', en:'In my opinion the night shift is very exhausting, but extremely important.'},
+  {cat:'gesundheit', de:'Ich finde es toll, dass wir im Krankenhaus ein neues Team haben.', en:'I think it’s great that we have a new team at the hospital.'},
+  {cat:'gesundheit', de:'Besonders gut gefällt mir der freundliche Umgang mit den Patienten auf dieser Station.', en:'I particularly like the friendly way of dealing with patients on this ward.'},
+  {cat:'gesundheit', de:'Der Ratschlag vom Chefarzt war wirklich sehr hilfreich.', en:'The chief physician’s advice was really very helpful.'},
+  {cat:'gesundheit', de:'Der Patient ist mit der Operation und der Pflege sehr zufrieden.', en:'The patient is very satisfied with the operation and the care.'},
+  {cat:'gesundheit', de:'Herzlichen Glückwunsch zum Jubiläum! Sie arbeiten schon 20 Jahre in dieser Klinik.', en:'Congratulations on your anniversary! You have been working at this clinic for 20 years.'},
+  {cat:'gesundheit', de:'Wir wünschen Ihnen eine schnelle und gute Besserung.', en:'We wish you a quick and good recovery.'},
+  {cat:'gesundheit', de:'Wir gratulieren Ihnen herzlich zu Ihrem neuen Job als Krankenpfleger.', en:'We warmly congratulate you on your new job as a nurse.'},
+  {cat:'gesundheit', de:'Wir danken Ihnen für Ihr Vertrauen in unser Krankenhaus.', en:'We thank you for your trust in our hospital.'},
+  {cat:'gesundheit', de:'Wir bedanken uns für Ihre großartige Hilfe während der Operation.', en:'We thank you for your great help during the operation.'},
+  {cat:'gesundheit', de:'Wir hoffen, dass Sie das Krankenhaus bald gesund verlassen können.', en:'We hope that you can leave the hospital healthy soon.'},
+  {cat:'gesundheit', de:'Obwohl der Patient sehr alt ist, ist er nach der OP noch sehr fit.', en:'Although the patient is very old, he is still very fit after the surgery.'},
+  {cat:'gesundheit', de:'Ich muss mich auf meine Abschlussprüfung in der Pflege vorbereiten.', en:'I have to prepare for my final exam in nursing.'},
+  {cat:'gesundheit', de:'Regelmäßiges Händewaschen ist eine lebenswichtige Gewohnheit im Krankenhaus.', en:'Regular hand washing is a vital habit in the hospital.'},
+  {cat:'gesundheit', de:'Im Durchschnitt bleiben die Patienten drei Tage auf dieser Station.', en:'On average the patients stay three days on this ward.'},
+  {cat:'gesundheit', de:'Im Winter verbrauchen wir in der Klinik viel mehr Taschentücher und Medikamente.', en:'In winter we use many more tissues and medications in the clinic.'},
+  {cat:'gesundheit', de:'Laut einer aktuellen Umfrage schlafen viele Pflegekräfte zu wenig.', en:'According to a recent survey, many nursing staff sleep too little.'},
+  {cat:'gesundheit', de:'Das Ergebnis der Blutuntersuchung ist heute Morgen gekommen.', en:'The result of the blood test arrived this morning.'},
+  {cat:'gesundheit', de:'Die Ergebnisse der Studie sind für die Ärzte sehr interessant.', en:'The results of the study are very interesting for the doctors.'},
+  {cat:'gesundheit', de:'Fast die Hälfte der Patienten auf dieser Station ist über 70 Jahre alt.', en:'Almost half of the patients on this ward are over 70 years old.'},
+  {cat:'gesundheit', de:'Heute haben wir doppelt so viele Notfälle wie gestern.', en:'Today we have twice as many emergencies as yesterday.'},
+  {cat:'gesundheit', de:'Ein Chefarzt verdient oft zweimal so viel Geld wie ein Assistenzarzt.', en:'A chief physician often earns twice as much money as an assistant doctor.'},
+  {cat:'gesundheit', de:'In dieser Klinik gibt es zweimal so viele Pflegekräfte wie Ärzte.', en:'In this clinic there are twice as many nurses as doctors.'},
+  {cat:'gesundheit', de:'Der Jugendliche wurde nach dem Sportunfall ins Krankenhaus gebracht.', en:'The teenager was taken to the hospital after the sports accident.'},
+  {cat:'gesundheit', de:'Das Gesundheitsministerium plant neue Regeln für Krankenhäuser.', en:'The health ministry is planning new rules for hospitals.'},
+  {cat:'gesundheit', de:'Die schnelle Besserung des Patienten hat den Arzt positiv überrascht.', en:'The patient’s quick recovery pleasantly surprised the doctor.'},
+  {cat:'gesundheit', de:'Welches Medikament gegen Halsschmerzen können Sie mir empfehlen?', en:'Which medication for a sore throat can you recommend to me?'},
+  {cat:'gesundheit', de:'Kopfschmerzen treten häufig bei Stress und Schlafmangel auf.', en:'Headaches often occur with stress and lack of sleep.'},
+  {cat:'gesundheit', de:'Der Patient hat so starke Halsschmerzen, dass er kaum sprechen kann.', en:'The patient has such a bad sore throat that he can hardly speak.'},
+  {cat:'gesundheit', de:'Der Patient hat leichtes Fieber, ansonsten geht es ihm gut.', en:'The patient has a slight fever, otherwise he is doing well.'},
+  {cat:'adjektive', de:'Ich liebe kaltes Wasser.', en:'I love cold water.'},
+  {cat:'adjektive', de:'Kaltes Wasser erfrischt den Körper.', en:'Cold water refreshes the body.'},
+  {cat:'adjektive', de:'Nach dem Sport trinke ich gern kaltes Wasser.', en:'After exercise I like to drink cold water.'},
+  {cat:'adjektive', de:'Ich wasche mein Gesicht mit kaltem Wasser.', en:'I wash my face with cold water.'},
+  {cat:'adjektive', de:'Wir haben leider nur wenig freie Zeit.', en:'Unfortunately we only have little free time.'},
+  {cat:'adjektive', de:'In meiner freien Zeit lese ich gerne.', en:'In my free time I like to read.'},
+  {cat:'adjektive', de:'Mit freier Zeit kann man viel anfangen.', en:'With free time you can do a lot.'},
+  {cat:'adjektive', de:'Wir haben das Geschenk für den kranken Jungen in buntes Geschenkpapier eingepackt.', en:'We wrapped the gift for the sick boy in colorful wrapping paper.'},
+  {cat:'adjektive', de:'Ich nehme heute den Bus zur Klinik, weil es regnet.', en:'I am taking the bus to the clinic today because it is raining.'},
+  {cat:'adjektive', de:'Nächsten Monat nehme ich mir eine Woche Urlaub.', en:'Next month I am taking a week off.'},
+  {cat:'adjektive', de:'Du musst dich beeilen, ansonsten verpassen wir den Bus.', en:'You have to hurry, otherwise we will miss the bus.'},
+  {cat:'technik', de:'Das Gerät macht ein komisches Geräusch, wir müssen den Techniker rufen.', en:'The device is making a strange noise, we have to call the technician.'},
+  {cat:'technik', de:'Repariere dein Mikrofon, man kann dich nicht hören.', en:'Repair your microphone, we can’t hear you.'},
+  {cat:'technik', de:'Deine Stimme ist nicht klar.', en:'Your voice is not clear.'},
+  {cat:'vorschlaege', de:'Ich bereite mich auf die Prüfung vor.', en:'I am preparing for the exam.'},
+  {cat:'vorschlaege', de:'Ich muss mich auf meine Abschlussprüfung in der Pflege vorbereiten.', en:'I have to prepare for my final exam in nursing.'},
+  {cat:'vorschlaege', de:'Die B2-Prüfung ist nicht leicht, aber du schaffst das bestimmt!', en:'The B2 exam is not easy, but you will definitely manage it!'},
+  {cat:'konsum', de:'Im Sommer solltest du doppelt so viel Wasser trinken wie im Winter.', en:'In summer you should drink twice as much water as in winter.'},
+  {cat:'konsum', de:'Mieten machen oft 40 Prozent des Einkommens aus.', en:'Rent often makes up 40 percent of income.'},
+  {cat:'konsum', de:'Der Konsum von Zucker ist in den letzten Jahren stark gestiegen.', en:'The consumption of sugar has risen sharply in recent years.'},
+  {cat:'konsum', de:'Viele Menschen konsumieren jeden Tag zu viel Koffein.', en:'Many people consume too much caffeine every day.'},
+  {cat:'refl-passiv', de:'Wie fühlen Sie sich heute nach der Operation?', en:'How are you feeling today after the operation?'},
+  {cat:'refl-passiv', de:'Ich fühle mich nach der Nachtschicht total erschöpft.', en:'After the night shift I feel totally exhausted.'},
+  {cat:'refl-passiv', de:'Können Sie sich noch an den Unfall erinnern?', en:'Can you still remember the accident?'},
+  {cat:'refl-passiv', de:'Ich erinnere mich leider nicht mehr an seinen Namen.', en:'Unfortunately I no longer remember his name.'},
+  {cat:'refl-passiv', de:'Ich ärgere mich oft über die unpünktlichen Busse.', en:'I often get annoyed about the unpunctual buses.'},
+  {cat:'refl-passiv', de:'Bitte ärgern Sie sich nicht, das ist nicht gut für Ihren Blutdruck.', en:'Please don’t get upset, it’s not good for your blood pressure.'},
+  {cat:'refl-passiv', de:'Der Patient muss sich nach der Operation langsam bewegen.', en:'The patient has to move slowly after the operation.'},
+  {cat:'refl-passiv', de:'Sie sollten sich jeden Tag mindestens eine halbe Stunde bewegen.', en:'You should move for at least half an hour every day.'},
+  {cat:'refl-passiv', de:'Der Patient hat sich über das kalte Essen im Krankenhaus beschwert.', en:'The patient complained about the cold food in the hospital.'},
+  {cat:'refl-passiv', de:'Warum beschwerst du dich immer über deine Arbeitszeiten?', en:'Why do you always complain about your working hours?'},
+  {cat:'refl-passiv', de:'Ich freue mich schon sehr auf meinen nächsten Urlaub.', en:'I am already really looking forward to my next vacation.'},
+  {cat:'refl-passiv', de:'Wir freuen uns über die schnelle Besserung Ihres Gesundheitszustands.', en:'We are pleased about the quick improvement of your health.'},
+  {cat:'refl-passiv', de:'Seit wann interessieren Sie sich für den Pflegeberuf?', en:'Since when have you been interested in the nursing profession?'},
+  {cat:'refl-passiv', de:'Ich interessiere mich sehr für medizinische Themen.', en:'I am very interested in medical topics.'},
+  {cat:'refl-passiv', de:'Wir haben uns am ersten Tag der Ausbildung in der Klinik kennengelernt.', en:'We got to know each other on the first day of training at the clinic.'},
+  {cat:'refl-passiv', de:'Die neuen Kollegen müssen sich erst noch besser kennenlernen.', en:'The new colleagues first have to get to know each other better.'},
+  {cat:'refl-passiv', de:'Wir treffen uns jeden Morgen um sechs Uhr zur Übergabe im Stationszimmer.', en:'We meet every morning at six o’clock for the handover in the ward room.'},
+  {cat:'refl-passiv', de:'Wann wollen wir uns heute Abend in der Stadt treffen?', en:'When shall we meet in town tonight?'},
+  {cat:'refl-passiv', de:'Ziehen Sie sich bitte warm an, es ist heute sehr kalt draußen.', en:'Please dress warmly, it is very cold outside today. (formal)'},
+  {cat:'refl-passiv', de:'Der ältere Patient kann sich leider nicht mehr alleine anziehen.', en:'The elderly patient can unfortunately no longer dress himself.'},
+  {cat:'refl-passiv', de:'Ich möchte mich nicht mit dir über solche Kleinigkeiten streiten.', en:'I don’t want to argue with you about such trivial matters.'},
+  {cat:'refl-passiv', de:'Die beiden Kollegen streiten sich fast jeden Tag um den Dienstplan.', en:'The two colleagues argue almost every day about the duty roster.'},
+  {cat:'refl-passiv', de:'Die Krankenschwester unterhält sich freundlich mit der älteren Dame.', en:'The nurse is chatting in a friendly way with the elderly lady.'},
+  {cat:'refl-passiv', de:'Wir haben uns gestern lange über unsere Zukunft in Deutschland unterhalten.', en:'Yesterday we talked for a long time about our future in Germany.'},
+  {cat:'refl-passiv', de:'Ich verstehe mich zum Glück super mit allen Kollegen auf meiner Station.', en:'Luckily I get along great with all colleagues on my ward.'},
+  {cat:'refl-passiv', de:'Durch den lauten Lärm auf der Straße verstehen wir uns kaum.', en:'Because of the loud noise on the street we can hardly understand each other.'},
+  {cat:'refl-passiv', de:'Haben Sie heute überhaupt schon etwas gegessen oder getrunken?', en:'Have you eaten or drunk anything at all today? (formal)'},
+  {cat:'refl-passiv', de:'Ich habe heute Nacht überhaupt nicht gut geschlafen.', en:'I didn’t sleep well at all last night.'},
+  {cat:'refl-passiv', de:'Der Fehler ist passiert, aber wir müssen jetzt etwas daraus lernen.', en:'The mistake happened, but now we have to learn something from it.'},
+  {cat:'refl-passiv', de:'Hier ist Ihr Behandlungsplan, daraus können Sie alle wichtigen Termine ablesen.', en:'Here is your treatment plan, you can read all the important appointments from it.'},
+  {cat:'refl-passiv', de:'Bitte setzen Sie sich kurz ins Wartezimmer, der Arzt kommt gleich.', en:'Please sit down in the waiting room briefly, the doctor will be right with you.'},
+  {cat:'refl-passiv', de:'Ich muss mich nach dieser langen Schicht erst mal eine Stunde ausruhen.', en:'After this long shift I first have to rest for an hour.'},
+  {cat:'refl-passiv', de:'Du musst dich unbedingt auf die nächste Deutschprüfung konzentrieren.', en:'You absolutely have to concentrate on the next German exam.'},
+  {cat:'refl-passiv', de:'Ich habe mich gestern bei dem kalten Wetter leicht erkältet.', en:'I caught a slight cold yesterday in the cold weather.'},
+  {cat:'refl-passiv', de:'Können Sie sich bitte den Oberkörper für die Untersuchung frei machen?', en:'Can you please undress your upper body for the examination? (formal)'},
+  {cat:'refl-passiv', de:'Ich muss mich jeden Tag vor dem Dienst gründlich waschen und desinfizieren.', en:'I have to wash and disinfect myself thoroughly every day before duty.'},
+  {cat:'refl-passiv', de:'Beeil dich bitte, sonst kommen wir noch zu spät zur Frühschicht!', en:'Please hurry up, otherwise we’ll be late for the early shift!'},
+  {cat:'refl-passiv', de:'Sie müssen sich an die neuen Arbeitszeiten im Krankenhaus erst gewöhnen.', en:'You first have to get used to the new working hours at the hospital. (formal)'},
+  {cat:'refl-passiv', de:'Ich kümmere mich heute um die Patienten in Zimmer vier und fünf.', en:'Today I’ll take care of the patients in rooms four and five.'},
+  {cat:'refl-passiv', de:'Wir müssen uns vor der Operation noch kurz mit dem Chefarzt besprechen.', en:'Before the operation we still have to briefly consult with the chief physician.'},
+  {cat:'refl-passiv', de:'Der Patient wurde gestern erfolgreich operiert.', en:'The patient was operated on successfully yesterday.'},
+  {cat:'refl-passiv', de:'Die Medikamente wurden schon am Morgen verteilt.', en:'The medications were already distributed in the morning.'},
+  {cat:'refl-passiv', de:'Der Blutdruck wurde vor einer Stunde gemessen.', en:'The blood pressure was measured an hour ago.'},
+  {cat:'refl-passiv', de:'Die Wunde wurde gründlich gereinigt und verbunden.', en:'The wound was thoroughly cleaned and bandaged.'},
+  {cat:'refl-passiv', de:'Der Notarzt wurde sofort nach dem Unfall gerufen.', en:'The emergency doctor was called immediately after the accident.'},
+  {cat:'refl-passiv', de:'Das Krankenzimmer wurde heute Morgen geputzt und desinfiziert.', en:'The patient room was cleaned and disinfected this morning.'},
+  {cat:'refl-passiv', de:'Die Laborergebnisse wurden an den Chefarzt geschickt.', en:'The lab results were sent to the chief physician.'},
+  {cat:'refl-passiv', de:'Der neue Dienstplan wurde gestern endlich veröffentlicht.', en:'The new duty roster was finally published yesterday.'},
+  {cat:'refl-passiv', de:'Die Patientenakte wurde leider noch nicht aktualisiert.', en:'The patient file has unfortunately not been updated yet.'},
+  {cat:'refl-passiv', de:'Das Essen wurde heute leider kalt serviert.', en:'Unfortunately the food was served cold today.'},
+  {cat:'refl-passiv', de:'Der alte Mann wurde mit dem Krankenwagen in die Klinik gebracht.', en:'The old man was taken to the clinic by ambulance.'},
+  {cat:'refl-passiv', de:'Die Operation wurde wegen eines Notfalls auf morgen verschoben.', en:'The operation was postponed until tomorrow because of an emergency.'},
+  {cat:'refl-passiv', de:'Alle wichtigen Informationen wurden bei der Übergabe besprochen.', en:'All important information was discussed at the handover.'},
+  {cat:'refl-passiv', de:'Der Verband wurde von der Krankenschwester gewechselt.', en:'The bandage was changed by the nurse.'},
+  {cat:'refl-passiv', de:'Dem Patienten wurde Blut für die Untersuchung abgenommen.', en:'Blood was drawn from the patient for the examination.'},
+  {cat:'refl-passiv', de:'Die Tür zur Notaufnahme wurde aus Sicherheitsgründen geschlossen.', en:'The door to the emergency room was closed for security reasons.'},
+  {cat:'refl-passiv', de:'Das medizinische Gerät wurde letzte Woche von einem Techniker repariert.', en:'The medical device was repaired by a technician last week.'},
+  {cat:'refl-passiv', de:'Der Vertrag wurde von beiden Seiten unterschrieben.', en:'The contract was signed by both sides.'},
+  {cat:'refl-passiv', de:'Die Rechnung wurde bereits vor zwei Tagen bezahlt.', en:'The bill was already paid two days ago.'},
+  {cat:'refl-passiv', de:'Mein Antrag wurde vom Wohnungsamt schnell bearbeitet.', en:'My application was processed quickly by the housing office.'},
+  {cat:'refl-passiv', de:'Die E-Mail wurde versehentlich an die falsche Adresse gesendet.', en:'The email was accidentally sent to the wrong address.'},
+  {cat:'refl-passiv', de:'Das Problem wurde im Team schnell gelöst.', en:'The problem was solved quickly in the team.'},
+  {cat:'refl-passiv', de:'Die neue Station wurde im letzten Jahr feierlich eröffnet.', en:'The new ward was officially opened last year.'},
+  {cat:'refl-passiv', de:'Viele neue Pflegekräfte wurden in diesem Monat eingestellt.', en:'Many new nursing staff were hired this month.'},
+  {cat:'refl-passiv', de:'Der Termin beim Facharzt wurde telefonisch vereinbart.', en:'The appointment with the specialist was arranged by phone.'},
+  {cat:'refl-passiv', de:'Ich wurde gestern gegen Grippe geimpft.', en:'I was vaccinated against the flu yesterday.'},
+  {cat:'refl-passiv', de:'Wir wurden sehr freundlich von den neuen Kollegen empfangen.', en:'We were welcomed very warmly by the new colleagues.'},
+  {cat:'refl-passiv', de:'Wurdest du schon über die neuen Regeln informiert?', en:'Have you already been informed about the new rules?'},
+  {cat:'refl-passiv', de:'Wurden Sie schon von einem Arzt untersucht?', en:'Have you (formal) already been examined by a doctor?'},
+  {cat:'refl-passiv', de:'Das Fenster wurde geöffnet, um das Zimmer zu lüften.', en:'The window was opened to air out the room.'},
+  {cat:'arbeit-wichtig', de:'Was ist dir bei deiner Arbeit wichtig?', en:'What is important to you in your work?'},
+  {cat:'arbeit-wichtig', de:'Was ist für dich wichtig?', en:'What is important to you?'},
+  {cat:'arbeit-wichtig', de:'Wie wichtig sind dir flexible Arbeitszeiten?', en:'How important are flexible working hours to you?'},
+  {cat:'arbeit-wichtig', de:'Das ist mir nicht so wichtig, ich finde guten Lohn wichtiger.', en:'That is not so important to me, I find good pay more important.'},
+  {cat:'arbeit-wichtig', de:'Ich kann sagen, was mir bei der Arbeit wichtig ist: Ein gutes Team.', en:'I can say what is important to me at work: a good team.'},
+  {cat:'arbeit-wichtig', de:'Es ist mir besonders wichtig, dass die Schichten gerecht verteilt sind.', en:'It is especially important to me that the shifts are distributed fairly.'},
+  {cat:'arbeit-wichtig', de:'Was mich an diesem Job stört, ist der lange Weg zum Krankenhaus.', en:'What bothers me about this job is the long way to the hospital.'},
+  {cat:'arbeit-wichtig', de:'Es stört mich, wenn die Kommunikation im Team schlecht ist.', en:'It bothers me when communication in the team is bad.'},
+  {cat:'arbeit-wichtig', de:'Wie wichtig ist Ihnen ein hohes Gehalt?', en:'How important is a high salary to you? (formal)'},
+  {cat:'arbeit-wichtig', de:'Wie viel Wert legst du auf ein gutes Arbeitsklima?', en:'How much value do you place on a good working atmosphere?'},
+  {cat:'arbeit-wichtig', de:'Ich bevorzuge feste Arbeitszeiten, weil ich meinen Tag besser planen kann.', en:'I prefer fixed working hours because I can plan my day better.'},
+  {cat:'arbeit-wichtig', de:'Ich möchte jetzt kurz meine Meinung zur Umfrage sagen.', en:'I would now like to briefly give my opinion on the survey.'},
+  {cat:'geduld', de:'Ich war von Anfang an dabei.', en:'I was there from the beginning.'},
+  {cat:'geduld', de:'Große Geduld ist in diesem Beruf sehr wichtig.', en:'Great patience is very important in this profession.'},
+  {cat:'geduld', de:'Mit großer Geduld kann man jedes Problem lösen.', en:'With great patience you can solve any problem.'},
+  {cat:'geduld', de:'Reines Gold ist sehr teuer.', en:'Pure gold is very expensive.'},
+  {cat:'geduld', de:'Die Bank verkauft reines Gold.', en:'The bank sells pure gold.'},
+  {cat:'geduld', de:'Dieser Ehering besteht aus reinem Gold.', en:'This wedding ring is made of pure gold.'},
+  {cat:'geduld', de:'Zwölf Stunden arbeiten ohne richtige Pause? Es ist ja Wahnsinn.', en:'Working twelve hours without a proper break? That’s madness.'},
+  {cat:'geduld', de:'Können Sie bitte das Licht ausmachen? Der Patient möchte schlafen.', en:'Could you please turn off the light? The patient wants to sleep.'},
+  {cat:'geduld', de:'Ich wundere mich oft über die Bürokratie in Deutschland.', en:'I often wonder about the bureaucracy in Germany.'},
+  {cat:'geduld', de:'Ich dachte, du hast heute Frühschicht!', en:'I thought you had the early shift today!'},
+  {cat:'geduld', de:'Das habe ich mir schon gedacht!', en:'I already thought so!'},
+  {cat:'geduld', de:'Die neue Patientin spricht sehr gut Arabisch, sie könnte aus Syrien sein.', en:'The new patient speaks Arabic very well, she could be from Syria.'}
 ];
 
 /* ---------- Speech ---------- */
@@ -1938,6 +2429,7 @@ DATA.forEach(cat => {
     });
     document.getElementById('quizScore').textContent = `النتيجة: ${score} / ${total}`;
     document.getElementById('quizReveal').innerHTML = `الجملة: <span class="de">${current.de}</span>`;
+    if (window.wrapAll) window.wrapAll(document.getElementById('quizReveal'));
     document.getElementById('quizNext').classList.add('show');
   }
 
@@ -2011,3 +2503,228 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.overflow = '';
   });
 });
+
+/* ======================================================================
+   Word translation: click any German word (sentences + stories + quiz)
+   -> popup with English + Arabic translation.
+   Free services, no API key:
+     1) Google Translate public endpoint (translate.googleapis.com, client=gtx)
+     2) MyMemory (api.mymemory.translated.net) as fallback
+   Results are cached in localStorage so each word is fetched only once.
+   ====================================================================== */
+(function(){
+  const WORD_RE = /[\p{L}\p{N}]+(?:[-’'][\p{L}\p{N}]+)*/gu;
+  const CACHE_KEY = 'rk_word_tr_v1';
+  const POS_AR = {noun:'اسم', verb:'فعل', adjective:'صفة', adverb:'ظرف', preposition:'حرف جر', conjunction:'حرف عطف',
+                  pronoun:'ضمير', interjection:'تعجب', article:'أداة', particle:'أداة', abbreviation:'اختصار', numeral:'عدد'};
+
+  /* ---------- styles (injected, so only script.js needs to change) ---------- */
+  const css = `
+  .w{cursor:pointer;border-radius:3px;padding:0 1px;margin:0 -1px;transition:background .12s ease;-webkit-tap-highlight-color:transparent;}
+  .w:hover{background:rgba(199,154,75,.30);}
+  .w.active{background:rgba(199,154,75,.55);}
+  .word-tip{margin:8px 0 0;color:var(--gold,#C79A4B);font-size:13.5px;line-height:1.6;max-width:60ch;}
+  .wpop{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);width:min(460px,calc(100vw - 24px));
+    background:#1C2C48;color:#EFE9D8;border:1px solid rgba(199,154,75,.6);border-radius:14px;
+    box-shadow:0 14px 44px rgba(0,0,0,.6);z-index:10000;padding:14px 16px 12px;font-family:'Cairo',sans-serif;direction:rtl;}
+  .wpop[hidden]{display:none;}
+  .wpop-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+  .wpop-word{flex:1;min-width:0;direction:ltr;unicode-bidi:isolate;text-align:left;font-family:'Work Sans',sans-serif;
+    font-weight:700;font-size:22px;color:#F3EEDD;overflow-wrap:anywhere;}
+  .wpop-btn{flex-shrink:0;width:36px;height:36px;border-radius:50%;border:1px solid rgba(199,154,75,.55);background:transparent;
+    color:#C79A4B;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;line-height:1;padding:0;}
+  .wpop-btn:hover{background:rgba(199,154,75,.16);}
+  .wpop-btn svg{width:15px;height:15px;fill:currentColor;}
+  .wpop-row{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:start;padding:8px 0;border-top:1px solid rgba(199,154,75,.2);}
+  .wpop-lang{font-size:11px;font-weight:700;background:#24365A;color:#EFE9D8;border-radius:20px;padding:3px 0;text-align:center;margin-top:4px;}
+  .wpop-tr{min-width:0;}
+  .wpop-tr.en{direction:ltr;text-align:left;font-family:'Work Sans',sans-serif;}
+  .wpop-tr.ar{direction:rtl;text-align:right;}
+  .wpop-main{font-size:19px;font-weight:600;color:#F3EEDD;overflow-wrap:anywhere;}
+  .wpop-tr.ar .wpop-main{font-size:21px;}
+  .wpop-alt{font-size:12.5px;color:#8C96AC;margin-top:3px;line-height:1.5;}
+  .wpop-status{font-size:13.5px;color:#8C96AC;}
+  .wpop-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;padding-top:8px;border-top:1px solid rgba(199,154,75,.2);font-size:12px;}
+  .wpop-foot a{color:#C79A4B;text-decoration:none;}
+  .wpop-foot a:hover{text-decoration:underline;}
+  .wpop-retry{background:transparent;border:1px solid rgba(199,154,75,.55);color:#C79A4B;border-radius:6px;padding:4px 10px;cursor:pointer;font-family:'Cairo',sans-serif;font-size:12px;}
+  `;
+  const styleEl = document.createElement('style'); styleEl.textContent = css; document.head.appendChild(styleEl);
+
+  /* ---------- word wrapping ---------- */
+  function wrapEl(el){
+    if (!el || el.dataset.ww === '1') return;
+    const text = el.textContent;
+    if (!text) return;
+    const frag = document.createDocumentFragment();
+    let last = 0, m;
+    WORD_RE.lastIndex = 0;
+    while ((m = WORD_RE.exec(text))){
+      const word = m[0];
+      if (/^\d+$/.test(word)) continue;               // plain numbers stay plain text
+      if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+      const s = document.createElement('span');
+      s.className = 'w'; s.textContent = word;
+      frag.appendChild(s);
+      last = m.index + word.length;
+    }
+    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+    el.textContent = '';
+    el.appendChild(frag);
+    el.dataset.ww = '1';
+  }
+  function wrapAll(root){
+    (root || document).querySelectorAll('.txt.de, .quiz-reveal .de').forEach(wrapEl);
+  }
+  window.wrapAll = wrapAll;
+
+  /* ---------- cache ---------- */
+  let cache = {};
+  try { cache = JSON.parse(localStorage.getItem(CACHE_KEY) || '{}') || {}; } catch(e){ cache = {}; }
+  let saveTimer = null;
+  function saveCache(){
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => { try { localStorage.setItem(CACHE_KEY, JSON.stringify(cache)); } catch(e){} }, 400);
+  }
+
+  /* ---------- translation services ---------- */
+  function fetchJSON(url, ms){
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), ms || 9000);
+    return fetch(url, {signal: ctrl.signal})
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .finally(() => clearTimeout(t));
+  }
+  async function viaGoogle(q, tl){
+    const url = 'https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=' + tl +
+                '&dt=t&dt=bd&q=' + encodeURIComponent(q);
+    const data = await fetchJSON(url);
+    const main = ((data && data[0]) || []).map(s => s && s[0] ? s[0] : '').join('').trim();
+    if (!main) throw new Error('empty');
+    const alts = ((data && data[1]) || []).slice(0, 3)
+      .map(g => ({pos: g[0], terms: (g[1] || []).slice(0, 4)}))
+      .filter(g => g.terms.length);
+    return {main, alts};
+  }
+  async function viaMyMemory(q, tl){
+    const url = 'https://api.mymemory.translated.net/get?q=' + encodeURIComponent(q) + '&langpair=de|' + tl;
+    const data = await fetchJSON(url);
+    const main = ((data && data.responseData && data.responseData.translatedText) || '').trim();
+    if (!main || (data.responseStatus && Number(data.responseStatus) !== 200)) throw new Error('empty');
+    return {main, alts: []};
+  }
+  async function translate(word, tl){
+    try { return await viaGoogle(word, tl); }
+    catch(e1){
+      try { return await viaMyMemory(word, tl); }
+      catch(e2){ return null; }
+    }
+  }
+  async function getTranslation(word){
+    const key = word.toLowerCase();
+    if (cache[key]) return cache[key];
+    const [en, ar] = await Promise.all([translate(word, 'en'), translate(word, 'ar')]);
+    if (!en && !ar) throw new Error('no translation');
+    const res = {en, ar};
+    cache[key] = res; saveCache();
+    return res;
+  }
+
+  /* ---------- popup ---------- */
+  const pop = document.createElement('div');
+  pop.id = 'wordPop'; pop.className = 'wpop'; pop.hidden = true;
+  pop.setAttribute('role', 'dialog'); pop.setAttribute('aria-label', 'ترجمة الكلمة');
+  pop.innerHTML = `
+    <div class="wpop-head">
+      <button type="button" class="wpop-btn wpop-speak" aria-label="استمع للكلمة"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+      <div class="wpop-word"></div>
+      <button type="button" class="wpop-btn wpop-close" aria-label="إغلاق">×</button>
+    </div>
+    <div class="wpop-row"><span class="wpop-lang">EN</span><div class="wpop-tr en"></div></div>
+    <div class="wpop-row"><span class="wpop-lang">عربي</span><div class="wpop-tr ar"></div></div>
+    <div class="wpop-foot"><a class="wpop-gt" target="_blank" rel="noopener">فتح في Google Translate ↗</a><span class="wpop-actions"></span></div>
+  `;
+  document.body.appendChild(pop);
+  const elWord = pop.querySelector('.wpop-word');
+  const elEn = pop.querySelector('.wpop-tr.en');
+  const elAr = pop.querySelector('.wpop-tr.ar');
+  const elGT = pop.querySelector('.wpop-gt');
+  const elActions = pop.querySelector('.wpop-actions');
+  let activeEl = null, reqId = 0, currentWord = '';
+
+  function status(box, text){ box.innerHTML = ''; const d = document.createElement('div'); d.className = 'wpop-status'; d.textContent = text; box.appendChild(d); }
+  function fill(box, r, isAr){
+    box.innerHTML = '';
+    if (!r){ status(box, '—'); return; }
+    const m = document.createElement('div'); m.className = 'wpop-main'; m.textContent = r.main; box.appendChild(m);
+    (r.alts || []).forEach(g => {
+      const d = document.createElement('div'); d.className = 'wpop-alt';
+      const label = isAr ? (POS_AR[g.pos] || g.pos) : g.pos;
+      d.textContent = label + ': ' + g.terms.join(isAr ? '، ' : ', ');
+      box.appendChild(d);
+    });
+  }
+  function keepWordVisible(){
+    if (!activeEl) return;
+    const r = activeEl.getBoundingClientRect();
+    const limit = window.innerHeight - pop.offsetHeight - 24;
+    if (r.bottom > limit && typeof window.scrollBy === 'function'){
+      try { window.scrollBy({top: r.bottom - limit + 10, behavior: 'smooth'}); } catch(e){}
+    }
+  }
+  function load(word){
+    const my = ++reqId;
+    elActions.innerHTML = '';
+    status(elEn, '…'); status(elAr, '…جاري الترجمة');
+    getTranslation(word).then(res => {
+      if (my !== reqId) return;
+      fill(elEn, res.en, false); fill(elAr, res.ar, true);
+      keepWordVisible();
+    }).catch(() => {
+      if (my !== reqId) return;
+      status(elEn, 'تعذّر جلب الترجمة'); status(elAr, 'تأكد من الإنترنت أو جرّب الرابط تحت');
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'wpop-retry'; b.textContent = 'إعادة المحاولة';
+      b.addEventListener('click', () => load(word));
+      elActions.appendChild(b);
+    });
+  }
+  function openPop(w){
+    if (activeEl) activeEl.classList.remove('active');
+    activeEl = w; w.classList.add('active');
+    currentWord = w.textContent;
+    elWord.textContent = currentWord;
+    elGT.href = 'https://translate.google.com/?sl=de&tl=ar&text=' + encodeURIComponent(currentWord) + '&op=translate';
+    pop.hidden = false;
+    load(currentWord);
+    keepWordVisible();
+  }
+  function closePop(){
+    pop.hidden = true; reqId++;
+    if (activeEl){ activeEl.classList.remove('active'); activeEl = null; }
+  }
+  pop.querySelector('.wpop-close').addEventListener('click', closePop);
+  pop.querySelector('.wpop-speak').addEventListener('click', () => { if (currentWord) speak(currentWord, null); });
+
+  document.addEventListener('click', (e) => {
+    const w = e.target.closest ? e.target.closest('.w') : null;
+    if (w){
+      const sel = window.getSelection ? String(window.getSelection()) : '';
+      if (sel.trim()) return;                       // user is selecting text: don't hijack
+      openPop(w);
+      return;
+    }
+    if (!pop.hidden && !(e.target.closest && e.target.closest('#wordPop'))) closePop();
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePop(); });
+
+  /* ---------- hint under the tagline ---------- */
+  const tagline = document.querySelector('.tagline');
+  if (tagline){
+    const tip = document.createElement('p');
+    tip.className = 'word-tip';
+    tip.textContent = '💡 اضغط على أي كلمة ألمانية (بالجمل وبالقصص) لتشوف ترجمتها بالعربي والإنجليزي.';
+    tagline.insertAdjacentElement('afterend', tip);
+  }
+
+  wrapAll(document);
+})();

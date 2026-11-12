@@ -198,7 +198,73 @@ const DATA = [
       'Ausstieg in Fahrtrichtung links.','Ausstieg in Fahrtrichtung rechts.',
       'Er benutzt jeden Tag die Straßenbahn, um zur Arbeit zu fahren.','Wie fährst du normalerweise zur Arbeit?',
       'Der Zug fährt pünktlich um 8 Uhr ab.','Der Bus ist leider schon abgefahren.',
-      'Wir müssen uns beeilen. Der Zug fährt nämlich gleich ab.'
+      'Wir müssen uns beeilen. Der Zug fährt nämlich gleich ab.',
+      'Morgens ist der Straßenverkehr sehr dicht, deshalb fahre ich lieber mit der Bahn zur Klinik.',
+      'Mit dem Bus bin ich schnell in der Klinik, mit dem Fahrrad bin ich schneller, aber mit der U-Bahn geht es am schnellsten.',
+      'Der Stress ist morgens hoch, mittags ist er höher, und in der Notaufnahme ist er am höchsten.',
+      'Die Apotheke ist nah, der Supermarkt ist näher, aber die Bushaltestelle ist am nächsten.',
+      'Ein Buch ist teuer, ein Sprachkurs ist teurer, aber Privatunterricht ist am teuersten.',
+      'Jeden Morgen beim Frühstück versuche ich, deutsche Nachrichten zu hören.',
+      'Im Wartezimmer beim Arzt kann man gut Zeitschriften lesen.',
+      'Ich muss heute noch ein schweres Paket und ein kleines Päckchen zur Post bringen.',
+      'Oben links auf dem Brief steht der Absender, und unten rechts steht der Empfänger.',
+      'Bitte schreiben Sie die Adresse des Krankenhauses deutlich auf das Paket.',
+      'Für dieses wichtige Paket braucht der Postbote Ihre Unterschrift.',
+      'Ich stecke den Brief vom Arzt in den Briefumschlag.',
+      'Ich schaue jeden Mittag in den Briefkasten, ob Post vom Amt da ist.',
+      'Sie können die Briefmarken direkt am Schalter Nummer drei kaufen.',
+      'Das Ausfüllen des Formulars ist der erste Schritt für deinen Antrag.',
+      'Vor der Benutzung des neuen Blutdruckmessgeräts muss man die Gebrauchsanweisung genau lesen.',
+      'Wir packen die alten Patientenakten in einen großen Karton.',
+      'Du musst noch eine Briefmarke auf den Umschlag kleben.',
+      'Das Paket ist mit vielen bunten Aufklebern beklebt.',
+      'Wir halten die Briefe mit Gummibändern zusammen, damit nichts verloren geht.',
+      'Der Medikamentenschrank auf der Station muss immer gut verschlossen sein.',
+      'Ich habe meine Bewerbung für die Ausbildung schon gestern abgeschickt.',
+      'Die beiden Kartons sind gleich groß, aber der Inhalt ist komplett verschieden.',
+      'Die Apotheke liegt direkt gegenüber vom Krankenhaus.',
+      'Die Bushaltestelle befindet sich genau gegenüber von der Bäckerei.',
+      'Gehen Sie hier geradeaus an der Rezeption vorbei bis zum Aufzug.',
+      'Jeden Morgen fahre ich mit dem Bus am großen Stadtpark vorbei.',
+      'Der Krankenwagen fährt schnell durch die volle Stadt.',
+      'Um zur Cafeteria zu kommen, müssen Sie durch den langen Flur gehen.',
+      'Vor der Abfahrt des Zuges müssen wir noch ein Ticket kaufen, und nach der Ankunft fahren wir direkt ins Hotel.',
+      'Wir sind mit dem Auto auf die Fähre gefahren; es war ein riesiges Schiff.',
+      'Auf unserer Fahrt nach Österreich haben wir die Grenze ohne Probleme überquert.',
+      'Vorsicht, wenn Sie hier die breite Straße überqueren!',
+      'Bitte parken Sie Ihr Fahrzeug nicht vor der Einfahrt für den Krankenwagen!',
+      'Auf der deutschen Autobahn darf man oft sehr schnell fahren, aber es gibt auch viel Stau.',
+      'Bevor wir auf die Autobahn fahren, müssen wir noch kurz an der Tankstelle halten und tanken.',
+      'Wir hatten gestern Abend eine Reifenpanne im Regen und mussten selbst den Reifen wechseln.',
+      'Der Motor macht ein komisches Geräusch, deshalb bringe ich das Auto morgen in die Autowerkstatt.',
+      'Bei Schnee und Eis ist das schnelle Fahren extrem gefährlich.',
+      'Für den Kaffeeautomaten auf dem Flur brauche ich eine Zwei-Euro-Münze.',
+      'Draußen schneit es, deshalb ziehe ich eine dicke Jacke an, binde mir den Schal um den Hals und setze die Mütze auf.',
+      'Auf dem Weg zur Klinik trage ich meistens eine bequeme Jeanshose und warme Winterschuhe.',
+      'Zur Hochzeitsfeier ihrer Schwester kauft sie sich ein elegantes Kleid.',
+      'Im Krankenhaus tragen alle Pflegekräfte weiße Arbeitskleidung, aber heute in meiner Freizeit habe ich ein schwarzes T-Shirt an.',
+      'Mach bitte das Fenster zu, es ist mir wirklich kalt!',
+      'Der Patient hat hohes Fieber; es ist dem Mann extrem heiß, obwohl das Zimmer kühl ist.',
+      'Viele ältere Patienten haben im Sommer Probleme mit der starken Hitze und im Winter mit der Kälte.',
+      'Im Frühling ist es tagsüber schon angenehm warm, aber nachts wird es noch sehr kalt.',
+      'Heute Morgen weht ein eisiger Wind, pass auf den glatten Straßen gut auf!',
+      'In Deutschland fahren viele Menschen mit den öffentlichen Verkehrsmitteln, weil das umweltfreundlich ist.',
+      'Das Fahrrad ist im Sommer eine sinnvolle und gesunde Alternative zum Auto.',
+      'Carsharing, also das Teilen von Autos, wird in großen Städten immer beliebter.',
+      'Mit dieser Chipkarte können wir die Türen im Krankenhaus öffnen und in der Cafeteria bezahlen.',
+      'Die neue Klinik liegt etwas außerhalb der Stadt, aber man kann sie gut mit der Straßenbahn erreichen.',
+      'Meine neue Wohnung ist viel näher am Krankenhaus; jetzt habe ich morgens weniger Weg zur Arbeit.',
+      'Wenn man ein Monatsticket kauft, ist das sehr preiswert und man kann viel Geld sparen.',
+      'Das Deutschlandticket kostet nicht viel – für Pendler lohnt sich das auf jeden Fall!',
+      'Vom Bruttogehalt werden in Deutschland jeden Monat die Steuern und die Versicherungen abgezogen.',
+      'Im ICE sitzen morgens viele Geschäftsleute, die an ihren Laptops arbeiten.',
+      'Um den digitalen Dienstplan zu sehen, muss ich mich mit meinen Zugangsdaten im System einloggen.',
+      'Bitte geben Sie zuerst Ihren Benutzernamen und danach Ihr Passwort ein.',
+      'Ein sicheres Passwort sollte mindestens acht Buchstaben, eine Zahl und ein Sonderzeichen enthalten.',
+      'Sie müssen den Link in der E-Mail anklicken, um Ihr neues Konto zu bestätigen.',
+      'Ich habe das Formular heruntergeladen, am Laptop unterschrieben und wieder auf der Webseite hochgeladen.',
+      'Der Patient muss den Fragebogen komplett ausfüllen, und die Sekretärin druckt ihn dann aus.',
+      'Ich kann die Datei leider nicht öffnen, weil die Internetverbindung heute extrem langsam ist.'
     ]
   },
   {
@@ -226,7 +292,42 @@ const DATA = [
       'Ich habe am Strand Muscheln gesammelt.','Hast du im Wald Pilze gesammelt?',
       'Das Hotel hat eine ruhige Lage.','Möchtest du lieber ins Kino gehen oder zu Hause bleiben?','Jeder kann kommen.',
       'Ich mache einen Einkaufsbummel.','Das Hotel ist schön, und außerdem ist es sehr günstig.',
-      'Die Veranstaltung findet am Samstagabend im Zentrum statt.','Der Film war leider so langweilig, dass ich eingeschlafen bin.'
+      'Die Veranstaltung findet am Samstagabend im Zentrum statt.','Der Film war leider so langweilig, dass ich eingeschlafen bin.',
+      'Als wir im Sommer Urlaub hatten, sind wir jeden Tag ans Meer gefahren.',
+      'Am Wochenende wollen wir uns deutsche Filme anschauen.',
+      'Es macht viel Spaß, im Auto laut deutsche Lieder mitzusingen.',
+      'Aus dem Urlaub habe ich meinen Kollegen auf der Station eine Postkarte geschickt.',
+      'Wir wünschen Ihnen einen angenehmen Aufenthalt in unserem Hotel!',
+      'Wegen der großen Medizin-Messe sind leider alle Hotels in der Stadt komplett ausgebucht.',
+      'Im Urlaub buche ich lieber Halbpension statt Vollpension, weil ich mittags gern in der Stadt esse.',
+      'Wir haben für den Sommerurlaub ein schönes Zimmer mit direktem Strandblick reserviert.',
+      'Die Getränke und Snacks in der Minibar im Hotelzimmer sind meistens sehr teuer.',
+      'Sie führt dieses kleine Familienhotel schon seit zwanzig Jahren.',
+      'Nach den vielen Prüfungen freue ich mich schon sehr auf die lange Reise im Sommer.',
+      'Während wir verreisen, passt unser freundlicher Nachbar aufs Haus auf.',
+      'Im Sommer fahren wir ans Meer, und dann sitzen wir den ganzen Tag entspannt am Strand.',
+      'Nächste Woche reisen wir an die Küste oder an den Bodensee, weil ich im Urlaub gern am Bodensee und an der Küste bin.',
+      'Morgen fliegen wir auf die Insel Mallorca und bleiben zehn Tage auf der Insel.',
+      'Am Wochenende fahre ich aufs Land zu meinen Großeltern; sie leben schon lange ruhig auf dem Land.',
+      'Im Winter fahren wir in die Berge, klettern und steigen hoch hinauf, und bleiben eine Woche in den Bergen.',
+      'Im Urlaub fahren wir gern ins Gebirge, weil die Natur im Gebirge wunderschön ist.',
+      'Nach der Schicht gehe ich oft in den Wald spazieren, denn im Wald ist die Luft sehr frisch.',
+      'Viele Touristen reisen im Winter in den Süden oder in die Wüste, weil es im Süden und in der Wüste warm ist.',
+      'Morgen fahre ich mit dem Zug nach Düsseldorf, denn mein Freund lebt in Düsseldorf.',
+      'Am Wochenende gibt es im Kulturzentrum eine interessante Veranstaltung für junge Leute.',
+      'Wegen des schlechten Wetters findet das Fest heute im großen Saal statt.',
+      'Heute Abend gehe ich zu einer Lesung von meinem Lieblingsautor in der Stadtbibliothek.',
+      'Beim Poetry Slam haben junge Künstler ihre eigenen Texte auf der Bühne präsentiert.',
+      'Zur Vernissage in der Galerie kamen gestern viele Kunstliebhaber und Journalisten.',
+      'Nach den Prüfungen gehen wir zusammen auf ein großes Konzert.',
+      'Meine Kollegin liebt klassische Oper und Ballett, aber ich schaue mir lieber ein modernes Musical an.',
+      'Für die kleinen Patienten auf der Kinderstation wurde heute ein lustiges Puppentheater wie im Zirkus organisiert.',
+      'Am Samstag machen wir einen geführten Stadtspaziergang und nehmen dabei an einem Fotoworkshop teil.',
+      'Nach dem tollen Auftritt hat das Publikum minutenlang begeistert geklatscht.',
+      'Am Ende des Poetry Slams darf das Publikum über den besten Text abstimmen.',
+      'In der Teamsitzung stimmen wir heute über den neuen Urlaubsplan ab.',
+      'Am Samstagabend gehen meine Kollegen nach der Schicht zusammen in einen Club, um zu tanzen.',
+      'Gestern haben wir im Stadttheater ein modernes Theaterstück gesehen; es war ein intensives Kammerspiel mit nur drei Schauspielern.'
     ]
   },
   {
@@ -309,7 +410,41 @@ const DATA = [
       'Als ich angefangen habe, Deutsch zu lernen, war ich nicht fleißig. Aber dann habe ich beschlossen, hart zu lernen.',
       'Vor 6 Monaten habe ich mich entschieden, Deutsch zu lernen.','Vor 6 Monaten hatte ich vor, Deutsch zu lernen.',
       'Vor 6 Monaten habe ich angefangen, Deutsch zu lernen.','Ich rufe dich heute Abend an.',
-      'Früh aufzustehen ist eine sehr gute Gewohnheit.'
+      'Früh aufzustehen ist eine sehr gute Gewohnheit.',
+      'Deutsch ist keine leichte Fremdsprache, aber mit täglicher Übung schafft man das.',
+      'Um meine Aussprache zu verbessern, spreche ich im Server oft mit Muttersprachlern.',
+      'Er hat sehr gute Noten und hofft auf ein Stipendium für sein Studium in Deutschland.',
+      'Dein Deutsch ist gut, aber deine Aussprache ist noch besser, und beim Sprechen bist du am besten.',
+      'Ich lerne gern zu Hause, lieber lerne ich in der Bibliothek, aber am liebsten lerne ich mit Freunden.',
+      'Im Kurs sprechen wir viel, zu Hause übe ich noch mehr, aber im Krankenhaus lerne ich am meisten.',
+      'Ich höre oft deutsche Podcasts, noch öfter schaue ich Videos, aber am häufigsten benutze ich Lern-Apps.',
+      'Grammatik ist wichtig, der Wortschatz ist wichtiger, aber die tägliche Übung ist am wichtigsten.',
+      'Lesen finde ich leicht, Hören ist für mich noch leichter, aber Vokabeln lernen fällt mir am leichtesten.',
+      'Ich lerne am besten durch praktische Beispiele aus dem Alltag.',
+      'Abends möchte ich noch zwanzig Vokabelkärtchen schreiben.',
+      'Vor dem Schlafen sollte man die neuen Wörter noch einmal wiederholen.',
+      'Für manche Verben hilft es, kleine Bilder zu zeichnen.',
+      'Für eine gute Aussprache muss man die Sätze laut nachsprechen.',
+      'Heute Nachmittag muss ich noch zwei Seiten Grammatikaufgaben lösen.',
+      'Versuch bitte, im Alltag so viel wie möglich auf Deutsch zu denken.',
+      'Am allerwichtigsten beim Lernen ist die tägliche Disziplin.',
+      'Ohne echte Sprachpraxis vergisst man die gelernten Wörter schnell wieder.',
+      'Man muss nicht alle Regeln auswendig lernen, um gut zu sprechen.',
+      'Die Theorie ist einfach, aber in der Praxis braucht man viel Übung.',
+      'Dieser Nachmittagskurs passt perfekt in meinen Zeitplan.',
+      'Ich lerne mit Karteikarten, denn die Methode passt super zu mir.',
+      'Ich möchte bald die B2-Prüfung machen, deshalb lerne ich jeden Tag.',
+      'Langweilige Texte helfen mir gar nicht beim Lernen.',
+      'Ich muss mir das Wort sofort notieren, sonst vergesse ich es wieder.',
+      'Jeder Mensch ist anders und hat seinen eigenen Lernstil.',
+      'Beim ersten Lesen muss man nur die Hauptinformationen im Text verstehen.',
+      'Ich habe mich für eine Ausbildung in der Pflege und gegen ein langes Studium entschieden.',
+      'Adham nutzt jeden Tag eine App, um sein gesprochenes Deutsch zu verbessern.',
+      'Nach einem Monat Training merke ich schon, dass ich viel flüssiger spreche.',
+      'Mit Beispielsätzen kann ich mir neue Wörter viel besser merken.',
+      'Ich schreibe heute meine Bewerbung für das Krankenhaus und aktualisiere meinen Lebenslauf.',
+      'Die Ausbildung zum Pflegefachmann ist eine sehr gute Wahl für meine Zukunft.',
+      'Ich möchte dieses Jahr meinen B2-Kurs erfolgreich beenden.'
     ]
   },
   {
@@ -598,7 +733,41 @@ const DATA = [
       'Welches Medikament gegen Halsschmerzen können Sie mir empfehlen?',
       'Kopfschmerzen treten häufig bei Stress und Schlafmangel auf.',
       'Der Patient hat so starke Halsschmerzen, dass er kaum sprechen kann.',
-      'Der Patient hat leichtes Fieber, ansonsten geht es ihm gut.'
+      'Der Patient hat leichtes Fieber, ansonsten geht es ihm gut.',
+      'Die erfahrene Krankenschwester versucht, dem neuen Schüler alles geduldig beizubringen.',
+      'Mein Kollege hat mir gestern beigebracht, wie man dieses medizinische Gerät benutzt.',
+      'Die genaue Ursache für die Allergie des Patienten ist leider noch unbekannt.',
+      'Der Arzt nimmt sich viel Zeit, um alle Fragen des Patienten ruhig zu beantworten.',
+      'Wir müssen dringend neue Handschuhe und Masken für die Station bestellen.',
+      'Wir haben den Patienten für morgen früh zur Blutabnahme bestellt.',
+      'Für die Arbeit beim ambulanten Pflegedienst braucht man unbedingt einen Führerschein.',
+      'Unser neuer Kollege lächelt den ganzen Tag, ich glaube, er ist frisch verliebt.',
+      'Unser Stationsleiter ist ein echter Spaßvogel, er bringt das ganze Team immer zum Lachen.',
+      'Als der Pfleger gestern mit dem Patienten gesprochen hat, ging es ihm schon viel besser.',
+      'Als ich letzte Woche im Krankenhaus ein Praktikum gemacht habe, habe ich viel über die Pflege gelernt.',
+      'Die Ärzte vermuten, dass der Patient eine seltene Infektion hat.',
+      'Bitte konzentrieren Sie sich bei der Medikamentenausgabe, damit kein Fehler passiert!',
+      'Der Pfleger erklärt die Übung sehr ruhig, sodass der Patient alles sofort versteht.',
+      'Weißt du zufällig, wann heute die Übergabe im Stationszimmer beginnt?',
+      'Der Patient im Nachbarbett bekommt genau dasselbe Medikament wie Sie.',
+      'Schwester Anna und ich arbeiten auf derselben Station im Krankenhaus.',
+      'Das gemeinsame Kaffeetrinken nach der Übergabe ist für unser Team eine feste Gewohnheit geworden.',
+      'Der Chefarzt führt gerade ein wichtiges Gespräch mit den Angehörigen.',
+      'Vor der Operation dürfen die Patienten dem Arzt alle wichtigen Fragen stellen.',
+      'Bei der Dosierung der Medikamente muss man im Krankenhaus extrem gut aufpassen.',
+      'Auf unserer Station arbeiten insgesamt zwanzig Pflegekräfte und fünf Ärzte.',
+      'Hypertonie wird in der Alltagssprache einfach Bluthochdruck genannt.',
+      'Der Patient muss vor den Tabletten etwas essen, aber er hat seit gestern nichts gegessen.',
+      'Der Patient klagte über starke Brustschmerzen; daraufhin habe ich sofort den Notarzt gerufen.',
+      'Als Nächstes haben wir ein EKG gemacht.',
+      'Anschließend bekam er Medikamente, und zuletzt wurde er auf die Intensivstation gebracht.',
+      'In der Intensivpflege muss man absolut zuverlässig sein und viel Verantwortung übernehmen.',
+      'Der Blutdruck des Patienten ist heute viel zu niedrig, wir müssen sofort den Arzt informieren.',
+      'In der Notaufnahme erlebt man jeden Tag spannende und neue Situationen.',
+      'Der Chefarzt hält morgen einen wichtigen Vortrag über moderne Notfallmedizin.',
+      'Der Notarzt kam gestern innerhalb von fünf Minuten in die Klinik.',
+      'Die Krankenschwester gab dem Patienten eine Schmerztablette, weil es keine andere Lösung gab.',
+      'Der Chefarzt sagte mir, dass die Operation sehr gut verlaufen ist.'
     ]
   },
   {
@@ -1283,6 +1452,57 @@ const DATA = [
       'Ich dachte, du hast heute Frühschicht!',
       'Das habe ich mir schon gedacht!',
       'Die neue Patientin spricht sehr gut Arabisch, sie könnte aus Syrien sein.'
+    ]
+  },
+  {
+    id:'medien', ar:'التلفزيون والأفلام والكتب', de:'Medien: Fernsehen, Serien & Bücher', type:'flat',
+    items:[
+      'Ich schaue mir abends gern eine spannende deutsche Serie wie „Dark“ an, um mein Hörverstehen zu verbessern.',
+      'Gestern Abend lief ein sehr interessanter Film über das Leben von Ärzten im Krankenhaus.',
+      'Die letzte Folge der Serie war so spannend, dass ich sofort weiterschauen musste.',
+      'Am Sonntagabend schauen Millionen Menschen in Deutschland traditionell einen Krimi.',
+      'Diese medizinische Sendung läuft jeden Dienstag auf einem bekannten deutschen Sender.',
+      'In Deutschland muss jeder Haushalt einen Beitrag für den öffentlich-rechtlichen Rundfunk bezahlen.',
+      'Wenn ich eine Sendung im Fernsehen verpasse, kann ich sie später kostenlos in der Mediathek anschauen.',
+      'Wo liegt die Fernbedienung? Ich möchte den Ton etwas leiser machen.',
+      'Früher hat man Filme oft auf DVD gekauft, heute nutzt fast jeder Streaming-Dienste.',
+      'Dieser berühmte Schauspieler arbeitet im Theater und beim Film.',
+      'Der Hauptdarsteller hat die Rolle des Chirurgen sehr realistisch gespielt.',
+      'Der Regisseur gibt den Schauspielern genaue Anweisungen für die nächste Szene.',
+      'Über fünf Millionen Zuschauer haben gestern Abend das spannende Fußballspiel im Fernsehen verfolgt.',
+      'Die neue Serie über das Krankenhausteam hat beim Publikum großen Erfolg.',
+      'Beim Filmeschauen knabbere ich am liebsten gesunde Nüsse oder ein paar Chips.',
+      'Am Wochenende nehme ich mir Zeit, um meine Lieblingssendungen im Fernsehen anzuschauen.',
+      'Ich finde Mystery- und Science-Fiction-Serien wie „Dark“ extrem spannend.',
+      'Nach einer langen Schicht gucke ich abends gern noch einen spannenden Film.',
+      'Ich habe unter dem neuen Lernvideo auf YouTube einen positiven Kommentar geschrieben.',
+      'In dem alten Märchen gab der König strenge Befehle, die jeder befolgen musste.',
+      'Im Zug auf dem Weg zur Arbeit lese ich gerade einen spannenden historischen Roman.',
+      'Ich habe mir ein Sachbuch über Anatomie und Erste Hilfe ausgeliehen.',
+      'In der Buchhandlung habe ich einen guten Ratgeber zum Thema Gesunder Schlaf gefunden.',
+      'Wenn ich abends müde bin, mache ich das Licht aus und höre im Bett ein deutsches Hörbuch.',
+      'Die Krankenschwester liest dem kranken Kind zum Einschlafen ein altes Märchen aus einem bunten Bilderbuch vor.'
+    ]
+  },
+  {
+    id:'polizei', ar:'الشرطة والسرقة والأمان', de:'Polizei, Diebstahl & Sicherheit', type:'flat',
+    items:[
+      'Nach dem Einbruch in die Apotheke sucht die Polizei überall nach dem Einbrecher.',
+      'Im Krankenhaus kommt es manchmal zu einem Diebstahl, deshalb sollte man Wertsachen einschließen, damit der Dieb keine Chance hat.',
+      'Jemand hat gestern im Pausenraum mein Handy gestohlen; wer stiehlt denn so etwas?',
+      'Nach dem Überfall wurde das Opfer im Krankenhaus behandelt, während die Polizei den Täter festgenommen hat.',
+      'Im vollen Bus wurde mir leider mein Geldbeutel aus der Jackentasche gezogen.',
+      'Der Einbrecher hat mit einem Hammer das Fenster im Erdgeschoss eingeschlagen.',
+      'Wenn dein Fahrrad gestohlen wird, musst du sofort eine Anzeige bei der Polizei machen.',
+      'Die Kriminalpolizei hat an der Tür zum Medikamentenschrank einen Fingerabdruck gefunden.',
+      'Dank der genauen Personenbeschreibung konnte die Zeugin den Täter auf dem Foto sofort wiedererkennen.',
+      'Die Polizei prüft, ob alle Angaben des Zeugen wirklich stimmen.',
+      'Bei einem Brand oder einem schweren Unfall auf der Autobahn rufen wir sofort die Feuerwehr über die 112.',
+      'Die Polizei musste die Straße nach dem Unfall komplett absperren.',
+      'Bitte nehmen Sie vor der Operation keine Wertgegenstände wie Schmuck oder Uhren mit ins Zimmer.',
+      'Im Krankenhaus steht die Sicherheit der Patienten und des Personals immer an erster Stelle.',
+      'Nach dem Einbruch haben wir an der Haustür ein neues Sicherheitsschloss eingebaut.',
+      'Wegen eines Unfalls hat die Polizei die Straße für zwei Stunden gesperrt.'
     ]
   }
 ];
@@ -2159,7 +2379,218 @@ const QUIZ_POOL = [
   {cat:'geduld', de:'Ich wundere mich oft über die Bürokratie in Deutschland.', en:'I often wonder about the bureaucracy in Germany.'},
   {cat:'geduld', de:'Ich dachte, du hast heute Frühschicht!', en:'I thought you had the early shift today!'},
   {cat:'geduld', de:'Das habe ich mir schon gedacht!', en:'I already thought so!'},
-  {cat:'geduld', de:'Die neue Patientin spricht sehr gut Arabisch, sie könnte aus Syrien sein.', en:'The new patient speaks Arabic very well, she could be from Syria.'}
+  {cat:'geduld', de:'Die neue Patientin spricht sehr gut Arabisch, sie könnte aus Syrien sein.', en:'The new patient speaks Arabic very well, she could be from Syria.'},
+
+  {cat:'verkehr', de:'Morgens ist der Straßenverkehr sehr dicht, deshalb fahre ich lieber mit der Bahn zur Klinik.', en:'In the morning the road traffic is very heavy, so I prefer to take the train to the clinic.'},
+  {cat:'verkehr', de:'Mit dem Bus bin ich schnell in der Klinik, mit dem Fahrrad bin ich schneller, aber mit der U-Bahn geht es am schnellsten.', en:'By bus I’m quickly at the clinic, by bike I’m faster, but by subway it’s the fastest.'},
+  {cat:'verkehr', de:'Der Stress ist morgens hoch, mittags ist er höher, und in der Notaufnahme ist er am höchsten.', en:'Stress is high in the morning, higher at noon, and highest in the emergency room.'},
+  {cat:'verkehr', de:'Die Apotheke ist nah, der Supermarkt ist näher, aber die Bushaltestelle ist am nächsten.', en:'The pharmacy is near, the supermarket is nearer, but the bus stop is the nearest.'},
+  {cat:'verkehr', de:'Ein Buch ist teuer, ein Sprachkurs ist teurer, aber Privatunterricht ist am teuersten.', en:'A book is expensive, a language course is more expensive, but private tutoring is the most expensive.'},
+  {cat:'verkehr', de:'Jeden Morgen beim Frühstück versuche ich, deutsche Nachrichten zu hören.', en:'Every morning at breakfast I try to listen to German news.'},
+  {cat:'verkehr', de:'Im Wartezimmer beim Arzt kann man gut Zeitschriften lesen.', en:'In the waiting room at the doctor’s you can read magazines well.'},
+  {cat:'verkehr', de:'Ich muss heute noch ein schweres Paket und ein kleines Päckchen zur Post bringen.', en:'I still have to take a heavy package and a small parcel to the post office today.'},
+  {cat:'verkehr', de:'Oben links auf dem Brief steht der Absender, und unten rechts steht der Empfänger.', en:'At the top left of the letter is the sender, and at the bottom right is the recipient.'},
+  {cat:'verkehr', de:'Bitte schreiben Sie die Adresse des Krankenhauses deutlich auf das Paket.', en:'Please write the hospital’s address clearly on the package.'},
+  {cat:'verkehr', de:'Für dieses wichtige Paket braucht der Postbote Ihre Unterschrift.', en:'For this important package the mailman needs your signature.'},
+  {cat:'verkehr', de:'Ich stecke den Brief vom Arzt in den Briefumschlag.', en:'I put the letter from the doctor into the envelope.'},
+  {cat:'verkehr', de:'Ich schaue jeden Mittag in den Briefkasten, ob Post vom Amt da ist.', en:'Every noon I look in the mailbox to see whether there is mail from the office.'},
+  {cat:'verkehr', de:'Sie können die Briefmarken direkt am Schalter Nummer drei kaufen.', en:'You can buy the stamps directly at counter number three.'},
+  {cat:'verkehr', de:'Das Ausfüllen des Formulars ist der erste Schritt für deinen Antrag.', en:'Filling out the form is the first step for your application.'},
+  {cat:'verkehr', de:'Vor der Benutzung des neuen Blutdruckmessgeräts muss man die Gebrauchsanweisung genau lesen.', en:'Before using the new blood pressure monitor, you have to read the instructions carefully.'},
+  {cat:'verkehr', de:'Wir packen die alten Patientenakten in einen großen Karton.', en:'We pack the old patient files into a big cardboard box.'},
+  {cat:'verkehr', de:'Du musst noch eine Briefmarke auf den Umschlag kleben.', en:'You still have to stick a stamp on the envelope.'},
+  {cat:'verkehr', de:'Das Paket ist mit vielen bunten Aufklebern beklebt.', en:'The package is covered with many colorful stickers.'},
+  {cat:'verkehr', de:'Wir halten die Briefe mit Gummibändern zusammen, damit nichts verloren geht.', en:'We hold the letters together with rubber bands so that nothing gets lost.'},
+  {cat:'verkehr', de:'Der Medikamentenschrank auf der Station muss immer gut verschlossen sein.', en:'The medicine cabinet on the ward must always be kept well locked.'},
+  {cat:'verkehr', de:'Ich habe meine Bewerbung für die Ausbildung schon gestern abgeschickt.', en:'I already sent off my application for the training yesterday.'},
+  {cat:'verkehr', de:'Die beiden Kartons sind gleich groß, aber der Inhalt ist komplett verschieden.', en:'The two boxes are the same size, but the contents are completely different.'},
+  {cat:'verkehr', de:'Die Apotheke liegt direkt gegenüber vom Krankenhaus.', en:'The pharmacy is located directly opposite the hospital.'},
+  {cat:'verkehr', de:'Die Bushaltestelle befindet sich genau gegenüber von der Bäckerei.', en:'The bus stop is located exactly opposite the bakery.'},
+  {cat:'verkehr', de:'Gehen Sie hier geradeaus an der Rezeption vorbei bis zum Aufzug.', en:'Go straight ahead past the reception to the elevator.'},
+  {cat:'verkehr', de:'Jeden Morgen fahre ich mit dem Bus am großen Stadtpark vorbei.', en:'Every morning I take the bus past the big city park.'},
+  {cat:'verkehr', de:'Der Krankenwagen fährt schnell durch die volle Stadt.', en:'The ambulance drives quickly through the busy city.'},
+  {cat:'verkehr', de:'Um zur Cafeteria zu kommen, müssen Sie durch den langen Flur gehen.', en:'To get to the cafeteria, you have to go through the long hallway.'},
+  {cat:'verkehr', de:'Vor der Abfahrt des Zuges müssen wir noch ein Ticket kaufen, und nach der Ankunft fahren wir direkt ins Hotel.', en:'Before the train departs we still have to buy a ticket, and after arrival we go straight to the hotel.'},
+  {cat:'verkehr', de:'Wir sind mit dem Auto auf die Fähre gefahren; es war ein riesiges Schiff.', en:'We drove onto the ferry by car; it was a huge ship.'},
+  {cat:'verkehr', de:'Auf unserer Fahrt nach Österreich haben wir die Grenze ohne Probleme überquert.', en:'On our trip to Austria we crossed the border without any problems.'},
+  {cat:'verkehr', de:'Vorsicht, wenn Sie hier die breite Straße überqueren!', en:'Be careful when you cross the wide street here!'},
+  {cat:'verkehr', de:'Bitte parken Sie Ihr Fahrzeug nicht vor der Einfahrt für den Krankenwagen!', en:'Please do not park your vehicle in front of the ambulance entrance!'},
+  {cat:'verkehr', de:'Auf der deutschen Autobahn darf man oft sehr schnell fahren, aber es gibt auch viel Stau.', en:'On the German autobahn you can often drive very fast, but there are also a lot of traffic jams.'},
+  {cat:'verkehr', de:'Bevor wir auf die Autobahn fahren, müssen wir noch kurz an der Tankstelle halten und tanken.', en:'Before we get on the highway, we still have to stop briefly at the gas station and fill up.'},
+  {cat:'verkehr', de:'Wir hatten gestern Abend eine Reifenpanne im Regen und mussten selbst den Reifen wechseln.', en:'Yesterday evening we had a flat tire in the rain and had to change the tire ourselves.'},
+  {cat:'verkehr', de:'Der Motor macht ein komisches Geräusch, deshalb bringe ich das Auto morgen in die Autowerkstatt.', en:'The engine is making a strange noise, so I’m taking the car to the garage tomorrow.'},
+  {cat:'verkehr', de:'Bei Schnee und Eis ist das schnelle Fahren extrem gefährlich.', en:'In snow and ice, driving fast is extremely dangerous.'},
+  {cat:'verkehr', de:'Für den Kaffeeautomaten auf dem Flur brauche ich eine Zwei-Euro-Münze.', en:'For the coffee machine in the hallway I need a two-euro coin.'},
+  {cat:'verkehr', de:'Draußen schneit es, deshalb ziehe ich eine dicke Jacke an, binde mir den Schal um den Hals und setze die Mütze auf.', en:'Outside it’s snowing, so I’m putting on a thick jacket, tying the scarf around my neck and putting on the hat.'},
+  {cat:'verkehr', de:'Auf dem Weg zur Klinik trage ich meistens eine bequeme Jeanshose und warme Winterschuhe.', en:'On my way to the clinic I usually wear comfortable jeans and warm winter shoes.'},
+  {cat:'verkehr', de:'Zur Hochzeitsfeier ihrer Schwester kauft sie sich ein elegantes Kleid.', en:'For her sister’s wedding she is buying herself an elegant dress.'},
+  {cat:'verkehr', de:'Im Krankenhaus tragen alle Pflegekräfte weiße Arbeitskleidung, aber heute in meiner Freizeit habe ich ein schwarzes T-Shirt an.', en:'In the hospital all nursing staff wear white work clothes, but today in my free time I’m wearing a black T-shirt.'},
+  {cat:'verkehr', de:'Mach bitte das Fenster zu, es ist mir wirklich kalt!', en:'Please close the window, I’m really cold!'},
+  {cat:'verkehr', de:'Der Patient hat hohes Fieber; es ist dem Mann extrem heiß, obwohl das Zimmer kühl ist.', en:'The patient has a high fever; the man feels extremely hot even though the room is cool.'},
+  {cat:'verkehr', de:'Viele ältere Patienten haben im Sommer Probleme mit der starken Hitze und im Winter mit der Kälte.', en:'Many elderly patients have problems with the intense heat in summer and with the cold in winter.'},
+  {cat:'verkehr', de:'Im Frühling ist es tagsüber schon angenehm warm, aber nachts wird es noch sehr kalt.', en:'In spring it is already pleasantly warm during the day, but at night it gets very cold.'},
+  {cat:'verkehr', de:'Heute Morgen weht ein eisiger Wind, pass auf den glatten Straßen gut auf!', en:'This morning an icy wind is blowing, watch out on the slippery roads!'},
+  {cat:'verkehr', de:'In Deutschland fahren viele Menschen mit den öffentlichen Verkehrsmitteln, weil das umweltfreundlich ist.', en:'In Germany many people use public transport because it is environmentally friendly.'},
+  {cat:'verkehr', de:'Das Fahrrad ist im Sommer eine sinnvolle und gesunde Alternative zum Auto.', en:'The bicycle is a sensible and healthy alternative to the car in summer.'},
+  {cat:'verkehr', de:'Carsharing, also das Teilen von Autos, wird in großen Städten immer beliebter.', en:'Carsharing, that is, sharing cars, is becoming more and more popular in big cities.'},
+  {cat:'verkehr', de:'Mit dieser Chipkarte können wir die Türen im Krankenhaus öffnen und in der Cafeteria bezahlen.', en:'With this chip card we can open the doors in the hospital and pay in the cafeteria.'},
+  {cat:'verkehr', de:'Die neue Klinik liegt etwas außerhalb der Stadt, aber man kann sie gut mit der Straßenbahn erreichen.', en:'The new clinic is located a little outside the city, but you can easily reach it by tram.'},
+  {cat:'verkehr', de:'Meine neue Wohnung ist viel näher am Krankenhaus; jetzt habe ich morgens weniger Weg zur Arbeit.', en:'My new apartment is much closer to the hospital; now I have less distance to work in the morning.'},
+  {cat:'verkehr', de:'Wenn man ein Monatsticket kauft, ist das sehr preiswert und man kann viel Geld sparen.', en:'If you buy a monthly ticket, it is very inexpensive and you can save a lot of money.'},
+  {cat:'verkehr', de:'Das Deutschlandticket kostet nicht viel – für Pendler lohnt sich das auf jeden Fall!', en:'The Deutschlandticket doesn’t cost much – for commuters it is definitely worth it!'},
+  {cat:'verkehr', de:'Vom Bruttogehalt werden in Deutschland jeden Monat die Steuern und die Versicherungen abgezogen.', en:'In Germany, taxes and insurance are deducted from the gross salary every month.'},
+  {cat:'verkehr', de:'Im ICE sitzen morgens viele Geschäftsleute, die an ihren Laptops arbeiten.', en:'In the ICE many business people sit in the morning working on their laptops.'},
+  {cat:'verkehr', de:'Um den digitalen Dienstplan zu sehen, muss ich mich mit meinen Zugangsdaten im System einloggen.', en:'To see the digital duty roster, I have to log into the system with my access data.'},
+  {cat:'verkehr', de:'Bitte geben Sie zuerst Ihren Benutzernamen und danach Ihr Passwort ein.', en:'Please first enter your username and then your password.'},
+  {cat:'verkehr', de:'Ein sicheres Passwort sollte mindestens acht Buchstaben, eine Zahl und ein Sonderzeichen enthalten.', en:'A secure password should contain at least eight letters, a number and a special character.'},
+  {cat:'verkehr', de:'Sie müssen den Link in der E-Mail anklicken, um Ihr neues Konto zu bestätigen.', en:'You have to click the link in the email to confirm your new account.'},
+  {cat:'verkehr', de:'Ich habe das Formular heruntergeladen, am Laptop unterschrieben und wieder auf der Webseite hochgeladen.', en:'I downloaded the form, signed it on the laptop and uploaded it to the website again.'},
+  {cat:'verkehr', de:'Der Patient muss den Fragebogen komplett ausfüllen, und die Sekretärin druckt ihn dann aus.', en:'The patient has to fill out the questionnaire completely, and the secretary then prints it out.'},
+  {cat:'verkehr', de:'Ich kann die Datei leider nicht öffnen, weil die Internetverbindung heute extrem langsam ist.', en:'Unfortunately I can’t open the file because the internet connection is extremely slow today.'},
+  {cat:'freizeit', de:'Als wir im Sommer Urlaub hatten, sind wir jeden Tag ans Meer gefahren.', en:'When we were on vacation in summer, we drove to the sea every day.'},
+  {cat:'freizeit', de:'Am Wochenende wollen wir uns deutsche Filme anschauen.', en:'On the weekend we want to watch German movies.'},
+  {cat:'freizeit', de:'Es macht viel Spaß, im Auto laut deutsche Lieder mitzusingen.', en:'It’s a lot of fun to sing along to German songs loudly in the car.'},
+  {cat:'freizeit', de:'Aus dem Urlaub habe ich meinen Kollegen auf der Station eine Postkarte geschickt.', en:'From my vacation I sent my colleagues on the ward a postcard.'},
+  {cat:'freizeit', de:'Wir wünschen Ihnen einen angenehmen Aufenthalt in unserem Hotel!', en:'We wish you a pleasant stay in our hotel!'},
+  {cat:'freizeit', de:'Wegen der großen Medizin-Messe sind leider alle Hotels in der Stadt komplett ausgebucht.', en:'Because of the big medical trade fair, unfortunately all hotels in the city are fully booked.'},
+  {cat:'freizeit', de:'Im Urlaub buche ich lieber Halbpension statt Vollpension, weil ich mittags gern in der Stadt esse.', en:'On vacation I prefer to book half board instead of full board because I like eating in town at noon.'},
+  {cat:'freizeit', de:'Wir haben für den Sommerurlaub ein schönes Zimmer mit direktem Strandblick reserviert.', en:'We reserved a nice room with a direct beach view for the summer vacation.'},
+  {cat:'freizeit', de:'Die Getränke und Snacks in der Minibar im Hotelzimmer sind meistens sehr teuer.', en:'The drinks and snacks in the minibar in the hotel room are usually very expensive.'},
+  {cat:'freizeit', de:'Sie führt dieses kleine Familienhotel schon seit zwanzig Jahren.', en:'She has been running this small family hotel for twenty years.'},
+  {cat:'freizeit', de:'Nach den vielen Prüfungen freue ich mich schon sehr auf die lange Reise im Sommer.', en:'After all the exams I’m already looking forward to the long trip in summer.'},
+  {cat:'freizeit', de:'Während wir verreisen, passt unser freundlicher Nachbar aufs Haus auf.', en:'While we are traveling, our friendly neighbor looks after the house.'},
+  {cat:'freizeit', de:'Im Sommer fahren wir ans Meer, und dann sitzen wir den ganzen Tag entspannt am Strand.', en:'In summer we go to the sea, and then we sit relaxed on the beach all day.'},
+  {cat:'freizeit', de:'Nächste Woche reisen wir an die Küste oder an den Bodensee, weil ich im Urlaub gern am Bodensee und an der Küste bin.', en:'Next week we are traveling to the coast or to Lake Constance, because on vacation I like being at Lake Constance and on the coast.'},
+  {cat:'freizeit', de:'Morgen fliegen wir auf die Insel Mallorca und bleiben zehn Tage auf der Insel.', en:'Tomorrow we are flying to the island of Mallorca and staying on the island for ten days.'},
+  {cat:'freizeit', de:'Am Wochenende fahre ich aufs Land zu meinen Großeltern; sie leben schon lange ruhig auf dem Land.', en:'On the weekend I’m going to the countryside to my grandparents; they have lived quietly in the countryside for a long time.'},
+  {cat:'freizeit', de:'Im Winter fahren wir in die Berge, klettern und steigen hoch hinauf, und bleiben eine Woche in den Bergen.', en:'In winter we go to the mountains, climb and hike up high, and stay a week in the mountains.'},
+  {cat:'freizeit', de:'Im Urlaub fahren wir gern ins Gebirge, weil die Natur im Gebirge wunderschön ist.', en:'On vacation we like to go to the mountain range because nature in the mountains is wonderful.'},
+  {cat:'freizeit', de:'Nach der Schicht gehe ich oft in den Wald spazieren, denn im Wald ist die Luft sehr frisch.', en:'After the shift I often go for a walk in the forest, because the air in the forest is very fresh.'},
+  {cat:'freizeit', de:'Viele Touristen reisen im Winter in den Süden oder in die Wüste, weil es im Süden und in der Wüste warm ist.', en:'Many tourists travel to the south or to the desert in winter because it is warm in the south and in the desert.'},
+  {cat:'freizeit', de:'Morgen fahre ich mit dem Zug nach Düsseldorf, denn mein Freund lebt in Düsseldorf.', en:'Tomorrow I’m taking the train to Düsseldorf, because my friend lives in Düsseldorf.'},
+  {cat:'freizeit', de:'Am Wochenende gibt es im Kulturzentrum eine interessante Veranstaltung für junge Leute.', en:'On the weekend there is an interesting event for young people at the cultural center.'},
+  {cat:'freizeit', de:'Wegen des schlechten Wetters findet das Fest heute im großen Saal statt.', en:'Because of the bad weather the festival takes place in the big hall today.'},
+  {cat:'freizeit', de:'Heute Abend gehe ich zu einer Lesung von meinem Lieblingsautor in der Stadtbibliothek.', en:'Tonight I’m going to a reading by my favorite author at the city library.'},
+  {cat:'freizeit', de:'Beim Poetry Slam haben junge Künstler ihre eigenen Texte auf der Bühne präsentiert.', en:'At the poetry slam young artists presented their own texts on stage.'},
+  {cat:'freizeit', de:'Zur Vernissage in der Galerie kamen gestern viele Kunstliebhaber und Journalisten.', en:'Many art lovers and journalists came to the gallery’s opening yesterday.'},
+  {cat:'freizeit', de:'Nach den Prüfungen gehen wir zusammen auf ein großes Konzert.', en:'After the exams we are going to a big concert together.'},
+  {cat:'freizeit', de:'Meine Kollegin liebt klassische Oper und Ballett, aber ich schaue mir lieber ein modernes Musical an.', en:'My colleague loves classical opera and ballet, but I prefer watching a modern musical.'},
+  {cat:'freizeit', de:'Für die kleinen Patienten auf der Kinderstation wurde heute ein lustiges Puppentheater wie im Zirkus organisiert.', en:'For the small patients on the children’s ward, a funny puppet theater like in a circus was organized today.'},
+  {cat:'freizeit', de:'Am Samstag machen wir einen geführten Stadtspaziergang und nehmen dabei an einem Fotoworkshop teil.', en:'On Saturday we are taking a guided city walk and joining a photo workshop.'},
+  {cat:'freizeit', de:'Nach dem tollen Auftritt hat das Publikum minutenlang begeistert geklatscht.', en:'After the great performance the audience clapped enthusiastically for minutes.'},
+  {cat:'freizeit', de:'Am Ende des Poetry Slams darf das Publikum über den besten Text abstimmen.', en:'At the end of the poetry slam the audience may vote for the best text.'},
+  {cat:'freizeit', de:'In der Teamsitzung stimmen wir heute über den neuen Urlaubsplan ab.', en:'In today’s team meeting we are voting on the new vacation schedule.'},
+  {cat:'freizeit', de:'Am Samstagabend gehen meine Kollegen nach der Schicht zusammen in einen Club, um zu tanzen.', en:'On Saturday evening my colleagues go to a club together after the shift to dance.'},
+  {cat:'freizeit', de:'Gestern haben wir im Stadttheater ein modernes Theaterstück gesehen; es war ein intensives Kammerspiel mit nur drei Schauspielern.', en:'Yesterday we saw a modern play at the city theater; it was an intense chamber play with only three actors.'},
+  {cat:'gesundheit', de:'Die erfahrene Krankenschwester versucht, dem neuen Schüler alles geduldig beizubringen.', en:'The experienced nurse patiently tries to teach the new student everything.'},
+  {cat:'gesundheit', de:'Mein Kollege hat mir gestern beigebracht, wie man dieses medizinische Gerät benutzt.', en:'Yesterday my colleague taught me how to use this medical device.'},
+  {cat:'gesundheit', de:'Die genaue Ursache für die Allergie des Patienten ist leider noch unbekannt.', en:'The exact cause of the patient’s allergy is unfortunately still unknown.'},
+  {cat:'gesundheit', de:'Der Arzt nimmt sich viel Zeit, um alle Fragen des Patienten ruhig zu beantworten.', en:'The doctor takes a lot of time to calmly answer all of the patient’s questions.'},
+  {cat:'gesundheit', de:'Wir müssen dringend neue Handschuhe und Masken für die Station bestellen.', en:'We urgently need to order new gloves and masks for the ward.'},
+  {cat:'gesundheit', de:'Wir haben den Patienten für morgen früh zur Blutabnahme bestellt.', en:'We have scheduled the patient for a blood draw tomorrow morning.'},
+  {cat:'gesundheit', de:'Für die Arbeit beim ambulanten Pflegedienst braucht man unbedingt einen Führerschein.', en:'For work at an outpatient care service you absolutely need a driver’s license.'},
+  {cat:'gesundheit', de:'Unser neuer Kollege lächelt den ganzen Tag, ich glaube, er ist frisch verliebt.', en:'Our new colleague smiles all day, I think he’s freshly in love.'},
+  {cat:'gesundheit', de:'Unser Stationsleiter ist ein echter Spaßvogel, er bringt das ganze Team immer zum Lachen.', en:'Our ward manager is a real joker, he always makes the whole team laugh.'},
+  {cat:'gesundheit', de:'Als der Pfleger gestern mit dem Patienten gesprochen hat, ging es ihm schon viel besser.', en:'When the nurse spoke with the patient yesterday, he was already feeling much better.'},
+  {cat:'gesundheit', de:'Als ich letzte Woche im Krankenhaus ein Praktikum gemacht habe, habe ich viel über die Pflege gelernt.', en:'When I did an internship at the hospital last week, I learned a lot about nursing.'},
+  {cat:'gesundheit', de:'Die Ärzte vermuten, dass der Patient eine seltene Infektion hat.', en:'The doctors suspect that the patient has a rare infection.'},
+  {cat:'gesundheit', de:'Bitte konzentrieren Sie sich bei der Medikamentenausgabe, damit kein Fehler passiert!', en:'Please concentrate when handing out medication so that no mistake happens!'},
+  {cat:'gesundheit', de:'Der Pfleger erklärt die Übung sehr ruhig, sodass der Patient alles sofort versteht.', en:'The nurse explains the exercise very calmly, so that the patient understands everything immediately.'},
+  {cat:'gesundheit', de:'Weißt du zufällig, wann heute die Übergabe im Stationszimmer beginnt?', en:'Do you happen to know when the handover in the ward room starts today?'},
+  {cat:'gesundheit', de:'Der Patient im Nachbarbett bekommt genau dasselbe Medikament wie Sie.', en:'The patient in the next bed gets exactly the same medication as you.'},
+  {cat:'gesundheit', de:'Schwester Anna und ich arbeiten auf derselben Station im Krankenhaus.', en:'Nurse Anna and I work on the same ward at the hospital.'},
+  {cat:'gesundheit', de:'Das gemeinsame Kaffeetrinken nach der Übergabe ist für unser Team eine feste Gewohnheit geworden.', en:'Having coffee together after the handover has become a fixed habit for our team.'},
+  {cat:'gesundheit', de:'Der Chefarzt führt gerade ein wichtiges Gespräch mit den Angehörigen.', en:'The chief physician is currently having an important conversation with the relatives.'},
+  {cat:'gesundheit', de:'Vor der Operation dürfen die Patienten dem Arzt alle wichtigen Fragen stellen.', en:'Before the operation the patients may ask the doctor all important questions.'},
+  {cat:'gesundheit', de:'Bei der Dosierung der Medikamente muss man im Krankenhaus extrem gut aufpassen.', en:'With the dosage of the medication you have to be extremely careful in the hospital.'},
+  {cat:'gesundheit', de:'Auf unserer Station arbeiten insgesamt zwanzig Pflegekräfte und fünf Ärzte.', en:'In total twenty nurses and five doctors work on our ward.'},
+  {cat:'gesundheit', de:'Hypertonie wird in der Alltagssprache einfach Bluthochdruck genannt.', en:'Hypertension is simply called high blood pressure in everyday language.'},
+  {cat:'gesundheit', de:'Der Patient muss vor den Tabletten etwas essen, aber er hat seit gestern nichts gegessen.', en:'The patient has to eat something before the tablets, but he hasn’t eaten anything since yesterday.'},
+  {cat:'gesundheit', de:'Der Patient klagte über starke Brustschmerzen; daraufhin habe ich sofort den Notarzt gerufen.', en:'The patient complained of severe chest pain; thereupon I immediately called the emergency doctor.'},
+  {cat:'gesundheit', de:'Als Nächstes haben wir ein EKG gemacht.', en:'Next we did an ECG.'},
+  {cat:'gesundheit', de:'Anschließend bekam er Medikamente, und zuletzt wurde er auf die Intensivstation gebracht.', en:'Afterwards he received medication, and finally he was taken to the intensive care unit.'},
+  {cat:'gesundheit', de:'In der Intensivpflege muss man absolut zuverlässig sein und viel Verantwortung übernehmen.', en:'In intensive care you have to be absolutely reliable and take on a lot of responsibility.'},
+  {cat:'gesundheit', de:'Der Blutdruck des Patienten ist heute viel zu niedrig, wir müssen sofort den Arzt informieren.', en:'The patient’s blood pressure is much too low today, we must inform the doctor immediately.'},
+  {cat:'gesundheit', de:'In der Notaufnahme erlebt man jeden Tag spannende und neue Situationen.', en:'In the emergency room you experience exciting and new situations every day.'},
+  {cat:'gesundheit', de:'Der Chefarzt hält morgen einen wichtigen Vortrag über moderne Notfallmedizin.', en:'The chief physician will give an important lecture on modern emergency medicine tomorrow.'},
+  {cat:'gesundheit', de:'Der Notarzt kam gestern innerhalb von fünf Minuten in die Klinik.', en:'The emergency doctor arrived at the clinic within five minutes yesterday.'},
+  {cat:'gesundheit', de:'Die Krankenschwester gab dem Patienten eine Schmerztablette, weil es keine andere Lösung gab.', en:'The nurse gave the patient a painkiller because there was no other solution.'},
+  {cat:'gesundheit', de:'Der Chefarzt sagte mir, dass die Operation sehr gut verlaufen ist.', en:'The chief physician told me that the operation went very well.'},
+  {cat:'kommunikation', de:'Deutsch ist keine leichte Fremdsprache, aber mit täglicher Übung schafft man das.', en:'German is not an easy foreign language, but with daily practice you can do it.'},
+  {cat:'kommunikation', de:'Um meine Aussprache zu verbessern, spreche ich im Server oft mit Muttersprachlern.', en:'To improve my pronunciation, I often talk to native speakers on the server.'},
+  {cat:'kommunikation', de:'Er hat sehr gute Noten und hofft auf ein Stipendium für sein Studium in Deutschland.', en:'He has very good grades and hopes for a scholarship for his studies in Germany.'},
+  {cat:'kommunikation', de:'Dein Deutsch ist gut, aber deine Aussprache ist noch besser, und beim Sprechen bist du am besten.', en:'Your German is good, but your pronunciation is even better, and when speaking you are the best.'},
+  {cat:'kommunikation', de:'Ich lerne gern zu Hause, lieber lerne ich in der Bibliothek, aber am liebsten lerne ich mit Freunden.', en:'I like learning at home, I prefer learning in the library, but I most like learning with friends.'},
+  {cat:'kommunikation', de:'Im Kurs sprechen wir viel, zu Hause übe ich noch mehr, aber im Krankenhaus lerne ich am meisten.', en:'In class we speak a lot, at home I practice even more, but in the hospital I learn the most.'},
+  {cat:'kommunikation', de:'Ich höre oft deutsche Podcasts, noch öfter schaue ich Videos, aber am häufigsten benutze ich Lern-Apps.', en:'I often listen to German podcasts, I watch videos even more often, but I use learning apps most frequently.'},
+  {cat:'kommunikation', de:'Grammatik ist wichtig, der Wortschatz ist wichtiger, aber die tägliche Übung ist am wichtigsten.', en:'Grammar is important, vocabulary is more important, but daily practice is the most important.'},
+  {cat:'kommunikation', de:'Lesen finde ich leicht, Hören ist für mich noch leichter, aber Vokabeln lernen fällt mir am leichtesten.', en:'I find reading easy, listening is even easier for me, but learning vocabulary is easiest for me.'},
+  {cat:'kommunikation', de:'Ich lerne am besten durch praktische Beispiele aus dem Alltag.', en:'I learn best through practical examples from everyday life.'},
+  {cat:'kommunikation', de:'Abends möchte ich noch zwanzig Vokabelkärtchen schreiben.', en:'In the evening I still want to write twenty vocabulary flashcards.'},
+  {cat:'kommunikation', de:'Vor dem Schlafen sollte man die neuen Wörter noch einmal wiederholen.', en:'Before sleeping you should review the new words once more.'},
+  {cat:'kommunikation', de:'Für manche Verben hilft es, kleine Bilder zu zeichnen.', en:'For some verbs it helps to draw small pictures.'},
+  {cat:'kommunikation', de:'Für eine gute Aussprache muss man die Sätze laut nachsprechen.', en:'For good pronunciation you have to repeat the sentences out loud.'},
+  {cat:'kommunikation', de:'Heute Nachmittag muss ich noch zwei Seiten Grammatikaufgaben lösen.', en:'This afternoon I still have to solve two pages of grammar exercises.'},
+  {cat:'kommunikation', de:'Versuch bitte, im Alltag so viel wie möglich auf Deutsch zu denken.', en:'Please try to think in German as much as possible in everyday life.'},
+  {cat:'kommunikation', de:'Am allerwichtigsten beim Lernen ist die tägliche Disziplin.', en:'Most important of all when learning is daily discipline.'},
+  {cat:'kommunikation', de:'Ohne echte Sprachpraxis vergisst man die gelernten Wörter schnell wieder.', en:'Without real language practice you quickly forget the words you’ve learned.'},
+  {cat:'kommunikation', de:'Man muss nicht alle Regeln auswendig lernen, um gut zu sprechen.', en:'You don’t have to memorize all the rules to speak well.'},
+  {cat:'kommunikation', de:'Die Theorie ist einfach, aber in der Praxis braucht man viel Übung.', en:'Theory is simple, but in practice you need a lot of exercise.'},
+  {cat:'kommunikation', de:'Dieser Nachmittagskurs passt perfekt in meinen Zeitplan.', en:'This afternoon course fits perfectly into my schedule.'},
+  {cat:'kommunikation', de:'Ich lerne mit Karteikarten, denn die Methode passt super zu mir.', en:'I learn with flashcards, because the method suits me perfectly.'},
+  {cat:'kommunikation', de:'Ich möchte bald die B2-Prüfung machen, deshalb lerne ich jeden Tag.', en:'I want to take the B2 exam soon, so I study every day.'},
+  {cat:'kommunikation', de:'Langweilige Texte helfen mir gar nicht beim Lernen.', en:'Boring texts don’t help me at all with learning.'},
+  {cat:'kommunikation', de:'Ich muss mir das Wort sofort notieren, sonst vergesse ich es wieder.', en:'I have to note down the word immediately, otherwise I’ll forget it again.'},
+  {cat:'kommunikation', de:'Jeder Mensch ist anders und hat seinen eigenen Lernstil.', en:'Every person is different and has their own learning style.'},
+  {cat:'kommunikation', de:'Beim ersten Lesen muss man nur die Hauptinformationen im Text verstehen.', en:'When reading for the first time you only need to understand the main information in the text.'},
+  {cat:'kommunikation', de:'Ich habe mich für eine Ausbildung in der Pflege und gegen ein langes Studium entschieden.', en:'I decided on a training in nursing and against a long university degree.'},
+  {cat:'kommunikation', de:'Adham nutzt jeden Tag eine App, um sein gesprochenes Deutsch zu verbessern.', en:'Adham uses an app every day to improve his spoken German.'},
+  {cat:'kommunikation', de:'Nach einem Monat Training merke ich schon, dass ich viel flüssiger spreche.', en:'After a month of training I already notice that I speak much more fluently.'},
+  {cat:'kommunikation', de:'Mit Beispielsätzen kann ich mir neue Wörter viel besser merken.', en:'With example sentences I can remember new words much better.'},
+  {cat:'kommunikation', de:'Ich schreibe heute meine Bewerbung für das Krankenhaus und aktualisiere meinen Lebenslauf.', en:'Today I’m writing my application for the hospital and updating my résumé.'},
+  {cat:'kommunikation', de:'Die Ausbildung zum Pflegefachmann ist eine sehr gute Wahl für meine Zukunft.', en:'The training as a nursing professional is a very good choice for my future.'},
+  {cat:'kommunikation', de:'Ich möchte dieses Jahr meinen B2-Kurs erfolgreich beenden.', en:'I want to successfully complete my B2 course this year.'},
+  {cat:'medien', de:'Ich schaue mir abends gern eine spannende deutsche Serie wie „Dark“ an, um mein Hörverstehen zu verbessern.', en:'In the evening I like to watch an exciting German series like "Dark" to improve my listening comprehension.'},
+  {cat:'medien', de:'Gestern Abend lief ein sehr interessanter Film über das Leben von Ärzten im Krankenhaus.', en:'Yesterday evening a very interesting film about the lives of doctors in the hospital was on.'},
+  {cat:'medien', de:'Die letzte Folge der Serie war so spannend, dass ich sofort weiterschauen musste.', en:'The last episode of the series was so exciting that I had to keep watching immediately.'},
+  {cat:'medien', de:'Am Sonntagabend schauen Millionen Menschen in Deutschland traditionell einen Krimi.', en:'On Sunday evening millions of people in Germany traditionally watch a crime show.'},
+  {cat:'medien', de:'Diese medizinische Sendung läuft jeden Dienstag auf einem bekannten deutschen Sender.', en:'This medical show runs every Tuesday on a well-known German channel.'},
+  {cat:'medien', de:'In Deutschland muss jeder Haushalt einen Beitrag für den öffentlich-rechtlichen Rundfunk bezahlen.', en:'In Germany every household has to pay a fee for public broadcasting.'},
+  {cat:'medien', de:'Wenn ich eine Sendung im Fernsehen verpasse, kann ich sie später kostenlos in der Mediathek anschauen.', en:'If I miss a show on TV, I can watch it later for free in the media library.'},
+  {cat:'medien', de:'Wo liegt die Fernbedienung? Ich möchte den Ton etwas leiser machen.', en:'Where is the remote control? I want to turn the sound down a bit.'},
+  {cat:'medien', de:'Früher hat man Filme oft auf DVD gekauft, heute nutzt fast jeder Streaming-Dienste.', en:'In the past people often bought films on DVD, today almost everyone uses streaming services.'},
+  {cat:'medien', de:'Dieser berühmte Schauspieler arbeitet im Theater und beim Film.', en:'This famous actor works in the theater and in film.'},
+  {cat:'medien', de:'Der Hauptdarsteller hat die Rolle des Chirurgen sehr realistisch gespielt.', en:'The lead actor played the role of the surgeon very realistically.'},
+  {cat:'medien', de:'Der Regisseur gibt den Schauspielern genaue Anweisungen für die nächste Szene.', en:'The director gives the actors precise instructions for the next scene.'},
+  {cat:'medien', de:'Über fünf Millionen Zuschauer haben gestern Abend das spannende Fußballspiel im Fernsehen verfolgt.', en:'Over five million viewers followed the exciting football match on TV last night.'},
+  {cat:'medien', de:'Die neue Serie über das Krankenhausteam hat beim Publikum großen Erfolg.', en:'The new series about the hospital team is a big hit with the audience.'},
+  {cat:'medien', de:'Beim Filmeschauen knabbere ich am liebsten gesunde Nüsse oder ein paar Chips.', en:'While watching films I like to snack on healthy nuts or a few chips.'},
+  {cat:'medien', de:'Am Wochenende nehme ich mir Zeit, um meine Lieblingssendungen im Fernsehen anzuschauen.', en:'On the weekend I take time to watch my favorite TV shows.'},
+  {cat:'medien', de:'Ich finde Mystery- und Science-Fiction-Serien wie „Dark“ extrem spannend.', en:'I find mystery and science-fiction series like "Dark" extremely exciting.'},
+  {cat:'medien', de:'Nach einer langen Schicht gucke ich abends gern noch einen spannenden Film.', en:'After a long shift I like to watch an exciting film in the evening.'},
+  {cat:'medien', de:'Ich habe unter dem neuen Lernvideo auf YouTube einen positiven Kommentar geschrieben.', en:'I wrote a positive comment under the new learning video on YouTube.'},
+  {cat:'medien', de:'In dem alten Märchen gab der König strenge Befehle, die jeder befolgen musste.', en:'In the old fairy tale the king gave strict orders that everyone had to obey.'},
+  {cat:'medien', de:'Im Zug auf dem Weg zur Arbeit lese ich gerade einen spannenden historischen Roman.', en:'On the train on my way to work I am currently reading an exciting historical novel.'},
+  {cat:'medien', de:'Ich habe mir ein Sachbuch über Anatomie und Erste Hilfe ausgeliehen.', en:'I borrowed a non-fiction book about anatomy and first aid.'},
+  {cat:'medien', de:'In der Buchhandlung habe ich einen guten Ratgeber zum Thema Gesunder Schlaf gefunden.', en:'In the bookstore I found a good guidebook on healthy sleep.'},
+  {cat:'medien', de:'Wenn ich abends müde bin, mache ich das Licht aus und höre im Bett ein deutsches Hörbuch.', en:'When I’m tired in the evening, I turn off the light and listen to a German audiobook in bed.'},
+  {cat:'medien', de:'Die Krankenschwester liest dem kranken Kind zum Einschlafen ein altes Märchen aus einem bunten Bilderbuch vor.', en:'The nurse reads an old fairy tale from a colorful picture book to the sick child to help her fall asleep.'},
+  {cat:'polizei', de:'Nach dem Einbruch in die Apotheke sucht die Polizei überall nach dem Einbrecher.', en:'After the break-in at the pharmacy the police are searching everywhere for the burglar.'},
+  {cat:'polizei', de:'Im Krankenhaus kommt es manchmal zu einem Diebstahl, deshalb sollte man Wertsachen einschließen, damit der Dieb keine Chance hat.', en:'Sometimes thefts happen in the hospital, so you should lock up valuables so that the thief has no chance.'},
+  {cat:'polizei', de:'Jemand hat gestern im Pausenraum mein Handy gestohlen; wer stiehlt denn so etwas?', en:'Someone stole my phone in the break room yesterday; who steals something like that?'},
+  {cat:'polizei', de:'Nach dem Überfall wurde das Opfer im Krankenhaus behandelt, während die Polizei den Täter festgenommen hat.', en:'After the assault the victim was treated in the hospital while the police arrested the perpetrator.'},
+  {cat:'polizei', de:'Im vollen Bus wurde mir leider mein Geldbeutel aus der Jackentasche gezogen.', en:'Unfortunately my wallet was pulled out of my jacket pocket on the crowded bus.'},
+  {cat:'polizei', de:'Der Einbrecher hat mit einem Hammer das Fenster im Erdgeschoss eingeschlagen.', en:'The burglar smashed the window on the ground floor with a hammer.'},
+  {cat:'polizei', de:'Wenn dein Fahrrad gestohlen wird, musst du sofort eine Anzeige bei der Polizei machen.', en:'If your bike is stolen, you must immediately file a report with the police.'},
+  {cat:'polizei', de:'Die Kriminalpolizei hat an der Tür zum Medikamentenschrank einen Fingerabdruck gefunden.', en:'The criminal police found a fingerprint on the door of the medicine cabinet.'},
+  {cat:'polizei', de:'Dank der genauen Personenbeschreibung konnte die Zeugin den Täter auf dem Foto sofort wiedererkennen.', en:'Thanks to the precise description, the witness was able to recognize the perpetrator immediately in the photo.'},
+  {cat:'polizei', de:'Die Polizei prüft, ob alle Angaben des Zeugen wirklich stimmen.', en:'The police are checking whether all of the witness’s statements are really correct.'},
+  {cat:'polizei', de:'Bei einem Brand oder einem schweren Unfall auf der Autobahn rufen wir sofort die Feuerwehr über die 112.', en:'In case of a fire or a serious accident on the highway we immediately call the fire department on 112.'},
+  {cat:'polizei', de:'Die Polizei musste die Straße nach dem Unfall komplett absperren.', en:'The police had to completely close off the road after the accident.'},
+  {cat:'polizei', de:'Bitte nehmen Sie vor der Operation keine Wertgegenstände wie Schmuck oder Uhren mit ins Zimmer.', en:'Before the operation please do not take valuables such as jewelry or watches into the room.'},
+  {cat:'polizei', de:'Im Krankenhaus steht die Sicherheit der Patienten und des Personals immer an erster Stelle.', en:'In the hospital the safety of patients and staff always comes first.'},
+  {cat:'polizei', de:'Nach dem Einbruch haben wir an der Haustür ein neues Sicherheitsschloss eingebaut.', en:'After the break-in we installed a new security lock on the front door.'},
+  {cat:'polizei', de:'Wegen eines Unfalls hat die Polizei die Straße für zwei Stunden gesperrt.', en:'Because of an accident the police closed the road for two hours.'}
 ];
 
 /* ---------- Speech ---------- */
@@ -2312,10 +2743,110 @@ DATA.forEach(cat => {
   section.appendChild(body); main.appendChild(section);
 });
 
+/* ---- Grammar section (القواعد A1.1 → B1) ---- */
+(function(){
+  if (typeof GRAMMAR === 'undefined' || !GRAMMAR.length) return;
+  const LEVELS = ['A1.1','A1.2','A2.1','A2.2','B1'];
+  const gfmt  = s => s.replace(/\{\{(.+?)\}\}/g, '<span class="de gr-de">$1</span>');
+  const gex   = s => s.replace(/\*\*(.+?)\*\*/g, '<mark class="gr-hl">$1</mark>');
+  const gplain = s => s.replace(/\*\*/g, '');
+  const strip = s => s.replace(/<[^>]+>/g, '').replace(/\{\{|\}\}|\*\*/g, '');
+
+  const tab = document.createElement('button');
+  tab.className = 'tab special'; tab.type = 'button';
+  tab.innerHTML = `القواعد A1.1 → B1<span class="de">Grammatik</span>`;
+  tab.addEventListener('click', () => document.getElementById('sec-grammar').scrollIntoView({behavior:'smooth', block:'start'}));
+  nav.appendChild(tab);
+
+  const section = document.createElement('section');
+  section.className = 'category'; section.id = 'sec-grammar';
+  const head = document.createElement('div'); head.className = 'cat-head';
+  head.innerHTML = `<h2>القواعد من A1.1 إلى B1<span class="de">Grammatik – Erklärungen & Beispiele</span></h2>`;
+  section.appendChild(head);
+
+  const intro = document.createElement('p');
+  intro.className = 'gr-intro';
+  intro.textContent = 'كل قاعدة معها شرح بالعربي وأمثلة أغلبها من جملك أنت (الجزء المهم بالقاعدة مظلّل). اضغط على القاعدة لتفتحها، وعلى أي كلمة ألمانية لترجمتها، وعلى زر الصوت لتسمعها.';
+  section.appendChild(intro);
+
+  /* level filter */
+  const bar = document.createElement('div'); bar.className = 'gr-levelbar';
+  const list = document.createElement('div'); list.className = 'gr-list';
+  const count = {}; GRAMMAR.forEach(t => count[t.lvl] = (count[t.lvl] || 0) + 1);
+  [['all','الكل', GRAMMAR.length]].concat(LEVELS.filter(l => count[l]).map(l => [l, l, count[l]])).forEach(([v, label, n], i) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'gr-levelbtn' + (i === 0 ? ' active' : ''); b.dataset.lvl = v;
+    b.textContent = `${label} (${n})`;
+    bar.appendChild(b);
+  });
+  bar.addEventListener('click', (e) => {
+    const b = e.target.closest('.gr-levelbtn'); if (!b) return;
+    bar.querySelectorAll('.gr-levelbtn').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    list.querySelectorAll('.gr-topic').forEach(t => t.classList.toggle('gr-hidden', b.dataset.lvl !== 'all' && t.dataset.lvl !== b.dataset.lvl));
+  });
+  section.appendChild(bar);
+
+  function makeTable(head, rows){
+    const wrap = document.createElement('div'); wrap.className = 'gr-tablewrap';
+    const tbl = document.createElement('table'); tbl.className = 'gr-table';
+    const thead = document.createElement('thead'); const hr = document.createElement('tr');
+    head.forEach(h => { const th = document.createElement('th'); th.innerHTML = gfmt(h); th.setAttribute('dir','auto'); hr.appendChild(th); });
+    thead.appendChild(hr); tbl.appendChild(thead);
+    const tb = document.createElement('tbody');
+    rows.forEach(r => { const tr = document.createElement('tr'); r.forEach(c => { const td = document.createElement('td'); td.innerHTML = gfmt(c); td.setAttribute('dir','auto'); tr.appendChild(td); }); tb.appendChild(tr); });
+    tbl.appendChild(tb); wrap.appendChild(tbl); return wrap;
+  }
+
+  function makeTopic(t){
+    const d = document.createElement('details');
+    d.className = 'gr-topic'; d.dataset.lvl = t.lvl; d.id = t.id;
+    const sum = document.createElement('summary');
+    sum.innerHTML = `<span class="gr-lvl">${t.lvl}</span><span class="gr-sum"><span class="gr-ar">${gfmt(t.ar)}</span><span class="gr-de-title de">${t.de}</span></span>`;
+    d.appendChild(sum);
+
+    const body = document.createElement('div'); body.className = 'gr-body';
+    (t.rule || []).forEach(r => {
+      const k = r[0];
+      if (k === 'p'){ const p = document.createElement('p'); p.className = 'gr-p'; p.innerHTML = gfmt(r[1]); body.appendChild(p); }
+      else if (k === 'f'){ const f = document.createElement('div'); f.className = 'gr-formula de'; f.textContent = r[1]; body.appendChild(f); }
+      else if (k === 'n'){ const n = document.createElement('div'); n.className = 'gr-note'; n.innerHTML = '💡 ' + gfmt(r[1]); body.appendChild(n); }
+      else if (k === 't'){ body.appendChild(makeTable(r[1], r[2])); }
+    });
+
+    const exHead = document.createElement('div'); exHead.className = 'gr-exhead';
+    exHead.innerHTML = '<h4>أمثلة</h4>';
+    const playBtn = document.createElement('button'); playBtn.type = 'button'; playBtn.className = 'playall'; playBtn.textContent = 'تشغيل كل الأمثلة';
+    playBtn.addEventListener('click', () => playSequence(t.ex.map(e => gplain(e[0]))));
+    exHead.appendChild(playBtn); body.appendChild(exHead);
+
+    const exList = document.createElement('div'); exList.className = 'gr-exlist';
+    t.ex.forEach(([de, ar]) => {
+      const row = document.createElement('div'); row.className = 'card gr-ex';
+      const main = document.createElement('div'); main.className = 'gr-ex-main';
+      const txt = document.createElement('span'); txt.className = 'txt de'; txt.innerHTML = gex(de);
+      const arEl = document.createElement('span'); arEl.className = 'gr-ex-ar'; arEl.textContent = ar;
+      main.appendChild(txt); main.appendChild(arEl);
+      const btn = speakBtn(); btn.addEventListener('click', () => speak(gplain(de), row));
+      row.appendChild(main); row.appendChild(btn);
+      exList.appendChild(row);
+    });
+    body.appendChild(exList);
+    d.appendChild(body);
+
+    d.dataset.search = [t.lvl, t.ar, t.de, ...(t.rule || []).map(r => r[0] === 't' ? r[1].concat(r[2].flat()).join(' ') : r[1]), ...t.ex.map(e => e[0] + ' ' + e[1])]
+      .map(strip).join(' ').toLowerCase();
+    return d;
+  }
+  GRAMMAR.forEach(t => list.appendChild(makeTopic(t)));
+  section.appendChild(list);
+  main.appendChild(section);
+})();
+
 /* ---- Stories section ---- */
 (function(){
   const tab = document.createElement('button');
-  tab.className = 'tab special'; tab.type = 'button';
+  tab.className = 'tab'; tab.type = 'button';
   tab.innerHTML = `القصص<span class="de">Geschichten</span>`;
   tab.addEventListener('click', () => document.getElementById('sec-stories').scrollIntoView({behavior:'smooth', block:'start'}));
   nav.appendChild(tab);
@@ -2474,6 +3005,7 @@ document.getElementById('search').addEventListener('input', (e) => {
     nodes.forEach(node => {
       const match = !q || node.dataset.search.includes(q);
       node.style.display = match ? '' : 'none';
+      if (q && node.tagName === 'DETAILS') node.open = match;
       if (match) anyVisible = true;
     });
     sec.style.display = anyVisible ? '' : 'none';
@@ -2518,59 +3050,30 @@ document.addEventListener('DOMContentLoaded', () => {
   const POS_AR = {noun:'اسم', verb:'فعل', adjective:'صفة', adverb:'ظرف', preposition:'حرف جر', conjunction:'حرف عطف',
                   pronoun:'ضمير', interjection:'تعجب', article:'أداة', particle:'أداة', abbreviation:'اختصار', numeral:'عدد'};
 
-  /* ---------- styles (injected, so only script.js needs to change) ---------- */
-  const css = `
-  .w{cursor:pointer;border-radius:3px;padding:0 1px;margin:0 -1px;transition:background .12s ease;-webkit-tap-highlight-color:transparent;}
-  .w:hover{background:rgba(199,154,75,.30);}
-  .w.active{background:rgba(199,154,75,.55);}
-  .word-tip{margin:8px 0 0;color:var(--gold,#C79A4B);font-size:13.5px;line-height:1.6;max-width:60ch;}
-  .wpop{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);width:min(460px,calc(100vw - 24px));
-    background:#1C2C48;color:#EFE9D8;border:1px solid rgba(199,154,75,.6);border-radius:14px;
-    box-shadow:0 14px 44px rgba(0,0,0,.6);z-index:10000;padding:14px 16px 12px;font-family:'Cairo',sans-serif;direction:rtl;}
-  .wpop[hidden]{display:none;}
-  .wpop-head{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
-  .wpop-word{flex:1;min-width:0;direction:ltr;unicode-bidi:isolate;text-align:left;font-family:'Work Sans',sans-serif;
-    font-weight:700;font-size:22px;color:#F3EEDD;overflow-wrap:anywhere;}
-  .wpop-btn{flex-shrink:0;width:36px;height:36px;border-radius:50%;border:1px solid rgba(199,154,75,.55);background:transparent;
-    color:#C79A4B;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;line-height:1;padding:0;}
-  .wpop-btn:hover{background:rgba(199,154,75,.16);}
-  .wpop-btn svg{width:15px;height:15px;fill:currentColor;}
-  .wpop-row{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:start;padding:8px 0;border-top:1px solid rgba(199,154,75,.2);}
-  .wpop-lang{font-size:11px;font-weight:700;background:#24365A;color:#EFE9D8;border-radius:20px;padding:3px 0;text-align:center;margin-top:4px;}
-  .wpop-tr{min-width:0;}
-  .wpop-tr.en{direction:ltr;text-align:left;font-family:'Work Sans',sans-serif;}
-  .wpop-tr.ar{direction:rtl;text-align:right;}
-  .wpop-main{font-size:19px;font-weight:600;color:#F3EEDD;overflow-wrap:anywhere;}
-  .wpop-tr.ar .wpop-main{font-size:21px;}
-  .wpop-alt{font-size:12.5px;color:#8C96AC;margin-top:3px;line-height:1.5;}
-  .wpop-status{font-size:13.5px;color:#8C96AC;}
-  .wpop-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;padding-top:8px;border-top:1px solid rgba(199,154,75,.2);font-size:12px;}
-  .wpop-foot a{color:#C79A4B;text-decoration:none;}
-  .wpop-foot a:hover{text-decoration:underline;}
-  .wpop-retry{background:transparent;border:1px solid rgba(199,154,75,.55);color:#C79A4B;border-radius:6px;padding:4px 10px;cursor:pointer;font-family:'Cairo',sans-serif;font-size:12px;}
-  `;
-  const styleEl = document.createElement('style'); styleEl.textContent = css; document.head.appendChild(styleEl);
-
   /* ---------- word wrapping ---------- */
   function wrapEl(el){
     if (!el || el.dataset.ww === '1') return;
-    const text = el.textContent;
-    if (!text) return;
-    const frag = document.createDocumentFragment();
-    let last = 0, m;
-    WORD_RE.lastIndex = 0;
-    while ((m = WORD_RE.exec(text))){
-      const word = m[0];
-      if (/^\d+$/.test(word)) continue;               // plain numbers stay plain text
-      if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
-      const s = document.createElement('span');
-      s.className = 'w'; s.textContent = word;
-      frag.appendChild(s);
-      last = m.index + word.length;
-    }
-    if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
-    el.textContent = '';
-    el.appendChild(frag);
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(node => {
+      const text = node.nodeValue;
+      if (!text || (node.parentNode && node.parentNode.classList && node.parentNode.classList.contains('w'))) return;
+      const frag = document.createDocumentFragment();
+      let last = 0, m;
+      WORD_RE.lastIndex = 0;
+      while ((m = WORD_RE.exec(text))){
+        const word = m[0];
+        if (/^\d+$/.test(word)) continue;               // plain numbers stay plain text
+        if (m.index > last) frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+        const sp = document.createElement('span');
+        sp.className = 'w'; sp.textContent = word;
+        frag.appendChild(sp);
+        last = m.index + word.length;
+      }
+      if (last < text.length) frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    });
     el.dataset.ww = '1';
   }
   function wrapAll(root){
